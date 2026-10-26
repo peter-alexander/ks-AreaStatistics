@@ -1,0 +1,424 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "undp-hdr",
+		"name": "UNDP Human Development Reports",
+		"dataset": "Human Development Reports – Composite Indices and Components Time Series",
+		"license": "Creative Commons Attribution 3.0 IGO",
+		"licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+		"attribution": "United Nations Development Programme (UNDP), Human Development Report Office (HDRO)"
+	},
+	"retrievedAt": "2026-10-26T21:42:41.847570Z",
+	"activeSnapshot": "5d784ddf77f5bc00",
+	"areaRegistry": {
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250,
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406615466-1"
+	},
+	"dataset": {
+		"documentationUrl": "https://hdr.undp.org/data-center/documentation-and-downloads",
+		"sourceUrl": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+		"encoding": "cp1252",
+		"bytes": 2001263,
+		"sourceSeries": {
+			"hdi": {
+				"sourceStartYear": 1990,
+				"sourceLatestYear": 2023
+			},
+			"ihdi": {
+				"sourceStartYear": 2010,
+				"sourceLatestYear": 2023
+			},
+			"loss": {
+				"sourceStartYear": 2010,
+				"sourceLatestYear": 2023
+			},
+			"gdi": {
+				"sourceStartYear": 1990,
+				"sourceLatestYear": 2023
+			},
+			"gii": {
+				"sourceStartYear": 1990,
+				"sourceLatestYear": 2023
+			},
+			"phdi": {
+				"sourceStartYear": 1990,
+				"sourceLatestYear": 2023
+			}
+		},
+		"lastModified": "Mon, 05 May 2025 22:39:12 GMT",
+		"etag": "\"68193e10-1e896f\""
+	},
+	"indicators": [
+		{
+			"id": "human-development.hdi",
+			"title": "Human Development Index (HDI)",
+			"description": "Index der menschlichen Entwicklung aus Lebenserwartung, Bildung und kaufkraftbereinigtem Pro-Kopf-Einkommen. Höhere Werte bedeuten ein höheres durchschnittliches Niveau menschlicher Entwicklung.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "index-0-1",
+				"label": "Index (0–1)"
+			},
+			"sourceIndicator": "hdi",
+			"path": "releases/5d784ddf77f5bc00/human-development-index.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 193,
+				"latestYear": 2023,
+				"areasInLatestYear": 193,
+				"areasInDefaultYear": 193
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.4,
+					0.55,
+					0.7,
+					0.8,
+					0.9,
+					0.95
+				]
+			}
+		},
+		{
+			"id": "human-development.ihdi",
+			"title": "Ungleichheitsbereinigter HDI (IHDI)",
+			"description": "Human Development Index, bereinigt um Ungleichheit innerhalb eines Landes in den drei HDI-Dimensionen Gesundheit, Bildung und Einkommen. Bei vollständiger Gleichverteilung entspricht der IHDI dem HDI.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "index-0-1",
+				"label": "Index (0–1)"
+			},
+			"sourceIndicator": "ihdi",
+			"path": "releases/5d784ddf77f5bc00/inequality-adjusted-human-development-index.json",
+			"availableYears": [
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 170,
+				"latestYear": 2023,
+				"areasInLatestYear": 169,
+				"areasInDefaultYear": 169
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.4,
+					0.55,
+					0.7,
+					0.8,
+					0.9,
+					0.95
+				]
+			}
+		},
+		{
+			"id": "human-development.inequality-loss-percent",
+			"title": "HDI-Verlust durch Ungleichheit",
+			"description": "Prozentualer Verlust des Human Development Index durch Ungleichheit innerhalb eines Landes. Der Wert entspricht der relativen Differenz zwischen HDI und IHDI; kleinere Werte bedeuten geringere Verluste durch Ungleichheit.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "Prozent",
+				"symbol": "%"
+			},
+			"sourceIndicator": "loss",
+			"path": "releases/5d784ddf77f5bc00/hdi-inequality-loss-percent.json",
+			"availableYears": [
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 170,
+				"latestYear": 2023,
+				"areasInLatestYear": 169,
+				"areasInDefaultYear": 169
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					5,
+					10,
+					15,
+					20,
+					30,
+					40
+				]
+			}
+		},
+		{
+			"id": "gender-development.gdi",
+			"title": "Gender Development Index (GDI)",
+			"description": "Verhältnis des weiblichen zum männlichen Human Development Index. Ein Wert von 1 entspricht Geschlechterparität; Werte unter 1 bedeuten einen niedrigeren weiblichen, Werte über 1 einen niedrigeren männlichen HDI.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "ratio",
+				"label": "Verhältnis weiblicher zu männlichem HDI"
+			},
+			"sourceIndicator": "gdi",
+			"path": "releases/5d784ddf77f5bc00/gender-development-index.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 184,
+				"latestYear": 2023,
+				"areasInLatestYear": 184,
+				"areasInDefaultYear": 184
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.8,
+					0.9,
+					0.95,
+					0.975,
+					1.0,
+					1.025
+				]
+			}
+		},
+		{
+			"id": "gender-inequality.gii",
+			"title": "Gender Inequality Index (GII)",
+			"description": "Index der geschlechtsspezifischen Ungleichheit in reproduktiver Gesundheit, Empowerment und Arbeitsmarkt. Kleinere Werte bedeuten geringere Ungleichheit.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "index-0-1",
+				"label": "Index (0–1)"
+			},
+			"sourceIndicator": "gii",
+			"path": "releases/5d784ddf77f5bc00/gender-inequality-index.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 172,
+				"latestYear": 2023,
+				"areasInLatestYear": 172,
+				"areasInDefaultYear": 172
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.05,
+					0.1,
+					0.2,
+					0.3,
+					0.5,
+					0.7
+				]
+			}
+		},
+		{
+			"id": "human-development.phdi",
+			"title": "Planetary pressures-adjusted HDI (PHDI)",
+			"description": "Experimenteller Human Development Index, der den HDI um den Druck eines Landes auf den Planeten reduziert. Berücksichtigt werden unter anderem CO₂-Emissionen und materieller Fußabdruck pro Kopf.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "index-0-1",
+				"label": "Index (0–1)"
+			},
+			"sourceIndicator": "phdi",
+			"path": "releases/5d784ddf77f5bc00/planetary-pressures-adjusted-human-development-index.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 156,
+				"latestYear": 2023,
+				"areasInLatestYear": 156,
+				"areasInDefaultYear": 156
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.4,
+					0.55,
+					0.7,
+					0.8,
+					0.9,
+					0.95
+				]
+			}
+		}
+	]
+}
