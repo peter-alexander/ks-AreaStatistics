@@ -1,0 +1,114 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "itu-datahub",
+		"name": "ITU DataHub",
+		"dataset": "ITU Data Hub",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://datacatalog.worldbank.org/search/dataset/0067055/itu-data-hub",
+		"attribution": "International Telecommunication Union (ITU)"
+	},
+	"retrievedAt": "2026-10-26T21:42:09.994128Z",
+	"activeSnapshot": "9199e5062e6a75bf",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406537837-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"sourceUrl": "https://datahub.itu.int/",
+		"catalogUrl": "https://datacatalog.worldbank.org/search/dataset/0067055/itu-data-hub",
+		"downloadUrl": "https://datacatalogfiles.worldbank.org/ddh-published/0067055/DR0095956/ITU_DH.csv",
+		"distribution": {
+			"provider": "World Bank Data Catalog",
+			"datasetId": "0067055",
+			"resourceId": "DR0095956"
+		},
+		"rows": 151984,
+		"bytes": 20444079,
+		"lastModified": "Wed, 25 Mar 2026 14:37:11 GMT"
+	},
+	"indicators": [
+		{
+			"id": "internet-users.percent",
+			"title": "Internetnutzung",
+			"description": "Anteil der Personen, die das Internet nutzen, an der Gesamtbevölkerung.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "Prozent",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					20,
+					40,
+					60,
+					80,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "IT_NET_USER",
+			"path": "releases/9199e5062e6a75bf/internet-users-percent.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 229,
+				"latestYear": 2025,
+				"areasInLatestYear": 11,
+				"areasInDefaultYear": 185,
+				"observations": 6413,
+				"directObservations": 5089,
+				"fallbackObservations": 1324,
+				"fallbackAreas": 208
+			}
+		}
+	],
+	"notes": [
+		"ITU DataHub observations are canonical from 2000 onward.",
+		"The public ITU DataHub CSV is retrieved from the World Bank Data Catalog distribution of the ITU dataset.",
+		"World Bank WDI is used only for country-year observations missing from the ITU DataHub export and every fallback is marked in observationMetadata."
+	]
+}
