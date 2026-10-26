@@ -37,10 +37,8 @@ publish_once() {
 		provider)
 			: "${PROVIDER_ID:?provider-id required}"
 			test -s "dist/statistics/$PROVIDER_ID/index.json"
-			test -s "dist/statistics/index.json"
 			mkdir -p "$worktree/$BASE/$PROVIDER_ID"
 			rsync -a --delete "dist/statistics/$PROVIDER_ID/" "$worktree/$BASE/$PROVIDER_ID/"
-			cp "dist/statistics/index.json" "$worktree/$BASE/index.json"
 			;;
 		geometry)
 			for file in world-admin.pmtiles area-registry-countries.json build-metadata.json; do
