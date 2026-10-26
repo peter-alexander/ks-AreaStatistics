@@ -1,0 +1,288 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "ilostat-wages",
+		"name": "ILOSTAT",
+		"dataset": "Wages and Working Time Statistics (COND)",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "International Labour Organization (ILO), ILOSTAT"
+	},
+	"retrievedAt": "2026-10-26T21:42:10.582152Z",
+	"activeSnapshot": "ddeb7ba3078f2205",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406476935-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"sourceDataset": "EAR_INEE_CUR_NB_A",
+		"sourceIndicator": "EAR_INEE_CUR_NB",
+		"tableLabel": "Monthly minimum wage by currency",
+		"latestSourceYear": 2026,
+		"defaultYearPolicy": "latest-year-meeting-indicator-coverage-and-required-area-checks"
+	},
+	"additionalDatasets": [
+		{
+			"sourceDataset": "EAR_GGAP_OCU_RT_A",
+			"sourceIndicator": "EAR_GGAP_OCU_RT",
+			"tableLabel": "Gender wage gap by occupation (%)",
+			"latestSourceYear": 2025,
+			"defaultYearPolicy": "latest-observation-through-year; source year retained per observation"
+		}
+	],
+	"indicators": [
+		{
+			"id": "economy.minimum-wage-ppp-month",
+			"title": "Gesetzlicher Mindestlohn, kaufkraftbereinigt",
+			"description": "Von ILOSTAT harmonisierter gesetzlicher bzw. repräsentativer monatlicher Mindestlohn in 2021-PPP-Dollar. Wo kein einheitlicher nationaler Mindestlohn besteht, verwendet ILOSTAT nach seiner Methodik einen repräsentativen regionalen oder sektoralen Mindestlohn.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "usd-2021-ppp-per-month",
+				"label": "2021-PPP-Dollar pro Monat",
+				"symbol": "PPP-$/Monat"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					150,
+					300,
+					600,
+					1000,
+					1500,
+					2500
+				]
+			},
+			"sourceIndicator": "EAR_INEE_CUR_NB",
+			"sourceDataset": "EAR_INEE_CUR_NB_A",
+			"filters": {
+				"classif1": "CUR_TYPE_PPP"
+			},
+			"path": "releases/ddeb7ba3078f2205/minimum-wage-ppp-month.json",
+			"availableYears": [
+				1991,
+				1992,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025,
+				2026
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 168,
+				"latestYear": 2026,
+				"areasInLatestYear": 10,
+				"areasInDefaultYear": 155,
+				"minimumDefaultYearCoverage": 150
+			}
+		},
+		{
+			"id": "economy.minimum-wage-usd-month",
+			"title": "Gesetzlicher Mindestlohn, US-Dollar",
+			"description": "Von ILOSTAT harmonisierter gesetzlicher bzw. repräsentativer monatlicher Mindestlohn, von ILOSTAT in nominale US-Dollar umgerechnet. Wo kein einheitlicher nationaler Mindestlohn besteht, verwendet ILOSTAT nach seiner Methodik einen repräsentativen regionalen oder sektoralen Mindestlohn.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "usd-per-month",
+				"label": "US-Dollar pro Monat",
+				"symbol": "US$/Monat"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					50,
+					100,
+					200,
+					400,
+					800,
+					1600
+				]
+			},
+			"sourceIndicator": "EAR_INEE_CUR_NB",
+			"sourceDataset": "EAR_INEE_CUR_NB_A",
+			"filters": {
+				"classif1": "CUR_TYPE_USD"
+			},
+			"path": "releases/ddeb7ba3078f2205/minimum-wage-usd-month.json",
+			"availableYears": [
+				1980,
+				1981,
+				1988,
+				1991,
+				1992,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025,
+				2026
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 168,
+				"latestYear": 2026,
+				"areasInLatestYear": 1,
+				"areasInDefaultYear": 155,
+				"minimumDefaultYearCoverage": 150
+			}
+		},
+		{
+			"id": "gender-pay-gap.unadjusted-percent",
+			"title": "Gender Pay Gap (unbereinigt)",
+			"description": "Unbereinigter Gender Pay Gap nach der offiziellen ILOSTAT-Reihe: Differenz der durchschnittlichen Stundenverdienste von Männern und Frauen in Prozent des Männerverdienstes. Positive Werte bedeuten im Durchschnitt niedrigere Frauenverdienste, negative Werte höhere Frauenverdienste. Angezeigt wird für jeden Datenstand die letzte bis dahin verfügbare ILOSTAT-Beobachtung; das tatsächliche Datenjahr bleibt sichtbar und Werte werden nicht interpoliert.",
+			"areaLevel": "country",
+			"frequency": "latest-observation-through-year",
+			"unit": {
+				"id": "percent",
+				"label": "%",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					-10,
+					0,
+					5,
+					10,
+					15,
+					25
+				]
+			},
+			"sourceIndicator": "EAR_GGAP_OCU_RT",
+			"sourceDataset": "EAR_GGAP_OCU_RT_A",
+			"filters": {
+				"classif1": "OCU_SKILL_TOTAL"
+			},
+			"path": "releases/ddeb7ba3078f2205/gender-pay-gap-unadjusted-percent.json",
+			"availableYears": [
+				1969,
+				1970,
+				1971,
+				1972,
+				1973,
+				1974,
+				1975,
+				1976,
+				1977,
+				1978,
+				1979,
+				1980,
+				1981,
+				1982,
+				1983,
+				1984,
+				1985,
+				1986,
+				1987,
+				1988,
+				1989,
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025,
+				2026
+			],
+			"defaultYear": 2026,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 124,
+				"latestYear": 2026,
+				"latestSourceYear": 2025,
+				"areasInLatestYear": 124,
+				"areasInDefaultYear": 124
+			}
+		}
+	]
+}
