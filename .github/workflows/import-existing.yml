@@ -1,0 +1,39 @@
+name: Import AreaStatistics sources (one-time)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/import-existing.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Import source repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch main \
+            https://github.com/peter-alexander/kartensammlung-area-statistics-builds.git \
+            /tmp/ks-area-statistics-source
+          python .github/scripts/import-existing.py
+          python -m py_compile scripts/*.py
+          bash -n .github/scripts/publish-pages.sh
+      - name: Commit migrated sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git diff --cached --quiet && exit 0
+          git commit -m "Migrate statistics builders and switch publication to GitHub Pages"
+          git push origin HEAD:main
