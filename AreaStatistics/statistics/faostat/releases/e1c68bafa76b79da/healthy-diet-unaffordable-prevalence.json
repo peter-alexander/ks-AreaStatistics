@@ -1,0 +1,6708 @@
+{
+	"schema": "kartensammlung.statistics-indicator/v1",
+	"indicator": {
+		"id": "healthy-diet.unaffordable-prevalence",
+		"title": "Gesunde Ernährung nicht leistbar",
+		"description": "Anteil der Bevölkerung, der sich eine gesunde Ernährung nicht leisten kann.",
+		"areaLevel": "country",
+		"frequency": "annual",
+		"unit": {
+			"id": "percent",
+			"label": "Prozent",
+			"symbol": "%"
+		},
+		"classification": {
+			"type": "fixed",
+			"breaks": [
+				2.5,
+				5,
+				10,
+				25,
+				50,
+				75
+			]
+		}
+	},
+	"source": {
+		"providerId": "faostat",
+		"providerName": "FAOSTAT",
+		"dataset": "Cost and Affordability of a Healthy Diet",
+		"datasetCode": "CAHD",
+		"indicator": "Element Code=6121;Item Code=7005",
+		"sourceIndicatorName": "Prevalence of unaffordability (PUA)",
+		"license": "Creative Commons Attribution 4.0 International",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "Food and Agriculture Organization of the United Nations (FAO), FAOSTAT",
+		"url": "https://bulks-faostat.fao.org/production/Cost_Affordability_Healthy_Diet_(CoAHD)_E_All_Data_(Normalized).zip",
+		"documentationUrl": "https://www.fao.org/faostat/en/#data/CAHD",
+		"termsUrl": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/"
+	},
+	"availableYears": [
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025
+	],
+	"defaultYear": 2025,
+	"coverage": {
+		"registryAreas": 250,
+		"areasWithAnyValue": 147,
+		"latestYear": 2025,
+		"areasInLatestYear": 146,
+		"defaultYear": 2025,
+		"areasInDefaultYear": 146,
+		"directObservations": 1321,
+		"fallbackObservations": 0,
+		"fallbackAreas": 0
+	},
+	"values": {
+		"2017": {
+			"country:AGO": 60.1,
+			"country:ALB": 29.2,
+			"country:ARE": 3.7,
+			"country:ARM": 51.4,
+			"country:AUS": 3.5,
+			"country:AUT": 2.5,
+			"country:AZE": 1.5,
+			"country:BDI": 90.6,
+			"country:BEL": 2.6,
+			"country:BEN": 80.1,
+			"country:BFA": 68.4,
+			"country:BGD": 62.8,
+			"country:BGR": 51.7,
+			"country:BIH": 18.3,
+			"country:BLR": 4.7,
+			"country:BLZ": 25.7,
+			"country:BOL": 14.4,
+			"country:BRA": 28.8,
+			"country:BTN": 28.8,
+			"country:BWA": 61.9,
+			"country:CAF": 86.1,
+			"country:CAN": 3.7,
+			"country:CHE": 1.9,
+			"country:CHL": 50.1,
+			"country:CHN": 28.8,
+			"country:CIV": 56.4,
+			"country:CMR": 50.8,
+			"country:COD": 95.8,
+			"country:COG": 73.3,
+			"country:COL": 36.7,
+			"country:COM": 59.2,
+			"country:CPV": 56.5,
+			"country:CRI": 53.6,
+			"country:CYP": 5.5,
+			"country:CZE": 5.7,
+			"country:DEU": 2.8,
+			"country:DJI": 56.8,
+			"country:DNK": 0.9,
+			"country:DOM": 26,
+			"country:DZA": 41.3,
+			"country:ECU": 23.7,
+			"country:EGY": 40.2,
+			"country:ESP": 12.6,
+			"country:EST": 13.7,
+			"country:ETH": 65.7,
+			"country:FIN": 1.1,
+			"country:FJI": 50.6,
+			"country:FRA": 2.3,
+			"country:GAB": 32.8,
+			"country:GBR": 3.7,
+			"country:GHA": 67.2,
+			"country:GIN": 47.1,
+			"country:GMB": 43.6,
+			"country:GNB": 69.4,
+			"country:GNQ": 57,
+			"country:GRC": 35.7,
+			"country:GRD": 23.4,
+			"country:GTM": 45.5,
+			"country:GUY": 78.2,
+			"country:HND": 40.6,
+			"country:HRV": 32.6,
+			"country:HTI": 77.6,
+			"country:HUN": 41,
+			"country:IDN": 74.4,
+			"country:IND": 59.8,
+			"country:IRL": 4.1,
+			"country:IRN": 29.9,
+			"country:IRQ": 23.4,
+			"country:ISL": 0.9,
+			"country:ISR": 22.3,
+			"country:ITA": 11.1,
+			"country:JAM": 31.1,
+			"country:JOR": 2.6,
+			"country:JPN": 13.7,
+			"country:KAZ": 11.5,
+			"country:KEN": 69.8,
+			"country:KGZ": 46.1,
+			"country:KOR": 12.2,
+			"country:LAO": 59.9,
+			"country:LBN": 0.1,
+			"country:LBR": 65.8,
+			"country:LCA": 8.3,
+			"country:LKA": 32.3,
+			"country:LSO": 70.7,
+			"country:LTU": 24.3,
+			"country:LUX": 3,
+			"country:LVA": 32.5,
+			"country:MAR": 13.7,
+			"country:MDA": 11.3,
+			"country:MDG": 82.5,
+			"country:MDV": 8.1,
+			"country:MEX": 31.6,
+			"country:MKD": 24.5,
+			"country:MLI": 59.2,
+			"country:MLT": 5.6,
+			"country:MNE": 18.5,
+			"country:MNG": 51.9,
+			"country:MOZ": 85.9,
+			"country:MRT": 49.8,
+			"country:MUS": 18.1,
+			"country:MWI": 85.5,
+			"country:MYS": 4.4,
+			"country:NAM": 45.4,
+			"country:NER": 86.5,
+			"country:NGA": 68.6,
+			"country:NIC": 25.5,
+			"country:NLD": 1.9,
+			"country:NOR": 1.9,
+			"country:NPL": 34.7,
+			"country:PAK": 59.3,
+			"country:PAN": 52.7,
+			"country:PER": 36,
+			"country:PHL": 49.4,
+			"country:POL": 19.8,
+			"country:PRT": 22.1,
+			"country:PRY": 27.1,
+			"country:PSE": 5.9,
+			"country:QAT": 1.7,
+			"country:ROU": 55.9,
+			"country:RUS": 22.9,
+			"country:RWA": 81.6,
+			"country:SEN": 54.7,
+			"country:SLE": 65,
+			"country:SRB": 26.8,
+			"country:SSD": 91.4,
+			"country:STP": 45,
+			"country:SUR": 21.6,
+			"country:SVK": 22.8,
+			"country:SVN": 4.7,
+			"country:SWE": 4.2,
+			"country:SWZ": 69.3,
+			"country:SYC": 46.5,
+			"country:SYR": 57.3,
+			"country:TCD": 67.2,
+			"country:TGO": 64.6,
+			"country:TTO": 28,
+			"country:TUN": 8.1,
+			"country:TUR": 15.1,
+			"country:TWN": 7.9,
+			"country:TZA": 74.7,
+			"country:UGA": 77.2,
+			"country:URY": 30.7,
+			"country:USA": 5.8,
+			"country:UZB": 22.9,
+			"country:VNM": 11.1,
+			"country:ZAF": 60.9,
+			"country:ZMB": 82.8
+		},
+		"2018": {
+			"country:AGO": 64.8,
+			"country:ALB": 20.9,
+			"country:ARE": 3.1,
+			"country:ARM": 51.6,
+			"country:AUS": 3.8,
+			"country:AUT": 2.4,
+			"country:AZE": 1.3,
+			"country:BDI": 88.6,
+			"country:BEL": 1.4,
+			"country:BEN": 71.3,
+			"country:BFA": 65.5,
+			"country:BGD": 58.5,
+			"country:BGR": 43.4,
+			"country:BIH": 16.9,
+			"country:BLR": 2.8,
+			"country:BLZ": 21.7,
+			"country:BOL": 13,
+			"country:BRA": 27.7,
+			"country:BTN": 14.5,
+			"country:BWA": 60,
+			"country:CAF": 86.1,
+			"country:CAN": 3.3,
+			"country:CHE": 1.8,
+			"country:CHL": 47.9,
+			"country:CHN": 24.9,
+			"country:CIV": 52.1,
+			"country:CMR": 50.6,
+			"country:COD": 93.7,
+			"country:COG": 74,
+			"country:COL": 36.6,
+			"country:COM": 57.1,
+			"country:CPV": 54.8,
+			"country:CRI": 53.7,
+			"country:CYP": 3.3,
+			"country:CZE": 5.1,
+			"country:DEU": 2.5,
+			"country:DJI": 55.7,
+			"country:DNK": 1.2,
+			"country:DOM": 22.6,
+			"country:DZA": 40.6,
+			"country:ECU": 24.4,
+			"country:EGY": 41.3,
+			"country:ESP": 12,
+			"country:EST": 11.9,
+			"country:ETH": 65.3,
+			"country:FIN": 1.3,
+			"country:FJI": 52.5,
+			"country:FRA": 2.5,
+			"country:GAB": 33.7,
+			"country:GBR": 3.9,
+			"country:GHA": 66.1,
+			"country:GIN": 46.4,
+			"country:GMB": 42.7,
+			"country:GNB": 65.8,
+			"country:GNQ": 56.9,
+			"country:GRC": 33.3,
+			"country:GRD": 22.2,
+			"country:GTM": 46.6,
+			"country:GUY": 77.8,
+			"country:HND": 39.6,
+			"country:HRV": 27.6,
+			"country:HTI": 78.1,
+			"country:HUN": 37.4,
+			"country:IDN": 71.7,
+			"country:IND": 55.2,
+			"country:IRL": 2.9,
+			"country:IRN": 32.6,
+			"country:IRQ": 22.9,
+			"country:ISL": 1.6,
+			"country:ISR": 21.2,
+			"country:ITA": 10.5,
+			"country:JAM": 23,
+			"country:JOR": 2.5,
+			"country:JPN": 16.7,
+			"country:KAZ": 7.9,
+			"country:KEN": 69.8,
+			"country:KGZ": 38.8,
+			"country:KOR": 10.3,
+			"country:LAO": 58.4,
+			"country:LBN": 0.1,
+			"country:LBR": 65,
+			"country:LCA": 8.1,
+			"country:LKA": 29.3,
+			"country:LSO": 71.5,
+			"country:LTU": 19.3,
+			"country:LUX": 2.4,
+			"country:LVA": 26.4,
+			"country:MAR": 13,
+			"country:MDA": 9.3,
+			"country:MDG": 83.1,
+			"country:MDV": 6.8,
+			"country:MEX": 30.4,
+			"country:MKD": 22.6,
+			"country:MLI": 53.8,
+			"country:MLT": 4.8,
+			"country:MNE": 19.7,
+			"country:MNG": 49.8,
+			"country:MOZ": 86.2,
+			"country:MRT": 49.9,
+			"country:MUS": 16.9,
+			"country:MWI": 86.4,
+			"country:MYS": 3.8,
+			"country:NAM": 45.9,
+			"country:NER": 84.6,
+			"country:NGA": 69.5,
+			"country:NIC": 27.5,
+			"country:NLD": 1.7,
+			"country:NOR": 1.7,
+			"country:NPL": 28.9,
+			"country:PAK": 58,
+			"country:PAN": 50,
+			"country:PER": 33.3,
+			"country:PHL": 48.4,
+			"country:POL": 17.4,
+			"country:PRT": 19,
+			"country:PRY": 25.5,
+			"country:PSE": 6.2,
+			"country:QAT": 1.7,
+			"country:ROU": 50,
+			"country:RUS": 21.9,
+			"country:RWA": 77.7,
+			"country:SEN": 49.5,
+			"country:SLE": 65.3,
+			"country:SRB": 21.1,
+			"country:SSD": 90.8,
+			"country:STP": 44,
+			"country:SUR": 20.4,
+			"country:SVK": 21.4,
+			"country:SVN": 3.2,
+			"country:SWE": 5.3,
+			"country:SWZ": 68.5,
+			"country:SYC": 45,
+			"country:SYR": 44.2,
+			"country:TCD": 63.4,
+			"country:TGO": 56.7,
+			"country:TTO": 28.5,
+			"country:TUN": 7.6,
+			"country:TUR": 14.1,
+			"country:TWN": 7.4,
+			"country:TZA": 74.2,
+			"country:UGA": 75.9,
+			"country:URY": 32,
+			"country:USA": 5.3,
+			"country:UZB": 21.7,
+			"country:VNM": 10,
+			"country:ZAF": 59.5,
+			"country:ZMB": 83.1
+		},
+		"2019": {
+			"country:AGO": 66.8,
+			"country:ALB": 18.4,
+			"country:ARE": 2.9,
+			"country:ARM": 55.5,
+			"country:AUS": 3.8,
+			"country:AUT": 2.8,
+			"country:AZE": 1.1,
+			"country:BDI": 88,
+			"country:BEL": 1.4,
+			"country:BEN": 65.4,
+			"country:BFA": 62.6,
+			"country:BGD": 55.1,
+			"country:BGR": 40.4,
+			"country:BIH": 15.9,
+			"country:BLR": 3.1,
+			"country:BLZ": 17.5,
+			"country:BOL": 9.7,
+			"country:BRA": 27.3,
+			"country:BTN": 17.8,
+			"country:BWA": 59.4,
+			"country:CAF": 85.9,
+			"country:CAN": 3,
+			"country:CHE": 1.7,
+			"country:CHL": 47.5,
+			"country:CHN": 22.9,
+			"country:CIV": 46.8,
+			"country:CMR": 50.8,
+			"country:COD": 93.2,
+			"country:COG": 73.9,
+			"country:COL": 37.7,
+			"country:COM": 56.2,
+			"country:CPV": 52.3,
+			"country:CRI": 54.7,
+			"country:CYP": 3,
+			"country:CZE": 4.2,
+			"country:DEU": 2.6,
+			"country:DJI": 55.3,
+			"country:DNK": 1.2,
+			"country:DOM": 21.2,
+			"country:DZA": 40.1,
+			"country:ECU": 25.5,
+			"country:EGY": 36.8,
+			"country:ESP": 11.3,
+			"country:EST": 10.1,
+			"country:ETH": 67.9,
+			"country:FIN": 1,
+			"country:FJI": 57.5,
+			"country:FRA": 3.8,
+			"country:GAB": 34.5,
+			"country:GBR": 3.6,
+			"country:GHA": 64.8,
+			"country:GIN": 45.4,
+			"country:GMB": 42.1,
+			"country:GNB": 62.7,
+			"country:GNQ": 56.8,
+			"country:GRC": 28.4,
+			"country:GRD": 22.2,
+			"country:GTM": 47.3,
+			"country:GUY": 76.9,
+			"country:HND": 39.5,
+			"country:HRV": 23.5,
+			"country:HTI": 79.5,
+			"country:HUN": 34.2,
+			"country:IDN": 70.5,
+			"country:IND": 52.9,
+			"country:IRL": 2.3,
+			"country:IRN": 41.2,
+			"country:IRQ": 21,
+			"country:ISL": 2.1,
+			"country:ISR": 22,
+			"country:ITA": 9.2,
+			"country:JAM": 24,
+			"country:JOR": 2.5,
+			"country:JPN": 16.1,
+			"country:KAZ": 8.6,
+			"country:KEN": 72.1,
+			"country:KGZ": 36.3,
+			"country:KOR": 8.3,
+			"country:LAO": 56.7,
+			"country:LBN": 0.1,
+			"country:LBR": 67.4,
+			"country:LCA": 8.3,
+			"country:LKA": 28.6,
+			"country:LSO": 72.5,
+			"country:LTU": 15,
+			"country:LUX": 1.4,
+			"country:LVA": 22,
+			"country:MAR": 12.3,
+			"country:MDA": 10.1,
+			"country:MDG": 83,
+			"country:MDV": 6.1,
+			"country:MEX": 30.1,
+			"country:MKD": 20.4,
+			"country:MLI": 51.3,
+			"country:MLT": 4.3,
+			"country:MNE": 16.6,
+			"country:MNG": 44.9,
+			"country:MOZ": 87.2,
+			"country:MRT": 50.4,
+			"country:MUS": 16,
+			"country:MWI": 87.8,
+			"country:MYS": 3,
+			"country:NAM": 46.7,
+			"country:NER": 84.2,
+			"country:NGA": 70.1,
+			"country:NIC": 29.5,
+			"country:NLD": 1.8,
+			"country:NOR": 1.5,
+			"country:NPL": 27.8,
+			"country:PAK": 59.7,
+			"country:PAN": 49.1,
+			"country:PER": 31.3,
+			"country:PHL": 47.2,
+			"country:POL": 12.2,
+			"country:PRT": 15.1,
+			"country:PRY": 25,
+			"country:PSE": 6.6,
+			"country:QAT": 1.9,
+			"country:ROU": 43.4,
+			"country:RUS": 21.2,
+			"country:RWA": 75.1,
+			"country:SEN": 47.6,
+			"country:SLE": 61.5,
+			"country:SRB": 15.6,
+			"country:SSD": 92.4,
+			"country:STP": 44.4,
+			"country:SUR": 20.9,
+			"country:SVK": 18.1,
+			"country:SVN": 2.7,
+			"country:SWE": 4.3,
+			"country:SWZ": 67.1,
+			"country:SYC": 44.7,
+			"country:SYR": 41,
+			"country:TCD": 59.6,
+			"country:TGO": 53.1,
+			"country:TTO": 28.4,
+			"country:TUN": 7.3,
+			"country:TUR": 15.1,
+			"country:TWN": 6.7,
+			"country:TZA": 73.4,
+			"country:UGA": 75.1,
+			"country:URY": 32.8,
+			"country:USA": 4.7,
+			"country:UZB": 20.1,
+			"country:VNM": 8.4,
+			"country:ZAF": 58.6,
+			"country:ZMB": 84
+		},
+		"2020": {
+			"country:AGO": 69.6,
+			"country:ALB": 17.6,
+			"country:ARE": 2.9,
+			"country:ARM": 56.5,
+			"country:AUS": 3.8,
+			"country:AUT": 2.5,
+			"country:AZE": 1.9,
+			"country:BDI": 89.5,
+			"country:BEL": 1.1,
+			"country:BEN": 63.7,
+			"country:BFA": 63.2,
+			"country:BGD": 51.6,
+			"country:BGR": 34.4,
+			"country:BIH": 16.1,
+			"country:BLR": 1.9,
+			"country:BLZ": 21.6,
+			"country:BOL": 10.8,
+			"country:BRA": 20.8,
+			"country:BTN": 17,
+			"country:BWA": 59.5,
+			"country:CAF": 86.4,
+			"country:CAN": 1.4,
+			"country:CHE": 1.6,
+			"country:CHL": 51.7,
+			"country:CHN": 24.8,
+			"country:CIV": 49.7,
+			"country:CMR": 52.1,
+			"country:COD": 93.7,
+			"country:COG": 76.2,
+			"country:COL": 44.9,
+			"country:COM": 55.4,
+			"country:CPV": 60.6,
+			"country:CRI": 61.4,
+			"country:CYP": 3,
+			"country:CZE": 4.4,
+			"country:DEU": 2.5,
+			"country:DJI": 56.5,
+			"country:DNK": 1.3,
+			"country:DOM": 25,
+			"country:DZA": 43.2,
+			"country:ECU": 30.9,
+			"country:EGY": 31,
+			"country:ESP": 11.7,
+			"country:EST": 9.2,
+			"country:ETH": 70.9,
+			"country:FIN": 0.8,
+			"country:FJI": 66.6,
+			"country:FRA": 3.2,
+			"country:GAB": 36.1,
+			"country:GBR": 3,
+			"country:GHA": 65.6,
+			"country:GIN": 45.4,
+			"country:GMB": 44.8,
+			"country:GNB": 65.1,
+			"country:GNQ": 61.2,
+			"country:GRC": 28.7,
+			"country:GRD": 29.4,
+			"country:GTM": 50.9,
+			"country:GUY": 58,
+			"country:HND": 44.4,
+			"country:HRV": 23,
+			"country:HTI": 81.5,
+			"country:HUN": 35.3,
+			"country:IDN": 70.2,
+			"country:IND": 56.2,
+			"country:IRL": 2,
+			"country:IRN": 41.8,
+			"country:IRQ": 27.3,
+			"country:ISL": 2.2,
+			"country:ISR": 21.8,
+			"country:ITA": 9.5,
+			"country:JAM": 29,
+			"country:JOR": 3,
+			"country:JPN": 14.8,
+			"country:KAZ": 8,
+			"country:KEN": 76.3,
+			"country:KGZ": 45.9,
+			"country:KOR": 6.8,
+			"country:LAO": 58.2,
+			"country:LBN": 3.6,
+			"country:LBR": 70.8,
+			"country:LCA": 11.2,
+			"country:LKA": 33.5,
+			"country:LSO": 76.2,
+			"country:LTU": 10.5,
+			"country:LUX": 0.8,
+			"country:LVA": 20.4,
+			"country:MAR": 14.4,
+			"country:MDA": 11.2,
+			"country:MDG": 85.3,
+			"country:MDV": 11.2,
+			"country:MEX": 32.6,
+			"country:MKD": 21.7,
+			"country:MLI": 56.6,
+			"country:MLT": 4.4,
+			"country:MNE": 16.7,
+			"country:MNG": 45.2,
+			"country:MOZ": 89,
+			"country:MRT": 52.2,
+			"country:MUS": 22.1,
+			"country:MWI": 88.9,
+			"country:MYS": 3.6,
+			"country:NAM": 50.8,
+			"country:NER": 85.4,
+			"country:NGA": 75.8,
+			"country:NIC": 30.9,
+			"country:NLD": 1.8,
+			"country:NOR": 1.8,
+			"country:NPL": 29.2,
+			"country:PAK": 62.1,
+			"country:PAN": 55.6,
+			"country:PER": 45.9,
+			"country:PHL": 53.3,
+			"country:POL": 11.6,
+			"country:PRT": 16.1,
+			"country:PRY": 27.8,
+			"country:PSE": 8.8,
+			"country:QAT": 3.3,
+			"country:ROU": 36.2,
+			"country:RUS": 18.5,
+			"country:RWA": 79.1,
+			"country:SEN": 49,
+			"country:SLE": 63.1,
+			"country:SRB": 13,
+			"country:SSD": 92.8,
+			"country:STP": 45,
+			"country:SUR": 26.2,
+			"country:SVK": 23,
+			"country:SVN": 2.4,
+			"country:SWE": 3.6,
+			"country:SWZ": 68.1,
+			"country:SYC": 45.5,
+			"country:SYR": 74,
+			"country:TCD": 62.2,
+			"country:TGO": 54.7,
+			"country:TTO": 32.8,
+			"country:TUN": 8.6,
+			"country:TUR": 14.4,
+			"country:TWN": 5.2,
+			"country:TZA": 73.9,
+			"country:UGA": 75.1,
+			"country:URY": 37.6,
+			"country:USA": 3.7,
+			"country:UZB": 21.5,
+			"country:VNM": 9.2,
+			"country:ZAF": 59.9,
+			"country:ZMB": 85.5
+		},
+		"2021": {
+			"country:AGO": 71.1,
+			"country:ALB": 16,
+			"country:ARE": 2.9,
+			"country:ARM": 56.8,
+			"country:AUS": 3.6,
+			"country:AUT": 3.4,
+			"country:AZE": 1.4,
+			"country:BDI": 89.7,
+			"country:BEL": 0.9,
+			"country:BEN": 62.2,
+			"country:BFA": 62.7,
+			"country:BGD": 47.2,
+			"country:BGR": 35,
+			"country:BIH": 14.8,
+			"country:BLR": 1.5,
+			"country:BLZ": 18.7,
+			"country:BOL": 8.9,
+			"country:BRA": 31.2,
+			"country:BTN": 21.3,
+			"country:BWA": 59.2,
+			"country:CAF": 87.1,
+			"country:CAN": 1.8,
+			"country:CHE": 1.2,
+			"country:CHL": 44.5,
+			"country:CHN": 16.6,
+			"country:CIV": 50.5,
+			"country:CMR": 52.6,
+			"country:COD": 93.2,
+			"country:COG": 77.1,
+			"country:COL": 41.3,
+			"country:COM": 54.5,
+			"country:CPV": 58.4,
+			"country:CRI": 55.2,
+			"country:CYP": 2.6,
+			"country:CZE": 4.2,
+			"country:DEU": 3.5,
+			"country:DJI": 55.4,
+			"country:DNK": 0.9,
+			"country:DOM": 25.4,
+			"country:DZA": 43,
+			"country:ECU": 27.9,
+			"country:EGY": 28.1,
+			"country:ESP": 10.2,
+			"country:EST": 6.4,
+			"country:ETH": 74.7,
+			"country:FIN": 1.1,
+			"country:FJI": 70.1,
+			"country:FRA": 3.6,
+			"country:GAB": 37.2,
+			"country:GBR": 3.1,
+			"country:GHA": 64.7,
+			"country:GIN": 45.1,
+			"country:GMB": 44.7,
+			"country:GNB": 67,
+			"country:GNQ": 61.1,
+			"country:GRC": 25.3,
+			"country:GRD": 27.9,
+			"country:GTM": 48.7,
+			"country:GUY": 49.1,
+			"country:HND": 39.4,
+			"country:HRV": 18.4,
+			"country:HTI": 82.5,
+			"country:HUN": 31.8,
+			"country:IDN": 69.7,
+			"country:IND": 52.4,
+			"country:IRL": 2.2,
+			"country:IRN": 40.4,
+			"country:IRQ": 27,
+			"country:ISL": 2.1,
+			"country:ISR": 21.2,
+			"country:ITA": 8.5,
+			"country:JAM": 28.3,
+			"country:JOR": 2.7,
+			"country:JPN": 14.2,
+			"country:KAZ": 6.3,
+			"country:KEN": 78,
+			"country:KGZ": 41.9,
+			"country:KOR": 6.5,
+			"country:LAO": 56.6,
+			"country:LBN": 22.9,
+			"country:LBR": 66.3,
+			"country:LCA": 9.1,
+			"country:LKA": 33.8,
+			"country:LSO": 76.7,
+			"country:LTU": 10.3,
+			"country:LUX": 2.3,
+			"country:LVA": 17.3,
+			"country:MAR": 12.5,
+			"country:MDA": 10.6,
+			"country:MDG": 85.6,
+			"country:MDV": 9.7,
+			"country:MEX": 27.4,
+			"country:MKD": 18.5,
+			"country:MLI": 59.4,
+			"country:MLT": 3.3,
+			"country:MNE": 14,
+			"country:MNG": 43.2,
+			"country:MOZ": 89.7,
+			"country:MRT": 54.6,
+			"country:MUS": 21.3,
+			"country:MWI": 88.9,
+			"country:MYS": 3.1,
+			"country:NAM": 48.5,
+			"country:NER": 87.6,
+			"country:NGA": 78.5,
+			"country:NIC": 27.3,
+			"country:NLD": 1.4,
+			"country:NOR": 1.2,
+			"country:NPL": 26,
+			"country:PAK": 62.6,
+			"country:PAN": 55.2,
+			"country:PER": 37.3,
+			"country:PHL": 52.8,
+			"country:POL": 9,
+			"country:PRT": 15.7,
+			"country:PRY": 27.7,
+			"country:PSE": 8.3,
+			"country:QAT": 1.6,
+			"country:ROU": 31,
+			"country:RUS": 20.2,
+			"country:RWA": 74.6,
+			"country:SEN": 47.9,
+			"country:SLE": 63.7,
+			"country:SRB": 9.8,
+			"country:SSD": 93.4,
+			"country:STP": 45.5,
+			"country:SUR": 27.3,
+			"country:SVK": 22.2,
+			"country:SVN": 2.2,
+			"country:SWE": 4.3,
+			"country:SWZ": 67.7,
+			"country:SYC": 40.2,
+			"country:SYR": 71.2,
+			"country:TCD": 62,
+			"country:TGO": 56.6,
+			"country:TTO": 33.4,
+			"country:TUN": 7.6,
+			"country:TUR": 12.9,
+			"country:TWN": 5.7,
+			"country:TZA": 73.6,
+			"country:UGA": 74.6,
+			"country:URY": 37.4,
+			"country:USA": 2.9,
+			"country:UZB": 19.8,
+			"country:VNM": 9.6,
+			"country:ZAF": 58.1,
+			"country:ZMB": 86.1
+		},
+		"2022": {
+			"country:AGO": 71.4,
+			"country:ALB": 14.2,
+			"country:ARE": 2.3,
+			"country:ARM": 57,
+			"country:AUS": 3.4,
+			"country:AUT": 2.4,
+			"country:AZE": 1.2,
+			"country:BDI": 90.5,
+			"country:BEL": 0.8,
+			"country:BEN": 58.8,
+			"country:BFA": 66.6,
+			"country:BGD": 43.3,
+			"country:BGR": 27.9,
+			"country:BIH": 14.1,
+			"country:BLR": 1.5,
+			"country:BLZ": 16.8,
+			"country:BOL": 9.6,
+			"country:BRA": 26.4,
+			"country:BTN": 4.7,
+			"country:BWA": 58.7,
+			"country:CAF": 87.1,
+			"country:CAN": 2.8,
+			"country:CHE": 1.1,
+			"country:CHL": 42.5,
+			"country:CHN": 17.4,
+			"country:CIV": 51.1,
+			"country:CMR": 54.1,
+			"country:COD": 92.4,
+			"country:COG": 78.2,
+			"country:COL": 39.8,
+			"country:COM": 53.2,
+			"country:CPV": 54.5,
+			"country:CRI": 56.4,
+			"country:CYP": 2.3,
+			"country:CZE": 5.5,
+			"country:DEU": 5,
+			"country:DJI": 55.8,
+			"country:DNK": 1.9,
+			"country:DOM": 23.9,
+			"country:DZA": 43.4,
+			"country:ECU": 26.4,
+			"country:EGY": 30.7,
+			"country:ESP": 9.5,
+			"country:EST": 11.2,
+			"country:ETH": 74.5,
+			"country:FIN": 1.4,
+			"country:FJI": 63.8,
+			"country:FRA": 3.5,
+			"country:GAB": 38.7,
+			"country:GBR": 2.8,
+			"country:GHA": 64.7,
+			"country:GIN": 45.9,
+			"country:GMB": 44.5,
+			"country:GNB": 67,
+			"country:GNQ": 60.7,
+			"country:GRC": 25.5,
+			"country:GRD": 25.4,
+			"country:GTM": 49.2,
+			"country:GUY": 24.9,
+			"country:HND": 39.4,
+			"country:HRV": 18.5,
+			"country:HTI": 83.7,
+			"country:HUN": 29.4,
+			"country:IDN": 72,
+			"country:IND": 47.8,
+			"country:IRL": 1.7,
+			"country:IRN": 39.5,
+			"country:IRQ": 24.5,
+			"country:ISL": 1.8,
+			"country:ISR": 20.9,
+			"country:ITA": 7.1,
+			"country:JAM": 26.8,
+			"country:JOR": 2.5,
+			"country:JPN": 13.5,
+			"country:KAZ": 6.2,
+			"country:KEN": 77.8,
+			"country:KGZ": 40.6,
+			"country:KOR": 5.9,
+			"country:LAO": 54.7,
+			"country:LBN": 36.9,
+			"country:LBR": 61.1,
+			"country:LCA": 7.8,
+			"country:LKA": 40.5,
+			"country:LSO": 76.5,
+			"country:LTU": 12.6,
+			"country:LUX": 1.2,
+			"country:LVA": 19.9,
+			"country:MAR": 13.2,
+			"country:MDA": 14.6,
+			"country:MDG": 85.8,
+			"country:MDV": 7.2,
+			"country:MEX": 25.2,
+			"country:MKD": 17.6,
+			"country:MLI": 62.4,
+			"country:MLT": 5.5,
+			"country:MNE": 12.2,
+			"country:MNG": 38.6,
+			"country:MOZ": 89.9,
+			"country:MRT": 55.4,
+			"country:MUS": 20.7,
+			"country:MWI": 89.8,
+			"country:MYS": 2.1,
+			"country:NAM": 47.2,
+			"country:NER": 86.9,
+			"country:NGA": 79.7,
+			"country:NIC": 27.9,
+			"country:NLD": 1.1,
+			"country:NOR": 1.3,
+			"country:NPL": 22.7,
+			"country:PAK": 64.5,
+			"country:PAN": 54.8,
+			"country:PER": 36.7,
+			"country:PHL": 50.2,
+			"country:POL": 9,
+			"country:PRT": 16.9,
+			"country:PRY": 27.5,
+			"country:PSE": 6.7,
+			"country:QAT": 1.8,
+			"country:ROU": 27.9,
+			"country:RUS": 19.5,
+			"country:RWA": 74.9,
+			"country:SEN": 49.8,
+			"country:SLE": 63.6,
+			"country:SRB": 11.3,
+			"country:SSD": 93.8,
+			"country:STP": 47.1,
+			"country:SUR": 26.8,
+			"country:SVK": 27.4,
+			"country:SVN": 2,
+			"country:SWE": 5.4,
+			"country:SWZ": 68.6,
+			"country:SYC": 51.2,
+			"country:SYR": 70.7,
+			"country:TCD": 63.4,
+			"country:TGO": 57.4,
+			"country:TTO": 33.4,
+			"country:TUN": 7.6,
+			"country:TUR": 11.7,
+			"country:TWN": 5.2,
+			"country:TZA": 73.8,
+			"country:UGA": 75.7,
+			"country:URY": 35.5,
+			"country:USA": 5.4,
+			"country:UZB": 17.2,
+			"country:VNM": 9.4,
+			"country:ZAF": 57.3,
+			"country:ZMB": 86.5
+		},
+		"2023": {
+			"country:AGO": 71.8,
+			"country:ALB": 13.9,
+			"country:ARE": 2,
+			"country:ARM": 57.4,
+			"country:AUS": 3.2,
+			"country:AUT": 2.8,
+			"country:AZE": 1.1,
+			"country:BDI": 91.5,
+			"country:BEL": 1,
+			"country:BEN": 56.3,
+			"country:BFA": 65.3,
+			"country:BGD": 41.5,
+			"country:BGR": 24.8,
+			"country:BIH": 13.8,
+			"country:BLR": 1.1,
+			"country:BLZ": 18.4,
+			"country:BOL": 9,
+			"country:BRA": 24.1,
+			"country:BTN": 4.3,
+			"country:BWA": 58.7,
+			"country:CAF": 87.2,
+			"country:CAN": 2.9,
+			"country:CHE": 1.1,
+			"country:CHL": 42.3,
+			"country:CHN": 14.5,
+			"country:CIV": 50,
+			"country:CMR": 55,
+			"country:COD": 91.5,
+			"country:COG": 78.2,
+			"country:COL": 39.3,
+			"country:COM": 49.8,
+			"country:CPV": 54,
+			"country:CRI": 52.5,
+			"country:CYP": 1.8,
+			"country:CZE": 6.4,
+			"country:DEU": 5.2,
+			"country:DJI": 54.2,
+			"country:DNK": 1.4,
+			"country:DOM": 20.5,
+			"country:DZA": 43.5,
+			"country:ECU": 26.6,
+			"country:EGY": 42.7,
+			"country:ESP": 9.9,
+			"country:EST": 10.1,
+			"country:ETH": 72.3,
+			"country:FIN": 2,
+			"country:FJI": 61.1,
+			"country:FRA": 3.7,
+			"country:GAB": 39.3,
+			"country:GBR": 3,
+			"country:GHA": 66.4,
+			"country:GIN": 48.6,
+			"country:GMB": 44.8,
+			"country:GNB": 66.6,
+			"country:GNQ": 60,
+			"country:GRC": 24.6,
+			"country:GRD": 24.2,
+			"country:GTM": 50,
+			"country:GUY": 15.2,
+			"country:HND": 39.9,
+			"country:HRV": 14.3,
+			"country:HTI": 84.4,
+			"country:HUN": 30.5,
+			"country:IDN": 71.6,
+			"country:IND": 43.1,
+			"country:IRL": 1.2,
+			"country:IRN": 38.5,
+			"country:IRQ": 25.4,
+			"country:ISL": 1.8,
+			"country:ISR": 22.5,
+			"country:ITA": 8.6,
+			"country:JAM": 26.8,
+			"country:JOR": 2.4,
+			"country:JPN": 13.3,
+			"country:KAZ": 5.1,
+			"country:KEN": 76.9,
+			"country:KGZ": 32.1,
+			"country:KOR": 5.6,
+			"country:LAO": 54.9,
+			"country:LBN": 45.2,
+			"country:LBR": 60.8,
+			"country:LCA": 7.8,
+			"country:LKA": 38.8,
+			"country:LSO": 76.8,
+			"country:LTU": 14,
+			"country:LUX": 0.8,
+			"country:LVA": 17.5,
+			"country:MAR": 13.9,
+			"country:MDA": 15,
+			"country:MDG": 85.9,
+			"country:MDV": 5.5,
+			"country:MEX": 21.9,
+			"country:MKD": 17.2,
+			"country:MLI": 61.8,
+			"country:MLT": 4.8,
+			"country:MNE": 10.2,
+			"country:MNG": 36.6,
+			"country:MOZ": 89.9,
+			"country:MRT": 53.8,
+			"country:MUS": 19.2,
+			"country:MWI": 91.1,
+			"country:MYS": 1.9,
+			"country:NAM": 48.1,
+			"country:NER": 87.5,
+			"country:NGA": 80.9,
+			"country:NIC": 27.1,
+			"country:NLD": 1.1,
+			"country:NOR": 1.3,
+			"country:NPL": 20.6,
+			"country:PAK": 67.2,
+			"country:PAN": 54.3,
+			"country:PER": 38.3,
+			"country:PHL": 49.1,
+			"country:POL": 8.7,
+			"country:PRT": 15,
+			"country:PRY": 24.6,
+			"country:PSE": 7.8,
+			"country:QAT": 1.6,
+			"country:ROU": 22.7,
+			"country:RUS": 14.9,
+			"country:RWA": 76.8,
+			"country:SEN": 49.4,
+			"country:SLE": 64.8,
+			"country:SRB": 10.3,
+			"country:SSD": 92.6,
+			"country:STP": 48.5,
+			"country:SUR": 27.2,
+			"country:SVK": 29.2,
+			"country:SVN": 2.4,
+			"country:SWE": 4.9,
+			"country:SWZ": 69.5,
+			"country:SYC": 51.2,
+			"country:SYR": 74.4,
+			"country:TCD": 65.4,
+			"country:TGO": 54.9,
+			"country:TTO": 33,
+			"country:TUN": 8.5,
+			"country:TUR": 5.5,
+			"country:TWN": 5.2,
+			"country:TZA": 73.9,
+			"country:UGA": 76.4,
+			"country:URY": 35.4,
+			"country:USA": 5.2,
+			"country:UZB": 13.6,
+			"country:VNM": 8.6,
+			"country:ZAF": 57.5,
+			"country:ZMB": 86.3
+		},
+		"2024": {
+			"country:AGO": 72.2,
+			"country:ALB": 12.6,
+			"country:ARE": 2,
+			"country:ARM": 46.6,
+			"country:AUS": 3.2,
+			"country:AUT": 2.9,
+			"country:AZE": 0.7,
+			"country:BDI": 91.1,
+			"country:BEL": 1,
+			"country:BEN": 54.1,
+			"country:BFA": 65.1,
+			"country:BGD": 40.4,
+			"country:BGR": 23.1,
+			"country:BIH": 12.7,
+			"country:BLR": 0.7,
+			"country:BLZ": 17.7,
+			"country:BOL": 9.5,
+			"country:BRA": 21.4,
+			"country:BTN": 4.1,
+			"country:BWA": 59,
+			"country:CAF": 87.5,
+			"country:CAN": 3,
+			"country:CHE": 1.1,
+			"country:CHL": 38.1,
+			"country:CHN": 12.9,
+			"country:CIV": 48.7,
+			"country:CMR": 55,
+			"country:COD": 90.8,
+			"country:COG": 78.1,
+			"country:COL": 36.6,
+			"country:COM": 48.5,
+			"country:CPV": 51,
+			"country:CRI": 47.5,
+			"country:CYP": 1.7,
+			"country:CZE": 6.1,
+			"country:DEU": 5.3,
+			"country:DJI": 52.2,
+			"country:DNK": 1.3,
+			"country:DOM": 16.8,
+			"country:DZA": 41.8,
+			"country:ECU": 28.7,
+			"country:EGY": 45.4,
+			"country:ESP": 9.6,
+			"country:EST": 10.2,
+			"country:ETH": 70.9,
+			"country:FIN": 2,
+			"country:FJI": 60.5,
+			"country:FRA": 3.6,
+			"country:GAB": 39.2,
+			"country:GBR": 2.9,
+			"country:GHA": 65.8,
+			"country:GIN": 50.4,
+			"country:GMB": 45,
+			"country:GNB": 65.5,
+			"country:GNQ": 61.9,
+			"country:GRC": 23.8,
+			"country:GRD": 23.2,
+			"country:GTM": 48.6,
+			"country:GUY": 10,
+			"country:HND": 35.2,
+			"country:HRV": 12.9,
+			"country:HTI": 87.9,
+			"country:HUN": 30,
+			"country:IDN": 70.6,
+			"country:IND": 40.6,
+			"country:IRL": 1.2,
+			"country:IRN": 35.7,
+			"country:IRQ": 27.1,
+			"country:ISL": 1.8,
+			"country:ISR": 22.7,
+			"country:ITA": 8.5,
+			"country:JAM": 27.1,
+			"country:JOR": 2.3,
+			"country:JPN": 13.3,
+			"country:KAZ": 4,
+			"country:KEN": 76.4,
+			"country:KGZ": 24.4,
+			"country:KOR": 5.5,
+			"country:LAO": 51.9,
+			"country:LBN": 45.6,
+			"country:LBR": 62.1,
+			"country:LCA": 7.4,
+			"country:LKA": 36.3,
+			"country:LSO": 77.1,
+			"country:LTU": 13.3,
+			"country:LUX": 0.9,
+			"country:LVA": 17.3,
+			"country:MAR": 13.1,
+			"country:MDA": 12.5,
+			"country:MDG": 85.3,
+			"country:MDV": 4.7,
+			"country:MEX": 20.1,
+			"country:MKD": 16.1,
+			"country:MLI": 61.4,
+			"country:MLT": 4.5,
+			"country:MNE": 8,
+			"country:MNG": 31.5,
+			"country:MOZ": 90.7,
+			"country:MRT": 51.7,
+			"country:MUS": 19.1,
+			"country:MWI": 92.1,
+			"country:MYS": 1.6,
+			"country:NAM": 47.8,
+			"country:NER": 86.7,
+			"country:NGA": 81.6,
+			"country:NLD": 1.1,
+			"country:NOR": 1.2,
+			"country:NPL": 20,
+			"country:PAK": 64.4,
+			"country:PAN": 52.3,
+			"country:PER": 35.8,
+			"country:PHL": 47.4,
+			"country:POL": 7.8,
+			"country:PRT": 14.8,
+			"country:PRY": 23.2,
+			"country:PSE": 14.3,
+			"country:QAT": 2.2,
+			"country:ROU": 20.7,
+			"country:RUS": 12.8,
+			"country:RWA": 72.2,
+			"country:SEN": 47.4,
+			"country:SLE": 63.6,
+			"country:SRB": 9.4,
+			"country:SSD": 95,
+			"country:STP": 49.1,
+			"country:SUR": 25.6,
+			"country:SVK": 27.7,
+			"country:SVN": 2.3,
+			"country:SWE": 4.8,
+			"country:SWZ": 69.1,
+			"country:SYC": 45.2,
+			"country:SYR": 73.5,
+			"country:TCD": 66.7,
+			"country:TGO": 54.1,
+			"country:TTO": 32,
+			"country:TUN": 8.7,
+			"country:TUR": 4.6,
+			"country:TWN": 4.3,
+			"country:TZA": 73,
+			"country:UGA": 74.4,
+			"country:URY": 33.2,
+			"country:USA": 4.6,
+			"country:UZB": 10.5,
+			"country:VNM": 7.9,
+			"country:ZAF": 57.6,
+			"country:ZMB": 86.3
+		},
+		"2025": {
+			"country:AGO": 72.9,
+			"country:ALB": 11.9,
+			"country:ARE": 1.9,
+			"country:ARM": 44,
+			"country:AUS": 3.2,
+			"country:AUT": 2.9,
+			"country:AZE": 0.7,
+			"country:BDI": 90.9,
+			"country:BEL": 0.9,
+			"country:BEN": 53.5,
+			"country:BFA": 65.5,
+			"country:BGD": 38.6,
+			"country:BGR": 20.7,
+			"country:BIH": 12.7,
+			"country:BLR": 0.6,
+			"country:BLZ": 17.8,
+			"country:BOL": 10.5,
+			"country:BRA": 21.1,
+			"country:BTN": 3.7,
+			"country:BWA": 59.9,
+			"country:CAF": 87.6,
+			"country:CAN": 3,
+			"country:CHE": 1.1,
+			"country:CHL": 36.8,
+			"country:CHN": 11.3,
+			"country:CIV": 46.6,
+			"country:CMR": 55.3,
+			"country:COD": 90.1,
+			"country:COG": 77.3,
+			"country:COL": 35.9,
+			"country:COM": 48.6,
+			"country:CPV": 49.3,
+			"country:CRI": 41.8,
+			"country:CYP": 1.5,
+			"country:CZE": 5.8,
+			"country:DEU": 5.3,
+			"country:DJI": 49.8,
+			"country:DNK": 1.3,
+			"country:DOM": 16.2,
+			"country:DZA": 38.8,
+			"country:ECU": 25.7,
+			"country:EGY": 38.5,
+			"country:ESP": 9.3,
+			"country:EST": 10.2,
+			"country:ETH": 67.9,
+			"country:FIN": 2,
+			"country:FJI": 58,
+			"country:FRA": 3.5,
+			"country:GAB": 39.3,
+			"country:GBR": 2.9,
+			"country:GHA": 65.8,
+			"country:GIN": 50.3,
+			"country:GMB": 43.7,
+			"country:GNB": 66.4,
+			"country:GNQ": 63.2,
+			"country:GRC": 22.7,
+			"country:GRD": 22.9,
+			"country:GTM": 47.3,
+			"country:GUY": 9.3,
+			"country:HND": 34.2,
+			"country:HRV": 12,
+			"country:HTI": 88.9,
+			"country:HUN": 29.8,
+			"country:IDN": 68.6,
+			"country:IND": 35.5,
+			"country:IRL": 0.9,
+			"country:IRN": 37.4,
+			"country:IRQ": 28,
+			"country:ISL": 1.8,
+			"country:ISR": 22.5,
+			"country:ITA": 8.4,
+			"country:JAM": 26.4,
+			"country:JOR": 2.2,
+			"country:JPN": 13.2,
+			"country:KAZ": 3.4,
+			"country:KEN": 76.3,
+			"country:KGZ": 22.1,
+			"country:KOR": 5.3,
+			"country:LAO": 49.7,
+			"country:LBN": 46.4,
+			"country:LBR": 59.6,
+			"country:LCA": 7.1,
+			"country:LKA": 34.9,
+			"country:LSO": 77.4,
+			"country:LTU": 12.3,
+			"country:LUX": 0.9,
+			"country:LVA": 16.9,
+			"country:MAR": 12.4,
+			"country:MDA": 11.4,
+			"country:MDG": 85.3,
+			"country:MDV": 4.2,
+			"country:MEX": 20,
+			"country:MKD": 15.6,
+			"country:MLI": 60.8,
+			"country:MLT": 4.5,
+			"country:MNE": 7.5,
+			"country:MNG": 29.8,
+			"country:MOZ": 91.3,
+			"country:MRT": 50.9,
+			"country:MUS": 17.8,
+			"country:MWI": 92.7,
+			"country:MYS": 1.4,
+			"country:NAM": 47.9,
+			"country:NER": 85.8,
+			"country:NGA": 80.5,
+			"country:NLD": 1.1,
+			"country:NOR": 1.2,
+			"country:NPL": 17.9,
+			"country:PAK": 63,
+			"country:PAN": 51.4,
+			"country:PER": 34.8,
+			"country:PHL": 45,
+			"country:POL": 7.3,
+			"country:PRT": 14.4,
+			"country:PRY": 22.3,
+			"country:PSE": 17.3,
+			"country:QAT": 1.9,
+			"country:ROU": 20.1,
+			"country:RUS": 12.4,
+			"country:RWA": 69.7,
+			"country:SEN": 45.5,
+			"country:SLE": 61.9,
+			"country:SRB": 8.5,
+			"country:SSD": 93.9,
+			"country:STP": 51.1,
+			"country:SUR": 23.7,
+			"country:SVK": 27.2,
+			"country:SVN": 2.3,
+			"country:SWE": 4.9,
+			"country:SWZ": 68.1,
+			"country:SYC": 43.3,
+			"country:SYR": 61.1,
+			"country:TCD": 66.6,
+			"country:TGO": 53.7,
+			"country:TTO": 32,
+			"country:TUN": 8.6,
+			"country:TUR": 4,
+			"country:TWN": 3.8,
+			"country:TZA": 73,
+			"country:UGA": 73.6,
+			"country:URY": 32,
+			"country:USA": 4.5,
+			"country:UZB": 6.2,
+			"country:VNM": 7,
+			"country:ZAF": 57.9,
+			"country:ZMB": 86.2
+		}
+	},
+	"observationMetadata": {
+		"2017": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2018": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2019": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2020": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2021": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2022": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2023": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NIC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2024": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		},
+		"2025": {
+			"country:AGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BTN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CHN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CYP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GAB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GIN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GNQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GRD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IDN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IND": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:IRQ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LCA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LUX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MAR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MDV": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MLT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MOZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PAN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:QAT": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:RWA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYC": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:SYR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TUR": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TWN": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:USA": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:UZB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceRelease": "July 2026 (SOFI report)"
+			}
+		}
+	}
+}

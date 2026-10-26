@@ -1,0 +1,6858 @@
+{
+	"schema": "kartensammlung.statistics-indicator/v1",
+	"indicator": {
+		"id": "food-security.moderate-severe-food-insecure-people",
+		"title": "Menschen mit moderater oder schwerer Ernährungsunsicherheit",
+		"description": "Zahl der Menschen mit moderater oder schwerer Ernährungsunsicherheit; FAOSTAT-Dreijahresdurchschnitt.",
+		"areaLevel": "country",
+		"frequency": "three-year-average",
+		"unit": {
+			"id": "million-people",
+			"label": "Millionen Menschen"
+		},
+		"classification": {
+			"type": "fixed",
+			"scale": "logarithmic",
+			"breaks": [
+				0.1,
+				0.5,
+				1,
+				5,
+				20,
+				100
+			]
+		}
+	},
+	"source": {
+		"providerId": "faostat",
+		"providerName": "FAOSTAT",
+		"dataset": "Suite of Food Security Indicators",
+		"datasetCode": "FS",
+		"indicator": "Element=Value;Item Code=210081",
+		"sourceIndicatorName": "Number of moderately or severely food insecure people (million) (3-year average)",
+		"license": "Creative Commons Attribution 4.0 International",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "Food and Agriculture Organization of the United Nations (FAO), FAOSTAT",
+		"url": "https://bulks-faostat.fao.org/production/Food_Security_Data_E_All_Data_(Normalized).zip",
+		"documentationUrl": "https://www.fao.org/faostat/en/#data/FS",
+		"termsUrl": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/"
+	},
+	"availableYears": [
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025
+	],
+	"defaultYear": 2025,
+	"coverage": {
+		"registryAreas": 250,
+		"areasWithAnyValue": 157,
+		"latestYear": 2025,
+		"areasInLatestYear": 135,
+		"defaultYear": 2025,
+		"areasInDefaultYear": 135,
+		"directObservations": 1280,
+		"fallbackObservations": 0,
+		"fallbackAreas": 0,
+		"latestPeriod": "2023-2025",
+		"defaultPeriod": "2023-2025"
+	},
+	"values": {
+		"2016": {
+			"country:AFG": 15.2,
+			"country:ALB": 1.1,
+			"country:ARG": 8.3,
+			"country:AUS": 2.6,
+			"country:AUT": 0.5,
+			"country:AZE": 0.6,
+			"country:BEN": 6.3,
+			"country:BGD": 48.8,
+			"country:BGR": 1.1,
+			"country:BIH": 0.3,
+			"country:BRA": 26.8,
+			"country:BWA": 1,
+			"country:CAN": 1.8,
+			"country:CHE": 0.4,
+			"country:CHL": 1.9,
+			"country:CIV": 8.6,
+			"country:CMR": 11.4,
+			"country:COL": 9.4,
+			"country:CRI": 0.6,
+			"country:CZE": 0.6,
+			"country:DEU": 3.3,
+			"country:DNK": 0.3,
+			"country:DOM": 5.7,
+			"country:DZA": 9.2,
+			"country:ECU": 3.4,
+			"country:EGY": 27.6,
+			"country:ESP": 3.3,
+			"country:EST": 0.1,
+			"country:ETH": 58.4,
+			"country:FIN": 0.5,
+			"country:FRA": 4.4,
+			"country:GBR": 4.1,
+			"country:GEO": 1.2,
+			"country:GHA": 11,
+			"country:GRC": 1.7,
+			"country:GTM": 6.8,
+			"country:HND": 3.8,
+			"country:HRV": 0.3,
+			"country:HUN": 1.1,
+			"country:IDN": 15.7,
+			"country:IRL": 0.4,
+			"country:IRN": 39.7,
+			"country:ISL": 0.1,
+			"country:ISR": 0.9,
+			"country:JAM": 1.4,
+			"country:JPN": 3.3,
+			"country:KEN": 23.9,
+			"country:KHM": 6.2,
+			"country:KOR": 2.4,
+			"country:KWT": 0.5,
+			"country:LBR": 3.7,
+			"country:LBY": 1.9,
+			"country:LCA": 0.1,
+			"country:LKA": 1.3,
+			"country:LTU": 0.4,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.6,
+			"country:MEX": 30.2,
+			"country:MKD": 0.3,
+			"country:MLT": 0.1,
+			"country:MNE": 0.1,
+			"country:MRT": 1,
+			"country:MUS": 0.2,
+			"country:MWI": 13.4,
+			"country:MYS": 5.4,
+			"country:NAM": 1.3,
+			"country:NGA": 66.1,
+			"country:NLD": 1,
+			"country:NOR": 0.2,
+			"country:NPL": 8.2,
+			"country:NZL": 0.5,
+			"country:PAK": 30.5,
+			"country:PER": 8.1,
+			"country:POL": 3.4,
+			"country:PRT": 1.5,
+			"country:PRY": 0.5,
+			"country:ROU": 3.8,
+			"country:RUS": 12,
+			"country:SEN": 5.7,
+			"country:SGP": 0.2,
+			"country:SLE": 5.3,
+			"country:SLV": 2.6,
+			"country:SRB": 1,
+			"country:SVK": 0.3,
+			"country:SVN": 0.3,
+			"country:SWE": 0.4,
+			"country:SYC": 0.1,
+			"country:TCD": 10,
+			"country:TGO": 4.3,
+			"country:TJK": 1.6,
+			"country:TUN": 2.1,
+			"country:TZA": 25.4,
+			"country:UGA": 24.9,
+			"country:UKR": 9.1,
+			"country:USA": 34.1,
+			"country:YEM": 14.2,
+			"country:ZMB": 8.4,
+			"country:ZWE": 9.3
+		},
+		"2017": {
+			"country:AFG": 17.2,
+			"country:ALB": 1.1,
+			"country:ARG": 11.4,
+			"country:AUS": 2.9,
+			"country:AUT": 0.5,
+			"country:AZE": 0.8,
+			"country:BEN": 7.5,
+			"country:BGD": 48.7,
+			"country:BGR": 1,
+			"country:BIH": 0.4,
+			"country:BRA": 31.7,
+			"country:BWA": 1.1,
+			"country:CAN": 1.8,
+			"country:CHE": 0.3,
+			"country:CHL": 2.2,
+			"country:CIV": 9.3,
+			"country:CMR": 13,
+			"country:COL": 10.6,
+			"country:CRI": 0.6,
+			"country:CZE": 0.5,
+			"country:DEU": 3.1,
+			"country:DNK": 0.3,
+			"country:DOM": 5.7,
+			"country:DZA": 8.8,
+			"country:ECU": 3.9,
+			"country:EGY": 30.4,
+			"country:ESP": 3.5,
+			"country:EST": 0.1,
+			"country:ETH": 62.2,
+			"country:FIN": 0.5,
+			"country:FRA": 4.1,
+			"country:GBR": 4,
+			"country:GEO": 1.3,
+			"country:GHA": 12,
+			"country:GMB": 1.2,
+			"country:GRC": 1.8,
+			"country:GTM": 7.2,
+			"country:HND": 3.9,
+			"country:HRV": 0.3,
+			"country:HUN": 0.9,
+			"country:IDN": 19.2,
+			"country:IRL": 0.3,
+			"country:IRN": 37.9,
+			"country:ISL": 0.1,
+			"country:ISR": 0.9,
+			"country:JAM": 1.3,
+			"country:JPN": 3.4,
+			"country:KEN": 26.4,
+			"country:KHM": 5.9,
+			"country:KOR": 2.6,
+			"country:KWT": 0.5,
+			"country:LBR": 3.8,
+			"country:LBY": 2.1,
+			"country:LCA": 0.1,
+			"country:LKA": 1.3,
+			"country:LTU": 0.4,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.7,
+			"country:MEX": 28.9,
+			"country:MKD": 0.3,
+			"country:MLT": 0.1,
+			"country:MNE": 0.1,
+			"country:MRT": 1.2,
+			"country:MUS": 0.2,
+			"country:MWI": 13.9,
+			"country:MYS": 4.8,
+			"country:NAM": 1.3,
+			"country:NGA": 75.6,
+			"country:NLD": 1,
+			"country:NOR": 0.3,
+			"country:NPL": 8.7,
+			"country:NZL": 0.5,
+			"country:PAK": 26.6,
+			"country:PER": 9.4,
+			"country:POL": 2.4,
+			"country:PRT": 1.4,
+			"country:PRY": 0.7,
+			"country:ROU": 3.3,
+			"country:RUS": 12.9,
+			"country:SEN": 5.6,
+			"country:SGP": 0.2,
+			"country:SLE": 5.9,
+			"country:SLV": 2.6,
+			"country:SRB": 1.1,
+			"country:SVK": 0.3,
+			"country:SVN": 0.2,
+			"country:SWE": 0.5,
+			"country:SYC": 0.1,
+			"country:TCD": 10.8,
+			"country:TGO": 4.5,
+			"country:TJK": 2.2,
+			"country:TUN": 2.2,
+			"country:TZA": 29.6,
+			"country:UGA": 27.7,
+			"country:UKR": 10.2,
+			"country:USA": 32.1,
+			"country:YEM": 15.9,
+			"country:ZMB": 8.9,
+			"country:ZWE": 9.7
+		},
+		"2018": {
+			"country:AFG": 19.4,
+			"country:ALB": 1.1,
+			"country:ARG": 14.3,
+			"country:ARM": 0.5,
+			"country:AUS": 3.1,
+			"country:AUT": 0.4,
+			"country:AZE": 0.9,
+			"country:BEN": 8,
+			"country:BFA": 7.7,
+			"country:BGD": 48.5,
+			"country:BGR": 0.9,
+			"country:BIH": 0.3,
+			"country:BRA": 31.7,
+			"country:BWA": 1.2,
+			"country:CAN": 1.9,
+			"country:CHE": 0.3,
+			"country:CHL": 2.5,
+			"country:CIV": 9.9,
+			"country:CMR": 14,
+			"country:COL": 12,
+			"country:CPV": 0.2,
+			"country:CRI": 0.7,
+			"country:CZE": 0.4,
+			"country:DEU": 3,
+			"country:DNK": 0.3,
+			"country:DOM": 5.8,
+			"country:DZA": 8.2,
+			"country:ECU": 4.4,
+			"country:EGY": 34.3,
+			"country:ESP": 3.5,
+			"country:EST": 0.1,
+			"country:ETH": 65.2,
+			"country:FIN": 0.5,
+			"country:FRA": 4.1,
+			"country:GBR": 3.7,
+			"country:GEO": 1.3,
+			"country:GHA": 13.2,
+			"country:GMB": 1.2,
+			"country:GNB": 1.2,
+			"country:GRC": 1.8,
+			"country:GRD": 0.1,
+			"country:GTM": 7.2,
+			"country:HND": 3.9,
+			"country:HRV": 0.3,
+			"country:HUN": 0.9,
+			"country:IDN": 20.2,
+			"country:IRL": 0.3,
+			"country:IRN": 36.1,
+			"country:ISL": 0.1,
+			"country:ISR": 1,
+			"country:JAM": 1.3,
+			"country:JPN": 4,
+			"country:KAZ": 0.4,
+			"country:KEN": 30,
+			"country:KGZ": 0.4,
+			"country:KHM": 5.9,
+			"country:KOR": 2.8,
+			"country:KWT": 0.5,
+			"country:LBR": 3.9,
+			"country:LBY": 2.2,
+			"country:LCA": 0.1,
+			"country:LKA": 1.4,
+			"country:LTU": 0.3,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MEX": 28.4,
+			"country:MKD": 0.3,
+			"country:MLI": 5.1,
+			"country:MLT": 0.1,
+			"country:MNE": 0.1,
+			"country:MRT": 1.4,
+			"country:MUS": 0.2,
+			"country:MWI": 14.5,
+			"country:MYS": 4.9,
+			"country:NAM": 1.4,
+			"country:NER": 10.7,
+			"country:NGA": 85.7,
+			"country:NLD": 0.9,
+			"country:NOR": 0.3,
+			"country:NPL": 8.9,
+			"country:NZL": 0.6,
+			"country:PAK": 28.7,
+			"country:PER": 9.6,
+			"country:PNG": 5.3,
+			"country:POL": 2,
+			"country:PRT": 1.2,
+			"country:PRY": 1,
+			"country:PSE": 1.2,
+			"country:ROU": 2.9,
+			"country:RUS": 11.6,
+			"country:SEN": 5.5,
+			"country:SGP": 0.2,
+			"country:SLE": 6.1,
+			"country:SLV": 2.6,
+			"country:SRB": 1.1,
+			"country:SSD": 8.9,
+			"country:SVK": 0.3,
+			"country:SVN": 0.2,
+			"country:SWE": 0.5,
+			"country:SYC": 0.1,
+			"country:TCD": 11.7,
+			"country:TGO": 4.5,
+			"country:TJK": 2.7,
+			"country:TUN": 2.3,
+			"country:TZA": 31.5,
+			"country:UGA": 30.5,
+			"country:UKR": 9.8,
+			"country:USA": 29.6,
+			"country:VCT": 0.1,
+			"country:VNM": 5.9,
+			"country:WSM": 0.1,
+			"country:YEM": 15.4,
+			"country:ZMB": 9.1,
+			"country:ZWE": 9.9
+		},
+		"2019": {
+			"country:AFG": 21.2,
+			"country:ALB": 1.1,
+			"country:ARG": 16,
+			"country:ARM": 0.4,
+			"country:AUS": 3.3,
+			"country:AUT": 0.3,
+			"country:AZE": 1,
+			"country:BEN": 8.2,
+			"country:BFA": 8,
+			"country:BGD": 49.1,
+			"country:BGR": 0.9,
+			"country:BIH": 0.3,
+			"country:BRA": 29.3,
+			"country:BWA": 1.2,
+			"country:CAN": 1.9,
+			"country:CHE": 0.2,
+			"country:CHL": 2.9,
+			"country:CIV": 10.5,
+			"country:CMR": 14.1,
+			"country:COL": 13,
+			"country:CPV": 0.2,
+			"country:CRI": 0.7,
+			"country:CZE": 0.4,
+			"country:DEU": 2.9,
+			"country:DNK": 0.3,
+			"country:DOM": 5.7,
+			"country:DZA": 7.5,
+			"country:ECU": 5,
+			"country:EGY": 33,
+			"country:ESP": 4.1,
+			"country:EST": 0.1,
+			"country:ETH": 65.3,
+			"country:FIN": 0.4,
+			"country:FRA": 3.9,
+			"country:GBR": 3.3,
+			"country:GEO": 1.5,
+			"country:GHA": 12.1,
+			"country:GMB": 1.3,
+			"country:GNB": 1.2,
+			"country:GRC": 1.4,
+			"country:GRD": 0.1,
+			"country:GTM": 7.6,
+			"country:HND": 4,
+			"country:HRV": 0.4,
+			"country:HUN": 0.7,
+			"country:IDN": 18.8,
+			"country:IRL": 0.4,
+			"country:IRN": 34.9,
+			"country:ISL": 0.1,
+			"country:ISR": 1.1,
+			"country:JAM": 1.3,
+			"country:JPN": 4,
+			"country:KAZ": 0.5,
+			"country:KEN": 32.3,
+			"country:KGZ": 0.4,
+			"country:KHM": 5.9,
+			"country:KIR": 0.1,
+			"country:KNA": 0.1,
+			"country:KOR": 2.7,
+			"country:KWT": 0.5,
+			"country:LBN": 0.9,
+			"country:LBY": 2.4,
+			"country:LKA": 1.7,
+			"country:LSO": 1.1,
+			"country:LTU": 0.3,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.9,
+			"country:MDG": 16,
+			"country:MEX": 29.6,
+			"country:MKD": 0.3,
+			"country:MLI": 5.1,
+			"country:MLT": 0.1,
+			"country:MNE": 0.1,
+			"country:MRT": 1.6,
+			"country:MUS": 0.3,
+			"country:MWI": 14.6,
+			"country:MYS": 5,
+			"country:NAM": 1.5,
+			"country:NER": 11.1,
+			"country:NGA": 96.5,
+			"country:NLD": 0.9,
+			"country:NOR": 0.3,
+			"country:NPL": 9.5,
+			"country:NZL": 0.7,
+			"country:PAK": 32.2,
+			"country:PER": 9.9,
+			"country:PHL": 45.1,
+			"country:PNG": 5.4,
+			"country:POL": 1.6,
+			"country:PRT": 1.1,
+			"country:PRY": 1.4,
+			"country:PSE": 1.3,
+			"country:ROU": 2.8,
+			"country:RUS": 10.3,
+			"country:SEN": 5.6,
+			"country:SGP": 0.3,
+			"country:SLE": 6.3,
+			"country:SLV": 2.6,
+			"country:SRB": 1.1,
+			"country:SSD": 8.7,
+			"country:SVK": 0.3,
+			"country:SVN": 0.2,
+			"country:SWE": 0.6,
+			"country:TCD": 12.3,
+			"country:TGO": 4.5,
+			"country:THA": 3.4,
+			"country:TJK": 2.7,
+			"country:TUN": 2.6,
+			"country:TZA": 32.2,
+			"country:UGA": 31.2,
+			"country:UKR": 8.3,
+			"country:URY": 0.4,
+			"country:USA": 28.2,
+			"country:VCT": 0.1,
+			"country:VNM": 6,
+			"country:VUT": 0.1,
+			"country:WSM": 0.1,
+			"country:YEM": 15.7,
+			"country:ZAF": 10.2,
+			"country:ZMB": 9.8,
+			"country:ZWE": 10
+		},
+		"2020": {
+			"country:AFG": 23.9,
+			"country:AGO": 23.6,
+			"country:ALB": 1,
+			"country:ARG": 16.1,
+			"country:ARM": 0.3,
+			"country:AUS": 3.1,
+			"country:AUT": 0.3,
+			"country:AZE": 0.9,
+			"country:BEL": 0.4,
+			"country:BEN": 8.1,
+			"country:BFA": 8.3,
+			"country:BGD": 50.2,
+			"country:BGR": 0.9,
+			"country:BIH": 0.3,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BRA": 32.8,
+			"country:BWA": 1.3,
+			"country:CAN": 2.2,
+			"country:CHE": 0.2,
+			"country:CHL": 3.3,
+			"country:CIV": 11.1,
+			"country:CMR": 14.4,
+			"country:COD": 64.4,
+			"country:COL": 14.2,
+			"country:CPV": 0.2,
+			"country:CRI": 0.8,
+			"country:CZE": 0.4,
+			"country:DEU": 2.9,
+			"country:DNK": 0.3,
+			"country:DOM": 6,
+			"country:DZA": 7.6,
+			"country:ECU": 5.7,
+			"country:EGY": 29.9,
+			"country:ESP": 4.2,
+			"country:EST": 0.1,
+			"country:ETH": 65.2,
+			"country:FIN": 0.4,
+			"country:FJI": 0.1,
+			"country:FRA": 3.8,
+			"country:GBR": 2.6,
+			"country:GEO": 1.5,
+			"country:GHA": 11.9,
+			"country:GMB": 1.4,
+			"country:GNB": 1.2,
+			"country:GRC": 0.9,
+			"country:GRD": 0.1,
+			"country:GTM": 8.5,
+			"country:HND": 4.5,
+			"country:HRV": 0.4,
+			"country:HTI": 9.2,
+			"country:HUN": 0.8,
+			"country:IDN": 15.8,
+			"country:IRL": 0.4,
+			"country:IRN": 36.9,
+			"country:ISL": 0.1,
+			"country:ISR": 1.1,
+			"country:JAM": 1.4,
+			"country:JPN": 4.3,
+			"country:KAZ": 0.5,
+			"country:KEN": 34.7,
+			"country:KGZ": 0.4,
+			"country:KHM": 6.4,
+			"country:KIR": 0.1,
+			"country:KNA": 0.1,
+			"country:KOR": 2.6,
+			"country:KWT": 0.5,
+			"country:LAO": 2.1,
+			"country:LBN": 1.2,
+			"country:LBR": 4.1,
+			"country:LBY": 2.6,
+			"country:LKA": 2,
+			"country:LSO": 1.1,
+			"country:LTU": 0.3,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MDG": 16.8,
+			"country:MDV": 0.1,
+			"country:MEX": 31.8,
+			"country:MKD": 0.3,
+			"country:MLI": 5,
+			"country:MLT": 0.1,
+			"country:MMR": 11.7,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 1.8,
+			"country:MUS": 0.3,
+			"country:MWI": 15.2,
+			"country:MYS": 5,
+			"country:NAM": 1.5,
+			"country:NER": 11.5,
+			"country:NGA": 112.1,
+			"country:NLD": 0.8,
+			"country:NOR": 0.2,
+			"country:NPL": 10.4,
+			"country:NZL": 0.7,
+			"country:PAK": 56,
+			"country:PER": 10.4,
+			"country:PHL": 47.3,
+			"country:PNG": 5.5,
+			"country:POL": 2.2,
+			"country:PRT": 1.2,
+			"country:PRY": 1.6,
+			"country:PSE": 1.4,
+			"country:ROU": 2.7,
+			"country:RUS": 8.8,
+			"country:SEN": 5.4,
+			"country:SGP": 0.3,
+			"country:SLE": 6.6,
+			"country:SLV": 2.8,
+			"country:SRB": 1.1,
+			"country:SSD": 8.9,
+			"country:SVK": 0.3,
+			"country:SVN": 0.2,
+			"country:SWE": 0.5,
+			"country:TCD": 12.7,
+			"country:TGO": 4.3,
+			"country:THA": 3.9,
+			"country:TJK": 2.7,
+			"country:TLS": 0.7,
+			"country:TON": 0.1,
+			"country:TUN": 3,
+			"country:TZA": 33.4,
+			"country:UGA": 31.4,
+			"country:UKR": 8.9,
+			"country:URY": 0.5,
+			"country:USA": 27.7,
+			"country:VCT": 0.1,
+			"country:VNM": 6.3,
+			"country:VUT": 0.1,
+			"country:WSM": 0.1,
+			"country:YEM": 17.3,
+			"country:ZAF": 10.8,
+			"country:ZMB": 9.7,
+			"country:ZWE": 10.7
+		},
+		"2021": {
+			"country:AFG": 27.3,
+			"country:AGO": 26.1,
+			"country:ALB": 0.9,
+			"country:ARG": 16.7,
+			"country:ARM": 0.2,
+			"country:AUS": 3.1,
+			"country:AUT": 0.3,
+			"country:AZE": 1,
+			"country:BEL": 0.6,
+			"country:BEN": 8.1,
+			"country:BFA": 8.6,
+			"country:BGD": 50.3,
+			"country:BGR": 1.1,
+			"country:BHS": 0.1,
+			"country:BIH": 0.4,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BRA": 40.5,
+			"country:BRB": 0.1,
+			"country:BWA": 1.3,
+			"country:CAF": 4.4,
+			"country:CAN": 2.5,
+			"country:CHE": 0.2,
+			"country:CHL": 3.4,
+			"country:CIV": 11.7,
+			"country:CMR": 14.8,
+			"country:COD": 69.4,
+			"country:COL": 15.4,
+			"country:COM": 0.6,
+			"country:CPV": 0.2,
+			"country:CRI": 0.8,
+			"country:CZE": 0.6,
+			"country:DEU": 2.9,
+			"country:DJI": 0.5,
+			"country:DMA": 0.1,
+			"country:DNK": 0.3,
+			"country:DOM": 5.8,
+			"country:DZA": 8.4,
+			"country:ECU": 6.4,
+			"country:EGY": 29.8,
+			"country:ESP": 4.1,
+			"country:EST": 0.1,
+			"country:ETH": 66.9,
+			"country:FIN": 0.5,
+			"country:FJI": 0.2,
+			"country:FRA": 3.9,
+			"country:GBR": 2.3,
+			"country:GEO": 1.5,
+			"country:GHA": 11.7,
+			"country:GMB": 1.5,
+			"country:GNB": 1.3,
+			"country:GRC": 0.7,
+			"country:GRD": 0.1,
+			"country:GTM": 9.7,
+			"country:HND": 4.9,
+			"country:HRV": 0.5,
+			"country:HTI": 9.3,
+			"country:HUN": 1,
+			"country:IDN": 14,
+			"country:IRL": 0.3,
+			"country:IRN": 37.2,
+			"country:ISL": 0.1,
+			"country:ISR": 0.9,
+			"country:JAM": 1.4,
+			"country:JPN": 4.8,
+			"country:KAZ": 0.6,
+			"country:KEN": 36.3,
+			"country:KGZ": 0.4,
+			"country:KHM": 7,
+			"country:KIR": 0.1,
+			"country:KNA": 0.1,
+			"country:KOR": 2.8,
+			"country:KWT": 0.5,
+			"country:LAO": 2.3,
+			"country:LBN": 1.7,
+			"country:LBR": 4.2,
+			"country:LBY": 2.8,
+			"country:LKA": 2.2,
+			"country:LSO": 1.2,
+			"country:LTU": 0.3,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MDG": 17.7,
+			"country:MDV": 0.1,
+			"country:MEX": 32.3,
+			"country:MKD": 0.4,
+			"country:MLI": 4.8,
+			"country:MLT": 0.1,
+			"country:MMR": 13.5,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 2.1,
+			"country:MUS": 0.4,
+			"country:MWI": 15.9,
+			"country:MYS": 5.2,
+			"country:NAM": 1.6,
+			"country:NER": 11.9,
+			"country:NGA": 134.7,
+			"country:NLD": 0.8,
+			"country:NOR": 0.2,
+			"country:NPL": 11,
+			"country:NRU": 0.1,
+			"country:NZL": 0.7,
+			"country:PAK": 60.6,
+			"country:PER": 11.2,
+			"country:PHL": 44.9,
+			"country:POL": 2.8,
+			"country:PRT": 1.2,
+			"country:PRY": 1.7,
+			"country:PSE": 1.4,
+			"country:ROU": 2.6,
+			"country:RUS": 8.1,
+			"country:SEN": 5.3,
+			"country:SGP": 0.3,
+			"country:SLE": 6.9,
+			"country:SLV": 2.9,
+			"country:SRB": 1.2,
+			"country:SSD": 9.2,
+			"country:STP": 0.1,
+			"country:SUR": 0.2,
+			"country:SVK": 0.4,
+			"country:SVN": 0.2,
+			"country:SWE": 0.5,
+			"country:SWZ": 0.7,
+			"country:TCD": 12.5,
+			"country:TGO": 4.3,
+			"country:THA": 4.5,
+			"country:TJK": 2.9,
+			"country:TLS": 0.7,
+			"country:TON": 0.1,
+			"country:TUN": 3.4,
+			"country:TZA": 35.1,
+			"country:UGA": 31,
+			"country:UKR": 10.2,
+			"country:URY": 0.5,
+			"country:USA": 27,
+			"country:VNM": 7.5,
+			"country:VUT": 0.1,
+			"country:WSM": 0.1,
+			"country:YEM": 21.1,
+			"country:ZAF": 11.5,
+			"country:ZMB": 9.9,
+			"country:ZWE": 11.3
+		},
+		"2022": {
+			"country:AFG": 31.6,
+			"country:AGO": 27.3,
+			"country:ALB": 0.9,
+			"country:ARG": 16.7,
+			"country:ARM": 0.2,
+			"country:ATG": 0.1,
+			"country:AUS": 3,
+			"country:AUT": 0.4,
+			"country:AZE": 1,
+			"country:BEL": 0.7,
+			"country:BEN": 8.4,
+			"country:BFA": 8.9,
+			"country:BGD": 49.9,
+			"country:BGR": 1.1,
+			"country:BHS": 0.1,
+			"country:BIH": 0.4,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BOL": 2.7,
+			"country:BRA": 46.2,
+			"country:BRB": 0.1,
+			"country:BWA": 1.4,
+			"country:CAF": 4.5,
+			"country:CAN": 3,
+			"country:CHE": 0.2,
+			"country:CHL": 3.5,
+			"country:CIV": 12.1,
+			"country:CMR": 15.9,
+			"country:COD": 75.3,
+			"country:COL": 16.2,
+			"country:COM": 0.7,
+			"country:CPV": 0.2,
+			"country:CRI": 0.8,
+			"country:CZE": 0.9,
+			"country:DEU": 3.2,
+			"country:DJI": 0.6,
+			"country:DMA": 0.1,
+			"country:DNK": 0.4,
+			"country:DOM": 5.8,
+			"country:DZA": 8.7,
+			"country:ECU": 6.6,
+			"country:EGY": 31.6,
+			"country:ESP": 3.8,
+			"country:EST": 0.1,
+			"country:ETH": 71,
+			"country:FIN": 0.6,
+			"country:FJI": 0.2,
+			"country:FRA": 4.3,
+			"country:GBR": 2.8,
+			"country:GEO": 1.4,
+			"country:GHA": 12.6,
+			"country:GMB": 1.6,
+			"country:GNB": 1.3,
+			"country:GRC": 0.7,
+			"country:GRD": 0.1,
+			"country:GTM": 9.7,
+			"country:GUY": 0.2,
+			"country:HND": 5.1,
+			"country:HRV": 0.4,
+			"country:HTI": 9.4,
+			"country:HUN": 1.2,
+			"country:IDN": 13.6,
+			"country:IRL": 0.3,
+			"country:IRN": 36.1,
+			"country:ISL": 0.1,
+			"country:ISR": 0.7,
+			"country:ITA": 1.3,
+			"country:JAM": 1.5,
+			"country:JPN": 5.6,
+			"country:KAZ": 0.5,
+			"country:KEN": 38.5,
+			"country:KGZ": 0.5,
+			"country:KHM": 7.4,
+			"country:KIR": 0.1,
+			"country:KOR": 2.9,
+			"country:KWT": 0.5,
+			"country:LAO": 2.5,
+			"country:LBN": 2.1,
+			"country:LBR": 4.3,
+			"country:LBY": 2.8,
+			"country:LKA": 2.5,
+			"country:LSO": 1.2,
+			"country:LTU": 0.2,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.7,
+			"country:MDG": 18.1,
+			"country:MDV": 0.1,
+			"country:MEX": 30,
+			"country:MKD": 0.4,
+			"country:MLI": 4.6,
+			"country:MLT": 0.1,
+			"country:MMR": 15.6,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 2.5,
+			"country:MUS": 0.4,
+			"country:MWI": 16.5,
+			"country:MYS": 5.5,
+			"country:NAM": 1.6,
+			"country:NER": 12.3,
+			"country:NGA": 152.3,
+			"country:NLD": 0.8,
+			"country:NOR": 0.3,
+			"country:NPL": 11,
+			"country:NRU": 0.1,
+			"country:NZL": 0.8,
+			"country:PAK": 66,
+			"country:PER": 12,
+			"country:PHL": 42.2,
+			"country:POL": 2.9,
+			"country:PRT": 1.3,
+			"country:PRY": 1.7,
+			"country:PSE": 1.5,
+			"country:ROU": 3.1,
+			"country:RUS": 7,
+			"country:SEN": 5.2,
+			"country:SGP": 0.4,
+			"country:SLE": 7.2,
+			"country:SLV": 3,
+			"country:SRB": 1.3,
+			"country:SSD": 9.5,
+			"country:STP": 0.1,
+			"country:SUR": 0.2,
+			"country:SVK": 0.5,
+			"country:SVN": 0.1,
+			"country:SWE": 0.6,
+			"country:SWZ": 0.7,
+			"country:TCD": 12.4,
+			"country:TGO": 4.4,
+			"country:THA": 5.1,
+			"country:TJK": 3.1,
+			"country:TLS": 0.7,
+			"country:TON": 0.1,
+			"country:TUN": 3.4,
+			"country:TZA": 36.9,
+			"country:UGA": 30.2,
+			"country:UKR": 12.2,
+			"country:URY": 0.5,
+			"country:USA": 29.3,
+			"country:VNM": 8.9,
+			"country:WSM": 0.1,
+			"country:YEM": 25,
+			"country:ZAF": 11.8,
+			"country:ZMB": 9.4,
+			"country:ZWE": 11.6
+		},
+		"2023": {
+			"country:AFG": 32.9,
+			"country:AGO": 28,
+			"country:ALB": 0.9,
+			"country:ARG": 16.4,
+			"country:ARM": 0.2,
+			"country:ATG": 0.1,
+			"country:AUS": 3.4,
+			"country:AUT": 0.4,
+			"country:AZE": 1.3,
+			"country:BDI": 9.4,
+			"country:BEL": 0.9,
+			"country:BEN": 8.7,
+			"country:BFA": 9.2,
+			"country:BGD": 46.6,
+			"country:BGR": 1,
+			"country:BHS": 0.1,
+			"country:BIH": 0.4,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BOL": 2.8,
+			"country:BRA": 38.8,
+			"country:BRB": 0.1,
+			"country:BWA": 1.4,
+			"country:CAF": 4.5,
+			"country:CAN": 3.3,
+			"country:CHE": 0.2,
+			"country:CHL": 3.4,
+			"country:CIV": 12,
+			"country:CMR": 16.7,
+			"country:COD": 82.1,
+			"country:COL": 15.8,
+			"country:COM": 0.7,
+			"country:CPV": 0.2,
+			"country:CRI": 0.8,
+			"country:CZE": 1.1,
+			"country:DEU": 3.4,
+			"country:DJI": 0.6,
+			"country:DMA": 0.1,
+			"country:DNK": 0.4,
+			"country:DOM": 5.2,
+			"country:DZA": 8.6,
+			"country:ECU": 6.6,
+			"country:EGY": 33.6,
+			"country:ESP": 3.3,
+			"country:EST": 0.1,
+			"country:ETH": 74,
+			"country:FIN": 0.7,
+			"country:FJI": 0.3,
+			"country:FRA": 5.2,
+			"country:GBR": 3.9,
+			"country:GEO": 1.2,
+			"country:GHA": 14.1,
+			"country:GMB": 1.6,
+			"country:GNB": 1.3,
+			"country:GRC": 0.7,
+			"country:GRD": 0.1,
+			"country:GTM": 9.4,
+			"country:GUY": 0.2,
+			"country:HND": 4.6,
+			"country:HRV": 0.3,
+			"country:HTI": 9.5,
+			"country:HUN": 1.5,
+			"country:IDN": 13.1,
+			"country:IRL": 0.2,
+			"country:IRN": 35.7,
+			"country:ISL": 0.1,
+			"country:ISR": 0.7,
+			"country:ITA": 1.2,
+			"country:JAM": 1.6,
+			"country:JPN": 6.9,
+			"country:KAZ": 0.5,
+			"country:KEN": 39.5,
+			"country:KGZ": 0.5,
+			"country:KHM": 7.4,
+			"country:KIR": 0.1,
+			"country:KOR": 3,
+			"country:KWT": 0.4,
+			"country:LAO": 2.7,
+			"country:LBN": 2.3,
+			"country:LBR": 4.4,
+			"country:LBY": 2.7,
+			"country:LKA": 2.6,
+			"country:LSO": 1.3,
+			"country:LTU": 0.2,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MDG": 18.3,
+			"country:MDV": 0.1,
+			"country:MEX": 26.6,
+			"country:MKD": 0.4,
+			"country:MLI": 4.6,
+			"country:MLT": 0.1,
+			"country:MMR": 17.2,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 3,
+			"country:MUS": 0.4,
+			"country:MWI": 16.8,
+			"country:MYS": 5.8,
+			"country:NAM": 1.6,
+			"country:NER": 12.7,
+			"country:NGA": 164.8,
+			"country:NLD": 1,
+			"country:NOR": 0.4,
+			"country:NPL": 11,
+			"country:NRU": 0.1,
+			"country:NZL": 0.8,
+			"country:PAK": 53.3,
+			"country:PER": 12.5,
+			"country:PHL": 37.8,
+			"country:PLW": 0.1,
+			"country:POL": 2.1,
+			"country:PRT": 1.3,
+			"country:PRY": 1.8,
+			"country:PSE": 1.5,
+			"country:ROU": 3.7,
+			"country:RUS": 5.3,
+			"country:SEN": 5.2,
+			"country:SGP": 0.4,
+			"country:SLE": 7.3,
+			"country:SLV": 2.9,
+			"country:SRB": 1.1,
+			"country:SSD": 9.7,
+			"country:STP": 0.1,
+			"country:SUR": 0.2,
+			"country:SVK": 0.5,
+			"country:SVN": 0.2,
+			"country:SWE": 0.6,
+			"country:SWZ": 0.7,
+			"country:TCD": 12.4,
+			"country:TGO": 4.6,
+			"country:THA": 4.6,
+			"country:TJK": 2.8,
+			"country:TON": 0.1,
+			"country:TTO": 0.4,
+			"country:TUN": 3.2,
+			"country:TZA": 37.6,
+			"country:UGA": 28.1,
+			"country:UKR": 12.7,
+			"country:URY": 0.5,
+			"country:USA": 31.8,
+			"country:VNM": 10.7,
+			"country:WSM": 0.1,
+			"country:YEM": 27.7,
+			"country:ZAF": 12.4,
+			"country:ZMB": 9.3,
+			"country:ZWE": 11.4
+		},
+		"2024": {
+			"country:AFG": 33.6,
+			"country:AGO": 28.1,
+			"country:ALB": 0.9,
+			"country:ARE": 0.4,
+			"country:ARG": 15.4,
+			"country:ARM": 0.2,
+			"country:ATG": 0.1,
+			"country:AUS": 3.7,
+			"country:AUT": 0.4,
+			"country:AZE": 1.4,
+			"country:BDI": 9.7,
+			"country:BEL": 0.9,
+			"country:BEN": 9.3,
+			"country:BFA": 9.5,
+			"country:BGD": 44.5,
+			"country:BGR": 0.8,
+			"country:BIH": 0.3,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BOL": 3.1,
+			"country:BRA": 28.1,
+			"country:BWA": 1.3,
+			"country:CAN": 4,
+			"country:CHE": 0.2,
+			"country:CHL": 3.6,
+			"country:CIV": 12,
+			"country:CMR": 17.4,
+			"country:COD": 86.2,
+			"country:COL": 15.1,
+			"country:COM": 0.7,
+			"country:CPV": 0.2,
+			"country:CRI": 0.8,
+			"country:CYP": 0.1,
+			"country:CZE": 1.1,
+			"country:DEU": 3.4,
+			"country:DNK": 0.4,
+			"country:DOM": 5,
+			"country:DZA": 8.1,
+			"country:ECU": 6,
+			"country:EGY": 35.3,
+			"country:ESP": 3.1,
+			"country:EST": 0.1,
+			"country:ETH": 79.1,
+			"country:FIN": 0.7,
+			"country:FRA": 5.6,
+			"country:GBR": 4.7,
+			"country:GEO": 1,
+			"country:GHA": 15,
+			"country:GMB": 1.5,
+			"country:GRC": 0.7,
+			"country:GRD": 0.1,
+			"country:GTM": 8.8,
+			"country:GUY": 0.2,
+			"country:HND": 4.4,
+			"country:HRV": 0.2,
+			"country:HTI": 9.7,
+			"country:HUN": 1.5,
+			"country:IDN": 12.5,
+			"country:IRL": 0.3,
+			"country:IRN": 35.2,
+			"country:ISL": 0.1,
+			"country:ISR": 0.9,
+			"country:ITA": 1,
+			"country:JAM": 1.6,
+			"country:JPN": 7.3,
+			"country:KAZ": 0.3,
+			"country:KEN": 40.9,
+			"country:KHM": 7,
+			"country:KIR": 0.1,
+			"country:KOR": 2.8,
+			"country:KWT": 0.4,
+			"country:LAO": 2.7,
+			"country:LBN": 2.4,
+			"country:LBR": 4.4,
+			"country:LBY": 2.6,
+			"country:LKA": 2.6,
+			"country:LSO": 1.4,
+			"country:LTU": 0.2,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MDG": 18.8,
+			"country:MEX": 23.3,
+			"country:MKD": 0.3,
+			"country:MLI": 4.9,
+			"country:MLT": 0.1,
+			"country:MMR": 17.7,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 3.3,
+			"country:MUS": 0.4,
+			"country:MWI": 17.2,
+			"country:MYS": 5.9,
+			"country:NAM": 1.7,
+			"country:NER": 13.3,
+			"country:NGA": 170.4,
+			"country:NLD": 1.4,
+			"country:NOR": 0.4,
+			"country:NPL": 10.9,
+			"country:NZL": 0.9,
+			"country:PAK": 55.9,
+			"country:PER": 12.1,
+			"country:PHL": 37.7,
+			"country:PLW": 0.1,
+			"country:POL": 1.3,
+			"country:PRT": 1.2,
+			"country:ROU": 3.5,
+			"country:RUS": 4.4,
+			"country:SEN": 5.3,
+			"country:SGP": 0.5,
+			"country:SLE": 7.6,
+			"country:SLV": 2.9,
+			"country:SRB": 0.8,
+			"country:SSD": 10.1,
+			"country:SVK": 0.4,
+			"country:SVN": 0.2,
+			"country:SWE": 0.7,
+			"country:SWZ": 0.7,
+			"country:TCD": 12.8,
+			"country:TGO": 4.8,
+			"country:THA": 3.9,
+			"country:TJK": 2.6,
+			"country:TTO": 0.4,
+			"country:TUN": 3.1,
+			"country:TZA": 38.7,
+			"country:UGA": 26.6,
+			"country:UKR": 12.6,
+			"country:URY": 0.5,
+			"country:USA": 35.7,
+			"country:VNM": 10.7,
+			"country:WSM": 0.1,
+			"country:YEM": 28.8,
+			"country:ZAF": 12.8,
+			"country:ZMB": 9.4,
+			"country:ZWE": 11.2
+		},
+		"2025": {
+			"country:AFG": 33.2,
+			"country:AGO": 28.6,
+			"country:ALB": 0.9,
+			"country:ARE": 0.5,
+			"country:ARG": 14.5,
+			"country:ARM": 0.2,
+			"country:AUS": 4,
+			"country:AUT": 0.4,
+			"country:AZE": 1.5,
+			"country:BDI": 9.9,
+			"country:BEL": 1.1,
+			"country:BEN": 9.5,
+			"country:BFA": 9.7,
+			"country:BGD": 45.4,
+			"country:BGR": 0.7,
+			"country:BIH": 0.3,
+			"country:BLR": 0.1,
+			"country:BLZ": 0.1,
+			"country:BOL": 3.7,
+			"country:BRA": 20.3,
+			"country:BWA": 1.3,
+			"country:CAN": 4.2,
+			"country:CHE": 0.2,
+			"country:CHL": 3.2,
+			"country:CIV": 12.1,
+			"country:CMR": 17.7,
+			"country:COD": 89.3,
+			"country:COL": 14.8,
+			"country:CPV": 0.2,
+			"country:CRI": 0.7,
+			"country:CYP": 0.1,
+			"country:CZE": 1,
+			"country:DEU": 3.5,
+			"country:DNK": 0.4,
+			"country:DOM": 4.7,
+			"country:DZA": 8.2,
+			"country:ECU": 5.6,
+			"country:EGY": 34.9,
+			"country:ESP": 3.6,
+			"country:EST": 0.2,
+			"country:ETH": 79.4,
+			"country:FIN": 0.7,
+			"country:FRA": 6.2,
+			"country:GBR": 5.1,
+			"country:GEO": 0.9,
+			"country:GHA": 15,
+			"country:GMB": 1.3,
+			"country:GRC": 0.7,
+			"country:GRD": 0.1,
+			"country:GTM": 9,
+			"country:GUY": 0.2,
+			"country:HND": 4.3,
+			"country:HRV": 0.2,
+			"country:HTI": 9.8,
+			"country:HUN": 1.6,
+			"country:IDN": 11.8,
+			"country:IRL": 0.3,
+			"country:IRN": 34.5,
+			"country:ISL": 0.1,
+			"country:ISR": 0.8,
+			"country:ITA": 1,
+			"country:JAM": 1.6,
+			"country:JPN": 7.6,
+			"country:KAZ": 0.3,
+			"country:KEN": 40.5,
+			"country:KGZ": 0.5,
+			"country:KHM": 6.4,
+			"country:KIR": 0.1,
+			"country:KOR": 3,
+			"country:KWT": 0.5,
+			"country:LAO": 2.7,
+			"country:LBN": 2.6,
+			"country:LBR": 4.4,
+			"country:LBY": 2.3,
+			"country:LKA": 2.3,
+			"country:LSO": 1.4,
+			"country:LTU": 0.2,
+			"country:LUX": 0.1,
+			"country:LVA": 0.2,
+			"country:MDA": 0.8,
+			"country:MDG": 19.5,
+			"country:MEX": 21.6,
+			"country:MKD": 0.2,
+			"country:MLI": 5,
+			"country:MLT": 0.1,
+			"country:MMR": 17.1,
+			"country:MNE": 0.1,
+			"country:MNG": 0.2,
+			"country:MRT": 3.4,
+			"country:MUS": 0.4,
+			"country:MWI": 17.7,
+			"country:MYS": 5.5,
+			"country:NAM": 1.6,
+			"country:NER": 13.6,
+			"country:NGA": 178.1,
+			"country:NLD": 1.6,
+			"country:NOR": 0.4,
+			"country:NPL": 10.4,
+			"country:NZL": 0.9,
+			"country:PAK": 57.5,
+			"country:PER": 11.5,
+			"country:PHL": 37.8,
+			"country:PLW": 0.1,
+			"country:POL": 1.1,
+			"country:PRT": 1.2,
+			"country:PRY": 1.8,
+			"country:ROU": 2.9,
+			"country:RUS": 3.8,
+			"country:SEN": 5.1,
+			"country:SGP": 0.6,
+			"country:SLE": 7.6,
+			"country:SLV": 2.6,
+			"country:SRB": 0.6,
+			"country:SSD": 10.5,
+			"country:SVK": 0.4,
+			"country:SVN": 0.2,
+			"country:SWE": 0.8,
+			"country:SWZ": 0.8,
+			"country:TCD": 13.1,
+			"country:TGO": 4.7,
+			"country:THA": 3.2,
+			"country:TJK": 2.5,
+			"country:TTO": 0.4,
+			"country:TUN": 3,
+			"country:TZA": 39.1,
+			"country:UGA": 25.8,
+			"country:UKR": 12.2,
+			"country:URY": 0.5,
+			"country:USA": 36.9,
+			"country:VNM": 9.5,
+			"country:WSM": 0.1,
+			"country:YEM": 30.2,
+			"country:ZAF": 13.3,
+			"country:ZMB": 9.8,
+			"country:ZWE": 11.7
+		}
+	},
+	"periodLabels": {
+		"2016": "2014-2016",
+		"2017": "2015-2017",
+		"2018": "2016-2018",
+		"2019": "2017-2019",
+		"2020": "2018-2020",
+		"2021": "2019-2021",
+		"2022": "2020-2022",
+		"2023": "2021-2023",
+		"2024": "2022-2024",
+		"2025": "2023-2025"
+	},
+	"observationMetadata": {
+		"2016": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KOR": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LCA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SYC": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2017": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LCA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SYC": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2018": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LCA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PNG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SYC": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VCT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2019": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KNA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PNG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VCT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:VUT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:ZMB": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2020": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KNA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDV": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PNG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TLS": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TON": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VCT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:VUT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2021": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BHS": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRB": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DMA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FJI": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KNA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDV": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NRU": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TLS": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TON": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:VUT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2022": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ATG": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BHS": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BOL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRB": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DMA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ITA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:MDV": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NRU": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TLS": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TON": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2023": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ATG": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BHS": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BOL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BRA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRB": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAF": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DJI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DMA": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FJI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GNB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:HND": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ITA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MDV": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NRU": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PLW": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PSE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:STP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SUR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TON": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2024": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ATG": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BOL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BRA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:COM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CYP": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:HND": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ITA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PLW": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		},
+		"2025": {
+			"country:AFG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AGO": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ALB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARE": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ARG": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ARM": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:AUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AUT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:AZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BDI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BEL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BFA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BGR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BIH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:BLR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:BLZ": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:BOL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BRA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:BWA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CAN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CHE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:CHL": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CIV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:COL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CPV": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CRI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:CYP": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:CZE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DEU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DNK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:DOM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:DZA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ECU": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:EGY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ESP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:EST": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ETH": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FIN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:FRA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GEO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GHA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:GMB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GRC": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:GRD": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:GTM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:GUY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HND": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:HRV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HTI": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:HUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IDN": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:IRL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:IRN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISL": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ISR": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ITA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:JAM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:JPN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KAZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:KGZ": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:KHM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KIR": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:KOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:KWT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LAO": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LBY": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LKA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LSO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:LTU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LUX": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:LVA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDA": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MDG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MEX": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:MKD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MLI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MLT": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MMR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNE": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MNG": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:MRT": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MUS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:MWI": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:MYS": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NAM": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:NLD": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NOR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NPL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:NZL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PAK": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PER": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:PHL": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:PLW": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:POL": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRT": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:PRY": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ROU": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:RUS": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:SEN": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:SGP": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SLV": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SRB": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SSD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:SVK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SVN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:SWZ": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TCD": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TGO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:THA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:TJK": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TTO": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate"
+			},
+			"country:TUN": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:TZA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UGA": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:UKR": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:URY": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:USA": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:VNM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:WSM": {
+				"valueQualifier": "less-than",
+				"displayValue": "<0.1",
+				"upperBound": 0.1,
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:YEM": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			},
+			"country:ZAF": {
+				"sourceFlag": "A",
+				"sourceNote": "Official estimate"
+			},
+			"country:ZMB": {
+				"sourceFlag": "E",
+				"sourceNote": "Official estimate integrated with FAO data"
+			},
+			"country:ZWE": {
+				"sourceFlag": "E",
+				"sourceNote": "FAO data"
+			}
+		}
+	}
+}
