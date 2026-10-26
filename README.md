@@ -1,5 +1,3 @@
 # ks-AreaStatistics
 
-Build-Pipelines für Gebietsdaten und Statistiken der Kartensammlung.
-
-Veröffentlichung: GitHub Pages (`AreaStatistics/`).
+Erstellung und Veröffentlichung der Gebietsstatistiken für die Kartensammlung über GitHub Pages.
