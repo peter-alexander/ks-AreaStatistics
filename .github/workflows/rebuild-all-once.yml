@@ -1,0 +1,101 @@
+name: Initial rebuild of all AreaStatistics
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/rebuild-all-once.yml'
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: area-statistics-initial-rebuild
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      PAGES_URL: https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and publish country registry first
+        shell: bash
+        run: |
+          set -euo pipefail
+          started="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          gh workflow run build-country-geometry.yml --ref main
+          run_id=""
+          for attempt in {1..40}; do
+            run_id="$(gh run list --workflow build-country-geometry.yml --event workflow_dispatch --limit 15 --json databaseId,createdAt --jq '[.[] | select(.createdAt >= "'"${started}"'")][0].databaseId // empty')"
+            [ -n "$run_id" ] && break
+            sleep 10
+          done
+          : "${run_id:?Country geometry workflow did not appear}"
+          gh run watch "$run_id" --exit-status --interval 20
+
+      - name: Publish and verify country registry
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in {1..40}; do
+            if curl --fail --silent --show-error --location --output /tmp/area-registry.json "${PAGES_URL}/area-registry-countries.json"; then
+              python -m json.tool /tmp/area-registry.json >/dev/null
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "Country registry not available on GitHub Pages" >&2
+          exit 1
+
+      - name: Build and publish statistics catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          started="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          gh workflow run publish-statistics-catalog.yml --ref main
+          run_id=""
+          for attempt in {1..40}; do
+            run_id="$(gh run list --workflow publish-statistics-catalog.yml --event workflow_dispatch --limit 15 --json databaseId,createdAt --jq '[.[] | select(.createdAt >= "'"${started}"'")][0].databaseId // empty')"
+            [ -n "$run_id" ] && break
+            sleep 10
+          done
+          : "${run_id:?Catalog workflow did not appear}"
+          gh run watch "$run_id" --exit-status --interval 15
+
+      - name: Verify published catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in {1..40}; do
+            if curl --fail --silent --show-error --location --output /tmp/statistics-index.json "${PAGES_URL}/statistics/index.json"; then
+              python -m json.tool /tmp/statistics-index.json >/dev/null
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "Statistics catalog not available on GitHub Pages" >&2
+          exit 1
+
+      - name: Launch all provider rebuilds
+        shell: bash
+        run: |
+          set -euo pipefail
+          count=0
+          for workflow in .github/workflows/build-*.yml; do
+            [ "$(basename "$workflow")" = "build-country-geometry.yml" ] && continue
+            echo "Dispatching $(basename "$workflow")"
+            gh workflow run "$(basename "$workflow")" --ref main
+            count=$((count+1))
+            if (( count % 4 == 0 )); then
+              sleep 10
+            fi
+          done
+          echo "Dispatched $count provider builds; inspect individual Action runs for results."
