@@ -35,6 +35,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: area-statistics-oecd-pisa-${{ github.ref }}
@@ -213,6 +214,8 @@ jobs:
 
       - name: Publish to GitHub Pages
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
