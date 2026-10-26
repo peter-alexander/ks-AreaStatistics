@@ -1,0 +1,111 @@
+name: Build UNODC statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 5 8 * *"
+  pull_request:
+    paths:
+      - "config/statistics-providers.json"
+      - "config/unodc-indicators.json"
+      - "config/unodc-violent-indicators.json"
+      - "scripts/build_unodc.py"
+      - "scripts/extend_unodc_violent.py"
+      - ".github/scripts/deploy-world-bank-statistics.sh"
+      - ".github/workflows/build-unodc-statistics.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "config/statistics-providers.json"
+      - "config/unodc-indicators.json"
+      - "config/unodc-violent-indicators.json"
+      - "scripts/build_unodc.py"
+      - "scripts/extend_unodc_violent.py"
+      - ".github/scripts/deploy-world-bank-statistics.sh"
+      - ".github/workflows/build-unodc-statistics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: area-statistics-unodc-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: python -m pip install --disable-pip-version-check openpyxl pycountry
+
+      - name: Validate scripts
+        run: |
+          python -m py_compile scripts/build_unodc.py scripts/extend_unodc_violent.py
+          python -m json.tool config/unodc-indicators.json >/dev/null
+          python -m json.tool config/unodc-violent-indicators.json >/dev/null
+
+      - name: Build UNODC statistics
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p diagnostics
+          REGISTRY_URL="https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          python scripts/build_unodc.py --registry "$REGISTRY_URL" 2>&1 | tee diagnostics/unodc.log
+          python scripts/extend_unodc_violent.py --registry "$REGISTRY_URL" 2>&1 | tee -a diagnostics/unodc.log
+
+      - name: Show statistics summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path("dist/statistics/unodc/index.json").read_text(encoding="utf-8"))
+          print(f"snapshot={payload['activeSnapshot']}")
+          print(f"retrievedAt={payload['retrievedAt']}")
+          print(f"downloadUrl={payload['dataset']['downloadUrl']}")
+          print(f"indicators={len(payload['indicators'])}")
+          for indicator in payload["indicators"]:
+          	coverage = indicator["coverage"]
+          	print(
+          		f"{indicator['id']}: defaultYear={indicator['defaultYear']} "
+          		f"areas={coverage['areasInDefaultYear']}/{coverage['registryAreas']} "
+          		f"years={indicator['availableYears'][0]}-{indicator['availableYears'][-1]}"
+          	)
+          PY
+          du -h dist/statistics/unodc/index.json
+          du -ch dist/statistics/unodc/releases/*/*.json | tail -n 1
+
+      - name: Upload statistics artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: unodc-statistics-${{ github.sha }}
+          path: dist/statistics/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish to GitHub Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          bash .github/scripts/publish-pages.sh provider unodc
+
+      - name: Upload diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unodc-statistics-diagnostics-${{ github.sha }}
+          path: diagnostics/
+          if-no-files-found: error
+          retention-days: 30
