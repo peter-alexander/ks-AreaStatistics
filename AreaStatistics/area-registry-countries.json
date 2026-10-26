@@ -1,0 +1,5381 @@
+{
+	"schema": "kartensammlung.area-registry/v1",
+	"generatedAt": "2026-10-26T21:36:53.339854Z",
+	"source": {
+		"name": "Overture Maps divisions",
+		"release": "2026-10-21.0",
+		"license": "ODbL-1.0",
+		"attribution": "© OpenStreetMap contributors, Overture Maps Foundation"
+	},
+	"areas": [
+		{
+			"area_id": "country:ABW",
+			"level": "country",
+			"name": {
+				"default": "Aruba",
+				"de": "Aruba"
+			},
+			"codes": {
+				"iso2": "AW",
+				"iso3": "ABW",
+				"m49": "533",
+				"overture": "2f122d23-ce17-42ea-8136-08cfb9dac314",
+				"wikidata": "Q21203"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Aruba",
+				"areaKm2": 181.8,
+				"labelRank": 223,
+				"overtureParentId": "08dcf896-627e-46e8-9439-3d905390b7c3"
+			}
+		},
+		{
+			"area_id": "country:AFG",
+			"level": "country",
+			"name": {
+				"default": "Afghanistan",
+				"de": "Afghanistan"
+			},
+			"codes": {
+				"iso2": "AF",
+				"iso3": "AFG",
+				"m49": "004",
+				"overture": "9c99b2fd-76c4-4f41-8460-6e80cc8c48e7",
+				"wikidata": "Q889"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "افغانستان",
+				"areaKm2": 641747.1,
+				"labelRank": 44
+			}
+		},
+		{
+			"area_id": "country:AGO",
+			"level": "country",
+			"name": {
+				"default": "Angola",
+				"de": "Angola"
+			},
+			"codes": {
+				"iso2": "AO",
+				"iso3": "AGO",
+				"m49": "024",
+				"overture": "1276fb9a-4ec3-4b74-a7a3-97ce3ff5fd57",
+				"wikidata": "Q916"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Angola",
+				"areaKm2": 1247545.0,
+				"labelRank": 24
+			}
+		},
+		{
+			"area_id": "country:AIA",
+			"level": "country",
+			"name": {
+				"default": "Anguilla",
+				"de": "Anguilla"
+			},
+			"codes": {
+				"iso2": "AI",
+				"iso3": "AIA",
+				"m49": "660",
+				"overture": "10eb67ad-accc-4456-a00d-86d23ad244f2",
+				"wikidata": "Q25228"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Anguilla",
+				"areaKm2": 82.1,
+				"labelRank": 232,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:ALA",
+			"level": "country",
+			"name": {
+				"default": "Åland-Inseln",
+				"de": "Åland-Inseln"
+			},
+			"codes": {
+				"iso2": "AX",
+				"iso3": "ALA",
+				"m49": "248",
+				"overture": "9c730c09-9a3e-4b01-9360-ea6bb378fe73",
+				"wikidata": "Q5689"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Åland",
+				"areaKm2": 1389.0,
+				"labelRank": 187,
+				"overtureParentId": "f768eb0c-a2a9-47d3-8ce3-99a522ca6d82"
+			}
+		},
+		{
+			"area_id": "country:ALB",
+			"level": "country",
+			"name": {
+				"default": "Albanien",
+				"de": "Albanien"
+			},
+			"codes": {
+				"iso2": "AL",
+				"iso3": "ALB",
+				"m49": "008",
+				"overture": "6409d01d-8474-4633-95cc-17f7c2c30798",
+				"wikidata": "Q222"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Shqipëria",
+				"areaKm2": 28796.2,
+				"labelRank": 145
+			}
+		},
+		{
+			"area_id": "country:AND",
+			"level": "country",
+			"name": {
+				"default": "Andorra",
+				"de": "Andorra"
+			},
+			"codes": {
+				"iso2": "AD",
+				"iso3": "AND",
+				"m49": "020",
+				"overture": "c8ddabc7-8bd8-4a96-afe1-853d2c1fdb7d",
+				"wikidata": "Q228"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Andorra",
+				"areaKm2": 467.5,
+				"labelRank": 202
+			}
+		},
+		{
+			"area_id": "country:ARE",
+			"level": "country",
+			"name": {
+				"default": "Vereinigte Arabische Emirate",
+				"de": "Vereinigte Arabische Emirate"
+			},
+			"codes": {
+				"iso2": "AE",
+				"iso3": "ARE",
+				"m49": "784",
+				"overture": "1ee938e9-ab5c-4a25-afca-a4e87ce721d4",
+				"wikidata": "Q878"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "الإمارات العربية المتحدة",
+				"areaKm2": 71077.5,
+				"labelRank": 121
+			}
+		},
+		{
+			"area_id": "country:ARG",
+			"level": "country",
+			"name": {
+				"default": "Argentinien",
+				"de": "Argentinien"
+			},
+			"codes": {
+				"iso2": "AR",
+				"iso3": "ARG",
+				"m49": "032",
+				"overture": "384a4265-38c3-44d1-b616-689e2bc77d9a",
+				"wikidata": "Q414"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Argentina",
+				"areaKm2": 2780160.0,
+				"labelRank": 9
+			}
+		},
+		{
+			"area_id": "country:ARM",
+			"level": "country",
+			"name": {
+				"default": "Armenien",
+				"de": "Armenien"
+			},
+			"codes": {
+				"iso2": "AM",
+				"iso3": "ARM",
+				"m49": "051",
+				"overture": "c987849d-0d01-42cf-b2da-fc29c65fcc9b",
+				"wikidata": "Q399"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Հայաստան",
+				"areaKm2": 29715.5,
+				"labelRank": 144
+			}
+		},
+		{
+			"area_id": "country:ASM",
+			"level": "country",
+			"name": {
+				"default": "Amerikanisch-Samoa",
+				"de": "Amerikanisch-Samoa"
+			},
+			"codes": {
+				"iso2": "AS",
+				"iso3": "ASM",
+				"m49": "016",
+				"overture": "14fcb133-b03f-4411-92b0-b6f9e59fb8f5",
+				"wikidata": "Q16641"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "American Samoa",
+				"areaKm2": 199.8,
+				"labelRank": 221,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:ATA",
+			"level": "country",
+			"name": {
+				"default": "Antarktis",
+				"de": "Antarktis"
+			},
+			"codes": {
+				"iso2": "AQ",
+				"iso3": "ATA",
+				"m49": "010",
+				"overture": "2ba5ad8b-6784-4088-87bb-50c14f2cbdc0",
+				"wikidata": "Q51"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Antarctica",
+				"areaKm2": 12991182.2,
+				"labelRank": 2
+			}
+		},
+		{
+			"area_id": "country:ATF",
+			"level": "country",
+			"name": {
+				"default": "Französische Süd- und Antarktisgebiete",
+				"de": "Französische Süd- und Antarktisgebiete"
+			},
+			"codes": {
+				"iso2": "TF",
+				"iso3": "ATF",
+				"m49": "260",
+				"overture": "837644a6-980b-4358-a93a-9ba85656a01a",
+				"wikidata": "Q129003"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Terres australes et antarctiques françaises",
+				"areaKm2": 7652.4,
+				"labelRank": 173,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:ATG",
+			"level": "country",
+			"name": {
+				"default": "Antigua und Barbuda",
+				"de": "Antigua und Barbuda"
+			},
+			"codes": {
+				"iso2": "AG",
+				"iso3": "ATG",
+				"m49": "028",
+				"overture": "483c0c25-bec0-475b-94b2-0eceb39c58f7",
+				"wikidata": "Q781"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Antigua and Barbuda",
+				"areaKm2": 457.3,
+				"labelRank": 203
+			}
+		},
+		{
+			"area_id": "country:AUS",
+			"level": "country",
+			"name": {
+				"default": "Australien",
+				"de": "Australien"
+			},
+			"codes": {
+				"iso2": "AU",
+				"iso3": "AUS",
+				"m49": "036",
+				"overture": "0ca3bee0-1166-43e1-a82d-f49e41127170",
+				"wikidata": "Q408"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Australia",
+				"areaKm2": 7687117.1,
+				"labelRank": 7
+			}
+		},
+		{
+			"area_id": "country:AUT",
+			"level": "country",
+			"name": {
+				"default": "Österreich",
+				"de": "Österreich"
+			},
+			"codes": {
+				"iso2": "AT",
+				"iso3": "AUT",
+				"m49": "040",
+				"overture": "ddfa4a50-340b-4432-abe4-215c72e6ebca",
+				"wikidata": "Q40"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Österreich",
+				"areaKm2": 83943.8,
+				"labelRank": 115
+			}
+		},
+		{
+			"area_id": "country:AZE",
+			"level": "country",
+			"name": {
+				"default": "Aserbaidschan",
+				"de": "Aserbaidschan"
+			},
+			"codes": {
+				"iso2": "AZ",
+				"iso3": "AZE",
+				"m49": "031",
+				"overture": "827d1842-72b3-470a-8bf0-68c2002c2a83",
+				"wikidata": "Q227"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Azərbaycan",
+				"areaKm2": 85964.8,
+				"labelRank": 114
+			}
+		},
+		{
+			"area_id": "country:BDI",
+			"level": "country",
+			"name": {
+				"default": "Burundi",
+				"de": "Burundi"
+			},
+			"codes": {
+				"iso2": "BI",
+				"iso3": "BDI",
+				"m49": "108",
+				"overture": "83ab52a5-6c35-4c9d-a64a-e0713a39634f",
+				"wikidata": "Q967"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Burundi",
+				"areaKm2": 26756.0,
+				"labelRank": 149
+			}
+		},
+		{
+			"area_id": "country:BEL",
+			"level": "country",
+			"name": {
+				"default": "Belgien",
+				"de": "Belgien"
+			},
+			"codes": {
+				"iso2": "BE",
+				"iso3": "BEL",
+				"m49": "056",
+				"overture": "3b17bdf3-f498-4c72-a5ff-8b281a9ee37d",
+				"wikidata": "Q31"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "België / Belgique / Belgien",
+				"areaKm2": 30669.3,
+				"labelRank": 142
+			}
+		},
+		{
+			"area_id": "country:BEN",
+			"level": "country",
+			"name": {
+				"default": "Benin",
+				"de": "Benin"
+			},
+			"codes": {
+				"iso2": "BJ",
+				"iso3": "BEN",
+				"m49": "204",
+				"overture": "4b6398a5-21d4-490a-9985-ac2bbdb96286",
+				"wikidata": "Q962"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Bénin",
+				"areaKm2": 115249.3,
+				"labelRank": 103
+			}
+		},
+		{
+			"area_id": "country:BES",
+			"level": "country",
+			"name": {
+				"default": "Bonaire, Sint Eustatius und Saba",
+				"de": "Bonaire, Sint Eustatius und Saba"
+			},
+			"codes": {
+				"iso2": "BQ",
+				"iso3": "BES",
+				"m49": "535",
+				"wikidata": "Q27561"
+			},
+			"metadata": {
+				"overtureSubtype": "composite",
+				"sourceName": "Bonaire, Sint Eustatius and Saba",
+				"areaKm2": 303.8,
+				"labelRank": 215,
+				"composition": [
+					{
+						"index": 0,
+						"overtureId": "6d7a3f5d-74d4-4665-b6b3-25891cbd0da4",
+						"subtype": "dependency",
+						"country": "BQ",
+						"name": "Bonaire",
+						"wikidata": "Q25396",
+						"parentId": "08dcf896-627e-46e8-9439-3d905390b7c3"
+					},
+					{
+						"index": 1,
+						"overtureId": "d6e9d025-bb94-4277-a9d4-721d7e54c21c",
+						"subtype": "dependency",
+						"country": "XE",
+						"name": "Sint Eustatius",
+						"wikidata": "Q26180",
+						"parentId": "08dcf896-627e-46e8-9439-3d905390b7c3"
+					},
+					{
+						"index": 2,
+						"overtureId": "84f04b83-ddb1-4c1e-a2c0-99e804745526",
+						"subtype": "dependency",
+						"country": "XS",
+						"name": "Saba",
+						"wikidata": "Q25528",
+						"parentId": "08dcf896-627e-46e8-9439-3d905390b7c3"
+					}
+				]
+			}
+		},
+		{
+			"area_id": "country:BFA",
+			"level": "country",
+			"name": {
+				"default": "Burkina Faso",
+				"de": "Burkina Faso"
+			},
+			"codes": {
+				"iso2": "BF",
+				"iso3": "BFA",
+				"m49": "854",
+				"overture": "55f95f1c-883a-4efb-b43a-142eabca14d7",
+				"wikidata": "Q965"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Burkina Faso",
+				"areaKm2": 273397.9,
+				"labelRank": 75
+			}
+		},
+		{
+			"area_id": "country:BGD",
+			"level": "country",
+			"name": {
+				"default": "Bangladesch",
+				"de": "Bangladesch"
+			},
+			"codes": {
+				"iso2": "BD",
+				"iso3": "BGD",
+				"m49": "050",
+				"overture": "50d252ed-bfb9-414f-9ff2-b0ddd1b514b5",
+				"wikidata": "Q902"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "বাংলাদেশ",
+				"areaKm2": 142254.4,
+				"labelRank": 96
+			}
+		},
+		{
+			"area_id": "country:BGR",
+			"level": "country",
+			"name": {
+				"default": "Bulgarien",
+				"de": "Bulgarien"
+			},
+			"codes": {
+				"iso2": "BG",
+				"iso3": "BGR",
+				"m49": "100",
+				"overture": "3c7b9605-a79d-44d6-b2db-9014dc53f297",
+				"wikidata": "Q219"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "България",
+				"areaKm2": 111019.1,
+				"labelRank": 105
+			}
+		},
+		{
+			"area_id": "country:BHR",
+			"level": "country",
+			"name": {
+				"default": "Bahrain",
+				"de": "Bahrain"
+			},
+			"codes": {
+				"iso2": "BH",
+				"iso3": "BHR",
+				"m49": "048",
+				"overture": "25529563-514b-4c58-affa-0f7a6212385b",
+				"wikidata": "Q398"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "البحرين",
+				"areaKm2": 792.9,
+				"labelRank": 193
+			}
+		},
+		{
+			"area_id": "country:BHS",
+			"level": "country",
+			"name": {
+				"default": "Bahamas",
+				"de": "Bahamas"
+			},
+			"codes": {
+				"iso2": "BS",
+				"iso3": "BHS",
+				"m49": "044",
+				"overture": "3f22c9de-8b84-40b0-a39e-8a482cb15921",
+				"wikidata": "Q778"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "The Bahamas",
+				"areaKm2": 12054.1,
+				"labelRank": 164
+			}
+		},
+		{
+			"area_id": "country:BIH",
+			"level": "country",
+			"name": {
+				"default": "Bosnien und Herzegowina",
+				"de": "Bosnien und Herzegowina"
+			},
+			"codes": {
+				"iso2": "BA",
+				"iso3": "BIH",
+				"m49": "070",
+				"overture": "c1120952-ab47-4385-afb2-5ad703e27464",
+				"wikidata": "Q225"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Bosna i Hercegovina / Босна и Херцеговина",
+				"areaKm2": 51226.4,
+				"labelRank": 130
+			}
+		},
+		{
+			"area_id": "country:BLM",
+			"level": "country",
+			"name": {
+				"default": "Saint-Barthélemy",
+				"de": "Saint-Barthélemy"
+			},
+			"codes": {
+				"iso2": "BL",
+				"iso3": "BLM",
+				"m49": "652",
+				"overture": "f7f00ea7-cbae-46f3-86e2-10a910f00c2e",
+				"wikidata": "Q25362"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Saint-Barthélemy",
+				"areaKm2": 20.3,
+				"labelRank": 245,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:BLR",
+			"level": "country",
+			"name": {
+				"default": "Belarus",
+				"de": "Belarus"
+			},
+			"codes": {
+				"iso2": "BY",
+				"iso3": "BLR",
+				"m49": "112",
+				"overture": "b4060ffb-0923-4966-bdbe-42a948d2b2ee",
+				"wikidata": "Q184"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Беларусь",
+				"areaKm2": 207582.4,
+				"labelRank": 87
+			}
+		},
+		{
+			"area_id": "country:BLZ",
+			"level": "country",
+			"name": {
+				"default": "Belize",
+				"de": "Belize"
+			},
+			"codes": {
+				"iso2": "BZ",
+				"iso3": "BLZ",
+				"m49": "084",
+				"overture": "2a0a3177-4e3d-4a66-a852-4d64467e3c54",
+				"wikidata": "Q242"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Belize",
+				"areaKm2": 22300.5,
+				"labelRank": 152
+			}
+		},
+		{
+			"area_id": "country:BMU",
+			"level": "country",
+			"name": {
+				"default": "Bermuda",
+				"de": "Bermuda"
+			},
+			"codes": {
+				"iso2": "BM",
+				"iso3": "BMU",
+				"m49": "060",
+				"overture": "0d6c2cc9-3b8e-44ba-95a6-954d24914431",
+				"wikidata": "Q23635"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Bermuda",
+				"areaKm2": 54.7,
+				"labelRank": 236,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:BOL",
+			"level": "country",
+			"name": {
+				"default": "Bolivien, Plurinationaler Staat",
+				"de": "Bolivien, Plurinationaler Staat"
+			},
+			"codes": {
+				"iso2": "BO",
+				"iso3": "BOL",
+				"m49": "068",
+				"overture": "10a1ae55-ddb4-47c2-b7da-951e93f27b5a",
+				"wikidata": "Q750"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Bolivia",
+				"areaKm2": 1083676.1,
+				"labelRank": 29
+			}
+		},
+		{
+			"area_id": "country:BRA",
+			"level": "country",
+			"name": {
+				"default": "Brasilien",
+				"de": "Brasilien"
+			},
+			"codes": {
+				"iso2": "BR",
+				"iso3": "BRA",
+				"m49": "076",
+				"overture": "6dd0e3d7-b16a-4d38-bffd-9f7e17627b40",
+				"wikidata": "Q155"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Brasil",
+				"areaKm2": 8507716.8,
+				"labelRank": 6
+			}
+		},
+		{
+			"area_id": "country:BRB",
+			"level": "country",
+			"name": {
+				"default": "Barbados",
+				"de": "Barbados"
+			},
+			"codes": {
+				"iso2": "BB",
+				"iso3": "BRB",
+				"m49": "052",
+				"overture": "6975aec9-e4a1-4eeb-b3d4-762e4d7ddb41",
+				"wikidata": "Q244"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Barbados",
+				"areaKm2": 432.9,
+				"labelRank": 205
+			}
+		},
+		{
+			"area_id": "country:BRN",
+			"level": "country",
+			"name": {
+				"default": "Brunei Darussalam",
+				"de": "Brunei Darussalam"
+			},
+			"codes": {
+				"iso2": "BN",
+				"iso3": "BRN",
+				"m49": "096",
+				"overture": "13920282-51ea-4366-917f-9558e16e739c",
+				"wikidata": "Q921"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Brunei بروني",
+				"areaKm2": 5872.9,
+				"labelRank": 175
+			}
+		},
+		{
+			"area_id": "country:BTN",
+			"level": "country",
+			"name": {
+				"default": "Bhutan",
+				"de": "Bhutan"
+			},
+			"codes": {
+				"iso2": "BT",
+				"iso3": "BTN",
+				"m49": "064",
+				"overture": "e9578cf1-1cfd-43c9-bcd4-a7d934e39319",
+				"wikidata": "Q917"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "འབྲུག་ཡུལ།",
+				"areaKm2": 37575.8,
+				"labelRank": 138
+			}
+		},
+		{
+			"area_id": "country:BVT",
+			"level": "country",
+			"name": {
+				"default": "Bouvet-Insel",
+				"de": "Bouvet-Insel"
+			},
+			"codes": {
+				"iso2": "BV",
+				"iso3": "BVT",
+				"m49": "074",
+				"overture": "d1ca1bac-ff27-48d8-9038-91d004d9ac52",
+				"wikidata": "Q23408"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Bouvetøya",
+				"areaKm2": 50.9,
+				"labelRank": 237,
+				"overtureParentId": "7dc338b3-52c8-4707-8e36-17ae035a64dd"
+			}
+		},
+		{
+			"area_id": "country:BWA",
+			"level": "country",
+			"name": {
+				"default": "Botsuana",
+				"de": "Botsuana"
+			},
+			"codes": {
+				"iso2": "BW",
+				"iso3": "BWA",
+				"m49": "072",
+				"overture": "4a78abec-6933-45af-ac57-5f9109b53dc2",
+				"wikidata": "Q963"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Botswana",
+				"areaKm2": 578153.0,
+				"labelRank": 50
+			}
+		},
+		{
+			"area_id": "country:CAF",
+			"level": "country",
+			"name": {
+				"default": "Zentralafrikanische Republik",
+				"de": "Zentralafrikanische Republik"
+			},
+			"codes": {
+				"iso2": "CF",
+				"iso3": "CAF",
+				"m49": "140",
+				"overture": "816d2258-6ced-452b-a1df-e9de5b5057a2",
+				"wikidata": "Q929"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ködörösêse tî Bêafrîka / République centrafricaine",
+				"areaKm2": 618718.8,
+				"labelRank": 46
+			}
+		},
+		{
+			"area_id": "country:CAN",
+			"level": "country",
+			"name": {
+				"default": "Kanada",
+				"de": "Kanada"
+			},
+			"codes": {
+				"iso2": "CA",
+				"iso3": "CAN",
+				"m49": "124",
+				"overture": "d5654a87-5adf-42b3-9ff7-c656797a1776",
+				"wikidata": "Q16"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Canada",
+				"areaKm2": 9966798.9,
+				"labelRank": 3
+			}
+		},
+		{
+			"area_id": "country:CCK",
+			"level": "country",
+			"name": {
+				"default": "Kokos-(Keeling-)Inseln",
+				"de": "Kokos-(Keeling-)Inseln"
+			},
+			"codes": {
+				"iso2": "CC",
+				"iso3": "CCK",
+				"m49": "166",
+				"overture": "1814b2ad-8d71-45d9-9e4c-b2c6e2fee1f0",
+				"wikidata": "Q36004"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Cocos (Keeling) Islands / Pulu Kokos (Keeling)",
+				"areaKm2": 12.7,
+				"labelRank": 246,
+				"overtureParentId": "0ca3bee0-1166-43e1-a82d-f49e41127170"
+			}
+		},
+		{
+			"area_id": "country:CHE",
+			"level": "country",
+			"name": {
+				"default": "Schweiz",
+				"de": "Schweiz"
+			},
+			"codes": {
+				"iso2": "CH",
+				"iso3": "CHE",
+				"m49": "756",
+				"overture": "b9aa06a1-b832-451f-bcf2-051719e749dd",
+				"wikidata": "Q39"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Schweiz/Suisse/Svizzera/Svizra",
+				"areaKm2": 41287.4,
+				"labelRank": 136
+			}
+		},
+		{
+			"area_id": "country:CHL",
+			"level": "country",
+			"name": {
+				"default": "Chile",
+				"de": "Chile"
+			},
+			"codes": {
+				"iso2": "CL",
+				"iso3": "CHL",
+				"m49": "152",
+				"overture": "2d446e66-eb0d-4fb5-9df3-d0652f6a1e42",
+				"wikidata": "Q298"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Chile",
+				"areaKm2": 752953.2,
+				"labelRank": 39
+			}
+		},
+		{
+			"area_id": "country:CHN",
+			"level": "country",
+			"name": {
+				"default": "China",
+				"de": "China"
+			},
+			"codes": {
+				"iso2": "CN",
+				"iso3": "CHN",
+				"m49": "156",
+				"overture": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be",
+				"wikidata": "Q148"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "中国",
+				"areaKm2": 9390760.6,
+				"labelRank": 5
+			}
+		},
+		{
+			"area_id": "country:CIV",
+			"level": "country",
+			"name": {
+				"default": "Côte d'Ivoire",
+				"de": "Côte d'Ivoire"
+			},
+			"codes": {
+				"iso2": "CI",
+				"iso3": "CIV",
+				"m49": "384",
+				"overture": "7f23502c-daed-4482-839c-83ff6627a770",
+				"wikidata": "Q1008"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Côte d’Ivoire",
+				"areaKm2": 321660.0,
+				"labelRank": 70
+			}
+		},
+		{
+			"area_id": "country:CMR",
+			"level": "country",
+			"name": {
+				"default": "Kamerun",
+				"de": "Kamerun"
+			},
+			"codes": {
+				"iso2": "CM",
+				"iso3": "CMR",
+				"m49": "120",
+				"overture": "922496b4-e2c9-4ec7-bf5d-86c67b75c661",
+				"wikidata": "Q1009"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Cameroun",
+				"areaKm2": 465372.0,
+				"labelRank": 55
+			}
+		},
+		{
+			"area_id": "country:COD",
+			"level": "country",
+			"name": {
+				"default": "Demokratische Republik Kongo",
+				"de": "Demokratische Republik Kongo"
+			},
+			"codes": {
+				"iso2": "CD",
+				"iso3": "COD",
+				"m49": "180",
+				"overture": "63015fdd-9139-467e-8597-0671c1a8bf84",
+				"wikidata": "Q974"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "République démocratique du Congo",
+				"areaKm2": 2330064.2,
+				"labelRank": 11
+			}
+		},
+		{
+			"area_id": "country:COG",
+			"level": "country",
+			"name": {
+				"default": "Kongo",
+				"de": "Kongo"
+			},
+			"codes": {
+				"iso2": "CG",
+				"iso3": "COG",
+				"m49": "178",
+				"overture": "d6265beb-7446-4e39-bba6-72603355c2de",
+				"wikidata": "Q971"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Congo",
+				"areaKm2": 342545.9,
+				"labelRank": 65
+			}
+		},
+		{
+			"area_id": "country:COK",
+			"level": "country",
+			"name": {
+				"default": "Cookinseln",
+				"de": "Cookinseln"
+			},
+			"codes": {
+				"iso2": "CK",
+				"iso3": "COK",
+				"m49": "184",
+				"overture": "3b66755f-ab7f-43c1-b133-8c004c74bab6",
+				"wikidata": "Q26988"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Kūki ʻĀirani",
+				"areaKm2": 221.0,
+				"labelRank": 220,
+				"overtureParentId": "89e73df8-d5ab-4156-9e83-140d1ee694c5"
+			}
+		},
+		{
+			"area_id": "country:COL",
+			"level": "country",
+			"name": {
+				"default": "Kolumbien",
+				"de": "Kolumbien"
+			},
+			"codes": {
+				"iso2": "CO",
+				"iso3": "COL",
+				"m49": "170",
+				"overture": "c7545d7e-b711-4ec3-aae9-6b41a386923c",
+				"wikidata": "Q739"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Colombia",
+				"areaKm2": 1138358.9,
+				"labelRank": 27
+			}
+		},
+		{
+			"area_id": "country:COM",
+			"level": "country",
+			"name": {
+				"default": "Komoren",
+				"de": "Komoren"
+			},
+			"codes": {
+				"iso2": "KM",
+				"iso3": "COM",
+				"m49": "174",
+				"overture": "6e91cf86-f410-4c1e-a6df-a3696ba9463e",
+				"wikidata": "Q970"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Comores Komori جزر القمر",
+				"areaKm2": 1651.3,
+				"labelRank": 184
+			}
+		},
+		{
+			"area_id": "country:CPV",
+			"level": "country",
+			"name": {
+				"default": "Kap Verde",
+				"de": "Kap Verde"
+			},
+			"codes": {
+				"iso2": "CV",
+				"iso3": "CPV",
+				"m49": "132",
+				"overture": "24305e21-b192-432c-8c49-16122da49f53",
+				"wikidata": "Q1011"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Cabo Verde",
+				"areaKm2": 4085.8,
+				"labelRank": 177
+			}
+		},
+		{
+			"area_id": "country:CRI",
+			"level": "country",
+			"name": {
+				"default": "Costa Rica",
+				"de": "Costa Rica"
+			},
+			"codes": {
+				"iso2": "CR",
+				"iso3": "CRI",
+				"m49": "188",
+				"overture": "b0320a6a-99df-49f9-964e-af5c23d82f51",
+				"wikidata": "Q800"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Costa Rica",
+				"areaKm2": 51181.9,
+				"labelRank": 131
+			}
+		},
+		{
+			"area_id": "country:CUB",
+			"level": "country",
+			"name": {
+				"default": "Kuba",
+				"de": "Kuba"
+			},
+			"codes": {
+				"iso2": "CU",
+				"iso3": "CUB",
+				"m49": "192",
+				"overture": "0fe7d82b-8cef-423b-be1b-b6205030ee6a",
+				"wikidata": "Q241"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Cuba",
+				"areaKm2": 110406.4,
+				"labelRank": 106
+			}
+		},
+		{
+			"area_id": "country:CUW",
+			"level": "country",
+			"name": {
+				"default": "Curaçao",
+				"de": "Curaçao"
+			},
+			"codes": {
+				"iso2": "CW",
+				"iso3": "CUW",
+				"m49": "531",
+				"overture": "eb45d1ef-6627-4a8a-ac08-316c5e8aa919",
+				"wikidata": "Q25279"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Curaçao",
+				"areaKm2": 430.6,
+				"labelRank": 206,
+				"overtureParentId": "08dcf896-627e-46e8-9439-3d905390b7c3"
+			}
+		},
+		{
+			"area_id": "country:CXR",
+			"level": "country",
+			"name": {
+				"default": "Weihnachtsinseln",
+				"de": "Weihnachtsinseln"
+			},
+			"codes": {
+				"iso2": "CX",
+				"iso3": "CXR",
+				"m49": "162",
+				"overture": "81ce29fe-a9d1-467a-8d3c-8cf1ecd31a38",
+				"wikidata": "Q31063"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Christmas Island",
+				"areaKm2": 138.9,
+				"labelRank": 228,
+				"overtureParentId": "0ca3bee0-1166-43e1-a82d-f49e41127170"
+			}
+		},
+		{
+			"area_id": "country:CYM",
+			"level": "country",
+			"name": {
+				"default": "Cayman-Inseln",
+				"de": "Cayman-Inseln"
+			},
+			"codes": {
+				"iso2": "KY",
+				"iso3": "CYM",
+				"m49": "136",
+				"overture": "51cd99a2-1c48-4bac-913f-ce9648f62fec",
+				"wikidata": "Q5785"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Cayman Islands",
+				"areaKm2": 259.4,
+				"labelRank": 217,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:CYP",
+			"level": "country",
+			"name": {
+				"default": "Zypern",
+				"de": "Zypern"
+			},
+			"codes": {
+				"iso2": "CY",
+				"iso3": "CYP",
+				"m49": "196",
+				"overture": "8d41f9ea-39ea-478e-a882-4c3e4ca8d8a4",
+				"wikidata": "Q229"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Κύπρος - Kıbrıs",
+				"areaKm2": 9277.5,
+				"labelRank": 171
+			}
+		},
+		{
+			"area_id": "country:CZE",
+			"level": "country",
+			"name": {
+				"default": "Tschechien",
+				"de": "Tschechien"
+			},
+			"codes": {
+				"iso2": "CZ",
+				"iso3": "CZE",
+				"m49": "203",
+				"overture": "c168e1f7-0cd7-42f2-9ae9-77932106476d",
+				"wikidata": "Q213"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Česko",
+				"areaKm2": 78874.0,
+				"labelRank": 117
+			}
+		},
+		{
+			"area_id": "country:DEU",
+			"level": "country",
+			"name": {
+				"default": "Deutschland",
+				"de": "Deutschland"
+			},
+			"codes": {
+				"iso2": "DE",
+				"iso3": "DEU",
+				"m49": "276",
+				"overture": "567d1698-7209-4b94-b7b8-0bc71bde0104",
+				"wikidata": "Q183"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Deutschland",
+				"areaKm2": 357629.7,
+				"labelRank": 64
+			}
+		},
+		{
+			"area_id": "country:DJI",
+			"level": "country",
+			"name": {
+				"default": "Dschibuti",
+				"de": "Dschibuti"
+			},
+			"codes": {
+				"iso2": "DJ",
+				"iso3": "DJI",
+				"m49": "262",
+				"overture": "a476d8ac-c8d3-4ae3-a38c-ec8c97c5953c",
+				"wikidata": "Q977"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Djibouti جيبوتي",
+				"areaKm2": 21665.2,
+				"labelRank": 153
+			}
+		},
+		{
+			"area_id": "country:DMA",
+			"level": "country",
+			"name": {
+				"default": "Dominica",
+				"de": "Dominica"
+			},
+			"codes": {
+				"iso2": "DM",
+				"iso3": "DMA",
+				"m49": "212",
+				"overture": "e824754c-b5e8-441c-93dd-4eb88da4f2d0",
+				"wikidata": "Q784"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Dominica",
+				"areaKm2": 757.6,
+				"labelRank": 195
+			}
+		},
+		{
+			"area_id": "country:DNK",
+			"level": "country",
+			"name": {
+				"default": "Dänemark",
+				"de": "Dänemark"
+			},
+			"codes": {
+				"iso2": "DK",
+				"iso3": "DNK",
+				"m49": "208",
+				"overture": "443c66c5-ab9d-4b7a-9223-e5b0811a21b1",
+				"wikidata": "Q35"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Danmark",
+				"areaKm2": 43119.3,
+				"labelRank": 135
+			}
+		},
+		{
+			"area_id": "country:DOM",
+			"level": "country",
+			"name": {
+				"default": "Dominikanische Republik",
+				"de": "Dominikanische Republik"
+			},
+			"codes": {
+				"iso2": "DO",
+				"iso3": "DOM",
+				"m49": "214",
+				"overture": "bbd49694-b20e-4be9-ae71-b4dea67d7bf0",
+				"wikidata": "Q786"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "República Dominicana",
+				"areaKm2": 48206.3,
+				"labelRank": 133
+			}
+		},
+		{
+			"area_id": "country:DZA",
+			"level": "country",
+			"name": {
+				"default": "Algerien",
+				"de": "Algerien"
+			},
+			"codes": {
+				"iso2": "DZ",
+				"iso3": "DZA",
+				"m49": "012",
+				"overture": "b51e761d-a756-4608-81ae-b562f90be9f4",
+				"wikidata": "Q262"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+				"areaKm2": 2309972.6,
+				"labelRank": 12
+			}
+		},
+		{
+			"area_id": "country:ECU",
+			"level": "country",
+			"name": {
+				"default": "Ecuador",
+				"de": "Ecuador"
+			},
+			"codes": {
+				"iso2": "EC",
+				"iso3": "ECU",
+				"m49": "218",
+				"overture": "577750a0-cfee-454d-996c-dd5867f185ee",
+				"wikidata": "Q736"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ecuador",
+				"areaKm2": 255849.0,
+				"labelRank": 79
+			}
+		},
+		{
+			"area_id": "country:EGY",
+			"level": "country",
+			"name": {
+				"default": "Ägypten",
+				"de": "Ägypten"
+			},
+			"codes": {
+				"iso2": "EG",
+				"iso3": "EGY",
+				"m49": "818",
+				"overture": "1f67a0a2-4291-43ec-9395-76f3bc95e1b3",
+				"wikidata": "Q79"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "مصر",
+				"areaKm2": 1000484.9,
+				"labelRank": 31
+			}
+		},
+		{
+			"area_id": "country:ERI",
+			"level": "country",
+			"name": {
+				"default": "Eritrea",
+				"de": "Eritrea"
+			},
+			"codes": {
+				"iso2": "ER",
+				"iso3": "ERI",
+				"m49": "232",
+				"overture": "bd30ee08-8085-4195-a6f7-4d3f0b107b4b",
+				"wikidata": "Q986"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ኤርትራ Eritrea إرتريا",
+				"areaKm2": 120382.8,
+				"labelRank": 101
+			}
+		},
+		{
+			"area_id": "country:ESH",
+			"level": "country",
+			"name": {
+				"default": "Westsahara",
+				"de": "Westsahara"
+			},
+			"codes": {
+				"iso2": "EH",
+				"iso3": "ESH",
+				"m49": "732",
+				"wikidata": "Q6250"
+			},
+			"metadata": {
+				"overtureSubtype": "composite",
+				"sourceName": "Western Sahara",
+				"areaKm2": 267997.7,
+				"labelRank": 77,
+				"composition": [
+					{
+						"index": 0,
+						"overtureId": "78210ebe-151f-4614-9619-73087ecfc7d1",
+						"subtype": "region",
+						"country": "MA",
+						"name": "الصحراء الغربية",
+						"wikidata": "Q6250",
+						"parentId": "d5178a1a-316b-449c-8154-390a290451f5"
+					}
+				]
+			}
+		},
+		{
+			"area_id": "country:ESP",
+			"level": "country",
+			"name": {
+				"default": "Spanien",
+				"de": "Spanien"
+			},
+			"codes": {
+				"iso2": "ES",
+				"iso3": "ESP",
+				"m49": "724",
+				"overture": "a1848d2c-d37f-4009-9410-e13a97d9e6ae",
+				"wikidata": "Q29"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "España",
+				"areaKm2": 506120.7,
+				"labelRank": 53
+			}
+		},
+		{
+			"area_id": "country:EST",
+			"level": "country",
+			"name": {
+				"default": "Estland",
+				"de": "Estland"
+			},
+			"codes": {
+				"iso2": "EE",
+				"iso3": "EST",
+				"m49": "233",
+				"overture": "948cfb4d-18d0-4340-bd0d-6b52f65716b4",
+				"wikidata": "Q191"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Eesti",
+				"areaKm2": 45393.4,
+				"labelRank": 134
+			}
+		},
+		{
+			"area_id": "country:ETH",
+			"level": "country",
+			"name": {
+				"default": "Äthiopien",
+				"de": "Äthiopien"
+			},
+			"codes": {
+				"iso2": "ET",
+				"iso3": "ETH",
+				"m49": "231",
+				"overture": "9a5b49e8-ab53-4f46-945c-d580303e1551",
+				"wikidata": "Q115"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ethiopia",
+				"areaKm2": 1127026.7,
+				"labelRank": 28
+			}
+		},
+		{
+			"area_id": "country:FIN",
+			"level": "country",
+			"name": {
+				"default": "Finnland",
+				"de": "Finnland"
+			},
+			"codes": {
+				"iso2": "FI",
+				"iso3": "FIN",
+				"m49": "246",
+				"overture": "f768eb0c-a2a9-47d3-8ce3-99a522ca6d82",
+				"wikidata": "Q33"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Suomi / Finland",
+				"areaKm2": 336198.7,
+				"labelRank": 66
+			}
+		},
+		{
+			"area_id": "country:FJI",
+			"level": "country",
+			"name": {
+				"default": "Fidschi",
+				"de": "Fidschi"
+			},
+			"codes": {
+				"iso2": "FJ",
+				"iso3": "FJI",
+				"m49": "242",
+				"overture": "c71a638a-7a36-418d-9409-6f47be40ba09",
+				"wikidata": "Q712"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Viti",
+				"areaKm2": 18699.2,
+				"labelRank": 157
+			}
+		},
+		{
+			"area_id": "country:FLK",
+			"level": "country",
+			"name": {
+				"default": "Falklandinseln (Malwinen)",
+				"de": "Falklandinseln (Malwinen)"
+			},
+			"codes": {
+				"iso2": "FK",
+				"iso3": "FLK",
+				"m49": "238",
+				"overture": "bde52d77-0aab-4c1d-b1e2-fc748d07ef86",
+				"wikidata": "Q9648"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Falkland Islands",
+				"areaKm2": 11929.5,
+				"labelRank": 165,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:FRA",
+			"level": "country",
+			"name": {
+				"default": "Frankreich",
+				"de": "Frankreich"
+			},
+			"codes": {
+				"iso2": "FR",
+				"iso3": "FRA",
+				"m49": "250",
+				"overture": "6fc195b5-361b-487d-99a9-debff18b67c7",
+				"wikidata": "Q142"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "France",
+				"areaKm2": 549239.1,
+				"labelRank": 51
+			}
+		},
+		{
+			"area_id": "country:FRO",
+			"level": "country",
+			"name": {
+				"default": "Färöer-Inseln",
+				"de": "Färöer-Inseln"
+			},
+			"codes": {
+				"iso2": "FO",
+				"iso3": "FRO",
+				"m49": "234",
+				"overture": "d27543ff-a161-4fee-921e-466a6638a90b",
+				"wikidata": "Q4628"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Føroyar",
+				"areaKm2": 1392.7,
+				"labelRank": 186,
+				"overtureParentId": "443c66c5-ab9d-4b7a-9223-e5b0811a21b1"
+			}
+		},
+		{
+			"area_id": "country:FSM",
+			"level": "country",
+			"name": {
+				"default": "Mikronesien, Föderierte Staaten von",
+				"de": "Mikronesien, Föderierte Staaten von"
+			},
+			"codes": {
+				"iso2": "FM",
+				"iso3": "FSM",
+				"m49": "583",
+				"overture": "9ff8a07d-4ea0-4e15-837a-0a9cc8f1df6e",
+				"wikidata": "Q702"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Micronesia",
+				"areaKm2": 670.6,
+				"labelRank": 197
+			}
+		},
+		{
+			"area_id": "country:GAB",
+			"level": "country",
+			"name": {
+				"default": "Gabun",
+				"de": "Gabun"
+			},
+			"codes": {
+				"iso2": "GA",
+				"iso3": "GAB",
+				"m49": "266",
+				"overture": "d6aa2afc-1582-43a3-98b6-6c1e2387d802",
+				"wikidata": "Q1000"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Gabon",
+				"areaKm2": 263800.4,
+				"labelRank": 78
+			}
+		},
+		{
+			"area_id": "country:GBR",
+			"level": "country",
+			"name": {
+				"default": "Vereinigtes Königreich",
+				"de": "Vereinigtes Königreich"
+			},
+			"codes": {
+				"iso2": "GB",
+				"iso3": "GBR",
+				"m49": "826",
+				"overture": "ce3429b1-d5c6-4763-91e7-0107e26d613e",
+				"wikidata": "Q145"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "United Kingdom",
+				"areaKm2": 244374.0,
+				"labelRank": 81
+			}
+		},
+		{
+			"area_id": "country:GEO",
+			"level": "country",
+			"name": {
+				"default": "Georgien",
+				"de": "Georgien"
+			},
+			"codes": {
+				"iso2": "GE",
+				"iso3": "GEO",
+				"m49": "268",
+				"overture": "8633e6c9-8435-4e4d-a925-adf491445f6f",
+				"wikidata": "Q230"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "საქართველო",
+				"areaKm2": 69653.3,
+				"labelRank": 123
+			}
+		},
+		{
+			"area_id": "country:GGY",
+			"level": "country",
+			"name": {
+				"default": "Guernsey",
+				"de": "Guernsey"
+			},
+			"codes": {
+				"iso2": "GG",
+				"iso3": "GGY",
+				"m49": "831",
+				"overture": "02f41fe1-fded-49db-bad7-1c57346ce2c1",
+				"wikidata": "Q25230"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Guernsey",
+				"areaKm2": 81.8,
+				"labelRank": 233,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:GHA",
+			"level": "country",
+			"name": {
+				"default": "Ghana",
+				"de": "Ghana"
+			},
+			"codes": {
+				"iso2": "GH",
+				"iso3": "GHA",
+				"m49": "288",
+				"overture": "540db43a-fe19-4d74-8900-1f416cab8f75",
+				"wikidata": "Q117"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ghana",
+				"areaKm2": 238913.7,
+				"labelRank": 83
+			}
+		},
+		{
+			"area_id": "country:GIB",
+			"level": "country",
+			"name": {
+				"default": "Gibraltar",
+				"de": "Gibraltar"
+			},
+			"codes": {
+				"iso2": "GI",
+				"iso3": "GIB",
+				"m49": "292",
+				"overture": "eca29ab3-5e4d-4c6c-999c-78aa29be2806",
+				"wikidata": "Q1410"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Gibraltar",
+				"areaKm2": 5.9,
+				"labelRank": 248,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:GIN",
+			"level": "country",
+			"name": {
+				"default": "Guinea",
+				"de": "Guinea"
+			},
+			"codes": {
+				"iso2": "GN",
+				"iso3": "GIN",
+				"m49": "324",
+				"overture": "9769da35-8443-4c32-8ce7-f9e0f8b3437a",
+				"wikidata": "Q1006"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Guinée",
+				"areaKm2": 244901.2,
+				"labelRank": 80
+			}
+		},
+		{
+			"area_id": "country:GLP",
+			"level": "country",
+			"name": {
+				"default": "Guadeloupe",
+				"de": "Guadeloupe"
+			},
+			"codes": {
+				"iso2": "GP",
+				"iso3": "GLP",
+				"m49": "312",
+				"overture": "e8086a8c-692b-4201-94ce-5ce9d3af1042",
+				"wikidata": "Q17012"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Guadeloupe",
+				"areaKm2": 1644.0,
+				"labelRank": 185,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:GMB",
+			"level": "country",
+			"name": {
+				"default": "Gambia",
+				"de": "Gambia"
+			},
+			"codes": {
+				"iso2": "GM",
+				"iso3": "GMB",
+				"m49": "270",
+				"overture": "04b8a6ab-a5a1-45fe-a569-1d296454f583",
+				"wikidata": "Q1005"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Gambia",
+				"areaKm2": 11281.9,
+				"labelRank": 167
+			}
+		},
+		{
+			"area_id": "country:GNB",
+			"level": "country",
+			"name": {
+				"default": "Guinea-Bissau",
+				"de": "Guinea-Bissau"
+			},
+			"codes": {
+				"iso2": "GW",
+				"iso3": "GNB",
+				"m49": "624",
+				"overture": "b0ba5f09-1d33-4e26-b08d-efc4f9203618",
+				"wikidata": "Q1007"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Guiné-Bissau",
+				"areaKm2": 34628.1,
+				"labelRank": 140
+			}
+		},
+		{
+			"area_id": "country:GNQ",
+			"level": "country",
+			"name": {
+				"default": "Äquatorialguinea",
+				"de": "Äquatorialguinea"
+			},
+			"codes": {
+				"iso2": "GQ",
+				"iso3": "GNQ",
+				"m49": "226",
+				"overture": "487889c7-ab81-4a8a-a273-69b6d7c96c09",
+				"wikidata": "Q983"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Guinea Ecuatorial",
+				"areaKm2": 26962.5,
+				"labelRank": 147
+			}
+		},
+		{
+			"area_id": "country:GRC",
+			"level": "country",
+			"name": {
+				"default": "Griechenland",
+				"de": "Griechenland"
+			},
+			"codes": {
+				"iso2": "GR",
+				"iso3": "GRC",
+				"m49": "300",
+				"overture": "94300abf-bb2c-4fa6-855c-d1d847d778ac",
+				"wikidata": "Q41"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ελλάς",
+				"areaKm2": 132313.3,
+				"labelRank": 98
+			}
+		},
+		{
+			"area_id": "country:GRD",
+			"level": "country",
+			"name": {
+				"default": "Grenada",
+				"de": "Grenada"
+			},
+			"codes": {
+				"iso2": "GD",
+				"iso3": "GRD",
+				"m49": "308",
+				"overture": "59ed93f7-2572-4f0d-b8a1-2cf4b7bb112f",
+				"wikidata": "Q769"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Grenada",
+				"areaKm2": 356.2,
+				"labelRank": 212
+			}
+		},
+		{
+			"area_id": "country:GRL",
+			"level": "country",
+			"name": {
+				"default": "Grönland",
+				"de": "Grönland"
+			},
+			"codes": {
+				"iso2": "GL",
+				"iso3": "GRL",
+				"m49": "304",
+				"overture": "3299e155-a679-4baa-acbd-8e42624af862",
+				"wikidata": "Q223"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Kalaallit Nunaat",
+				"areaKm2": 2161738.4,
+				"labelRank": 13,
+				"overtureParentId": "443c66c5-ab9d-4b7a-9223-e5b0811a21b1"
+			}
+		},
+		{
+			"area_id": "country:GTM",
+			"level": "country",
+			"name": {
+				"default": "Guatemala",
+				"de": "Guatemala"
+			},
+			"codes": {
+				"iso2": "GT",
+				"iso3": "GTM",
+				"m49": "320",
+				"overture": "388f9999-c6d4-476d-bcce-320c5080c811",
+				"wikidata": "Q774"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Guatemala",
+				"areaKm2": 108946.6,
+				"labelRank": 107
+			}
+		},
+		{
+			"area_id": "country:GUF",
+			"level": "country",
+			"name": {
+				"default": "Französisch-Guyana",
+				"de": "Französisch-Guyana"
+			},
+			"codes": {
+				"iso2": "GF",
+				"iso3": "GUF",
+				"m49": "254",
+				"overture": "99714011-1540-446e-930f-a2cd83d5a665",
+				"wikidata": "Q3769"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Guyane",
+				"areaKm2": 83597.4,
+				"labelRank": 116,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:GUM",
+			"level": "country",
+			"name": {
+				"default": "Guam",
+				"de": "Guam"
+			},
+			"codes": {
+				"iso2": "GU",
+				"iso3": "GUM",
+				"m49": "316",
+				"overture": "3c785e25-5493-440c-8ca6-8d23a16634ed",
+				"wikidata": "Q16635"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Guam",
+				"areaKm2": 542.9,
+				"labelRank": 200,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:GUY",
+			"level": "country",
+			"name": {
+				"default": "Guyana",
+				"de": "Guyana"
+			},
+			"codes": {
+				"iso2": "GY",
+				"iso3": "GUY",
+				"m49": "328",
+				"overture": "c9649b8d-bfea-4869-9bc5-a84c2f913d4c",
+				"wikidata": "Q734"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Guyana",
+				"areaKm2": 211114.0,
+				"labelRank": 86
+			}
+		},
+		{
+			"area_id": "country:HKG",
+			"level": "country",
+			"name": {
+				"default": "Hongkong",
+				"de": "Hongkong"
+			},
+			"codes": {
+				"iso2": "HK",
+				"iso3": "HKG",
+				"m49": "344",
+				"overture": "b4f09a9f-4cba-4a7c-bf58-2e63bc2e913d",
+				"wikidata": "Q8646"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Hong Kong SAR",
+				"areaKm2": 1106.5,
+				"labelRank": 188,
+				"overtureParentId": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be"
+			}
+		},
+		{
+			"area_id": "country:HMD",
+			"level": "country",
+			"name": {
+				"default": "Heard und McDonaldinseln",
+				"de": "Heard und McDonaldinseln"
+			},
+			"codes": {
+				"iso2": "HM",
+				"iso3": "HMD",
+				"m49": "334",
+				"overture": "f273d89d-362d-4517-aea3-cdf95dc60ee1",
+				"wikidata": "Q131198"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Heard Island and McDonald Islands",
+				"areaKm2": 370.2,
+				"labelRank": 211,
+				"overtureParentId": "0ca3bee0-1166-43e1-a82d-f49e41127170"
+			}
+		},
+		{
+			"area_id": "country:HND",
+			"level": "country",
+			"name": {
+				"default": "Honduras",
+				"de": "Honduras"
+			},
+			"codes": {
+				"iso2": "HN",
+				"iso3": "HND",
+				"m49": "340",
+				"overture": "5ad17f79-b6db-4596-9f0d-bae5d3dbc684",
+				"wikidata": "Q783"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Honduras",
+				"areaKm2": 112042.9,
+				"labelRank": 104
+			}
+		},
+		{
+			"area_id": "country:HRV",
+			"level": "country",
+			"name": {
+				"default": "Kroatien",
+				"de": "Kroatien"
+			},
+			"codes": {
+				"iso2": "HR",
+				"iso3": "HRV",
+				"m49": "191",
+				"overture": "f73deb60-0560-48b5-a704-8739747c4ab5",
+				"wikidata": "Q224"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Hrvatska",
+				"areaKm2": 56416.4,
+				"labelRank": 129
+			}
+		},
+		{
+			"area_id": "country:HTI",
+			"level": "country",
+			"name": {
+				"default": "Haiti",
+				"de": "Haiti"
+			},
+			"codes": {
+				"iso2": "HT",
+				"iso3": "HTI",
+				"m49": "332",
+				"overture": "a2881cfc-d758-4e09-812a-ab65c9439bac",
+				"wikidata": "Q790"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ayiti",
+				"areaKm2": 26947.5,
+				"labelRank": 148
+			}
+		},
+		{
+			"area_id": "country:HUN",
+			"level": "country",
+			"name": {
+				"default": "Ungarn",
+				"de": "Ungarn"
+			},
+			"codes": {
+				"iso2": "HU",
+				"iso3": "HUN",
+				"m49": "348",
+				"overture": "4e483a9b-1217-4d03-a279-6576884012a4",
+				"wikidata": "Q28"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Magyarország",
+				"areaKm2": 93011.9,
+				"labelRank": 111
+			}
+		},
+		{
+			"area_id": "country:IDN",
+			"level": "country",
+			"name": {
+				"default": "Indonesien",
+				"de": "Indonesien"
+			},
+			"codes": {
+				"iso2": "ID",
+				"iso3": "IDN",
+				"m49": "360",
+				"overture": "b86e56ae-ee94-482c-952d-395d0caf97cf",
+				"wikidata": "Q252"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Indonesia",
+				"areaKm2": 1889205.2,
+				"labelRank": 16
+			}
+		},
+		{
+			"area_id": "country:IMN",
+			"level": "country",
+			"name": {
+				"default": "Insel Man",
+				"de": "Insel Man"
+			},
+			"codes": {
+				"iso2": "IM",
+				"iso3": "IMN",
+				"m49": "833",
+				"overture": "9fbd455d-cd8d-4eb4-a1a9-9236f9407d35",
+				"wikidata": "Q9676"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Isle of Man",
+				"areaKm2": 573.8,
+				"labelRank": 199,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:IND",
+			"level": "country",
+			"name": {
+				"default": "Indien",
+				"de": "Indien"
+			},
+			"codes": {
+				"iso2": "IN",
+				"iso3": "IND",
+				"m49": "356",
+				"overture": "c3edf10a-fe23-4c7e-a777-52199ac7df8e",
+				"wikidata": "Q668"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "India",
+				"areaKm2": 3149959.7,
+				"labelRank": 8
+			}
+		},
+		{
+			"area_id": "country:IOT",
+			"level": "country",
+			"name": {
+				"default": "Britisches Territorium im Indischen Ozean",
+				"de": "Britisches Territorium im Indischen Ozean"
+			},
+			"codes": {
+				"iso2": "IO",
+				"iso3": "IOT",
+				"m49": "086",
+				"overture": "a292554b-c5c4-4a7e-862c-ecac1543155d",
+				"wikidata": "Q43448"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "British Indian Ocean Territory",
+				"areaKm2": 55.9,
+				"labelRank": 235,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:IRL",
+			"level": "country",
+			"name": {
+				"default": "Irland",
+				"de": "Irland"
+			},
+			"codes": {
+				"iso2": "IE",
+				"iso3": "IRL",
+				"m49": "372",
+				"overture": "26eb817c-9361-444c-87f8-892d107b0c97",
+				"wikidata": "Q27"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Éire / Ireland",
+				"areaKm2": 69893.8,
+				"labelRank": 122
+			}
+		},
+		{
+			"area_id": "country:IRN",
+			"level": "country",
+			"name": {
+				"default": "Iran, Islamische Republik",
+				"de": "Iran, Islamische Republik"
+			},
+			"codes": {
+				"iso2": "IR",
+				"iso3": "IRN",
+				"m49": "364",
+				"overture": "2a83db88-69ac-4a23-8af0-b4bddd988612",
+				"wikidata": "Q794"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ایران",
+				"areaKm2": 1623142.1,
+				"labelRank": 18
+			}
+		},
+		{
+			"area_id": "country:IRQ",
+			"level": "country",
+			"name": {
+				"default": "Irak",
+				"de": "Irak"
+			},
+			"codes": {
+				"iso2": "IQ",
+				"iso3": "IRQ",
+				"m49": "368",
+				"overture": "b6253d2b-8ccf-4f3c-bab9-11e9fc6e6d5c",
+				"wikidata": "Q796"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "العراق",
+				"areaKm2": 437216.9,
+				"labelRank": 60
+			}
+		},
+		{
+			"area_id": "country:ISL",
+			"level": "country",
+			"name": {
+				"default": "Island",
+				"de": "Island"
+			},
+			"codes": {
+				"iso2": "IS",
+				"iso3": "ISL",
+				"m49": "352",
+				"overture": "911c2bdf-e87d-4b11-9aa7-162dcf129c7c",
+				"wikidata": "Q189"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ísland",
+				"areaKm2": 102865.8,
+				"labelRank": 108
+			}
+		},
+		{
+			"area_id": "country:ISR",
+			"level": "country",
+			"name": {
+				"default": "Israel",
+				"de": "Israel"
+			},
+			"codes": {
+				"iso2": "IL",
+				"iso3": "ISR",
+				"m49": "376",
+				"overture": "304c055c-1116-4844-8b3f-8a2da41d5c86",
+				"wikidata": "Q801"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ישראל",
+				"areaKm2": 20809.2,
+				"labelRank": 154
+			}
+		},
+		{
+			"area_id": "country:ITA",
+			"level": "country",
+			"name": {
+				"default": "Italien",
+				"de": "Italien"
+			},
+			"codes": {
+				"iso2": "IT",
+				"iso3": "ITA",
+				"m49": "380",
+				"overture": "ce63abf0-b955-4f29-b40a-20c569b53da4",
+				"wikidata": "Q38"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Italia",
+				"areaKm2": 301679.8,
+				"labelRank": 73
+			}
+		},
+		{
+			"area_id": "country:JAM",
+			"level": "country",
+			"name": {
+				"default": "Jamaika",
+				"de": "Jamaika"
+			},
+			"codes": {
+				"iso2": "JM",
+				"iso3": "JAM",
+				"m49": "388",
+				"overture": "a1c20041-1528-47f0-a560-adce9ca43e8c",
+				"wikidata": "Q766"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Jamaica",
+				"areaKm2": 10985.2,
+				"labelRank": 168
+			}
+		},
+		{
+			"area_id": "country:JEY",
+			"level": "country",
+			"name": {
+				"default": "Jersey",
+				"de": "Jersey"
+			},
+			"codes": {
+				"iso2": "JE",
+				"iso3": "JEY",
+				"m49": "832",
+				"overture": "99059be8-63db-4545-86c3-1a56f63aad00",
+				"wikidata": "Q785"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Jersey",
+				"areaKm2": 124.3,
+				"labelRank": 229,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:JOR",
+			"level": "country",
+			"name": {
+				"default": "Jordanien",
+				"de": "Jordanien"
+			},
+			"codes": {
+				"iso2": "JO",
+				"iso3": "JOR",
+				"m49": "400",
+				"overture": "8cac2de1-d406-4e15-93ae-20b9c721b5e8",
+				"wikidata": "Q810"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "الأردن",
+				"areaKm2": 89187.3,
+				"labelRank": 113
+			}
+		},
+		{
+			"area_id": "country:JPN",
+			"level": "country",
+			"name": {
+				"default": "Japan",
+				"de": "Japan"
+			},
+			"codes": {
+				"iso2": "JP",
+				"iso3": "JPN",
+				"m49": "392",
+				"overture": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+				"wikidata": "Q17"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "日本",
+				"areaKm2": 373178.3,
+				"labelRank": 63
+			}
+		},
+		{
+			"area_id": "country:KAZ",
+			"level": "country",
+			"name": {
+				"default": "Kasachstan",
+				"de": "Kasachstan"
+			},
+			"codes": {
+				"iso2": "KZ",
+				"iso3": "KAZ",
+				"m49": "398",
+				"overture": "d7a0b790-da5f-4853-951c-780f12e1131b",
+				"wikidata": "Q232"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Қазақстан",
+				"areaKm2": 2727088.5,
+				"labelRank": 10
+			}
+		},
+		{
+			"area_id": "country:KEN",
+			"level": "country",
+			"name": {
+				"default": "Kenia",
+				"de": "Kenia"
+			},
+			"codes": {
+				"iso2": "KE",
+				"iso3": "KEN",
+				"m49": "404",
+				"overture": "c4cf04a5-c374-4943-84c9-2868fdb47fde",
+				"wikidata": "Q114"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Kenya",
+				"areaKm2": 585303.1,
+				"labelRank": 49
+			}
+		},
+		{
+			"area_id": "country:KGZ",
+			"level": "country",
+			"name": {
+				"default": "Kirgisistan",
+				"de": "Kirgisistan"
+			},
+			"codes": {
+				"iso2": "KG",
+				"iso3": "KGZ",
+				"m49": "417",
+				"overture": "09390dc5-7b5d-4629-b685-199db3b96520",
+				"wikidata": "Q813"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Кыргызстан",
+				"areaKm2": 198501.1,
+				"labelRank": 88
+			}
+		},
+		{
+			"area_id": "country:KHM",
+			"level": "country",
+			"name": {
+				"default": "Kambodscha",
+				"de": "Kambodscha"
+			},
+			"codes": {
+				"iso2": "KH",
+				"iso3": "KHM",
+				"m49": "116",
+				"overture": "22775a03-7aa1-4648-a5f3-9167786b9488",
+				"wikidata": "Q424"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ព្រះរាជាណាចក្រ​កម្ពុជា",
+				"areaKm2": 181721.2,
+				"labelRank": 91
+			}
+		},
+		{
+			"area_id": "country:KIR",
+			"level": "country",
+			"name": {
+				"default": "Kiribati",
+				"de": "Kiribati"
+			},
+			"codes": {
+				"iso2": "KI",
+				"iso3": "KIR",
+				"m49": "296",
+				"overture": "703cb787-3792-40b9-b823-1e2087194fe2",
+				"wikidata": "Q710"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Kiribati",
+				"areaKm2": 1090.3,
+				"labelRank": 190
+			}
+		},
+		{
+			"area_id": "country:KNA",
+			"level": "country",
+			"name": {
+				"default": "St. Kitts und Nevis",
+				"de": "St. Kitts und Nevis"
+			},
+			"codes": {
+				"iso2": "KN",
+				"iso3": "KNA",
+				"m49": "659",
+				"overture": "6ee73cbf-2813-4a4e-bdef-9191f2cdbcb4",
+				"wikidata": "Q763"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Saint Kitts and Nevis",
+				"areaKm2": 265.2,
+				"labelRank": 216
+			}
+		},
+		{
+			"area_id": "country:KOR",
+			"level": "country",
+			"name": {
+				"default": "Korea, Republik",
+				"de": "Korea, Republik"
+			},
+			"codes": {
+				"iso2": "KR",
+				"iso3": "KOR",
+				"m49": "410",
+				"overture": "69419ef1-bd58-4528-a597-332702995ba4",
+				"wikidata": "Q884"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "대한민국",
+				"areaKm2": 101178.3,
+				"labelRank": 109
+			}
+		},
+		{
+			"area_id": "country:KWT",
+			"level": "country",
+			"name": {
+				"default": "Kuwait",
+				"de": "Kuwait"
+			},
+			"codes": {
+				"iso2": "KW",
+				"iso3": "KWT",
+				"m49": "414",
+				"overture": "1fd8b17b-04a4-40ec-ae6c-880216f4316a",
+				"wikidata": "Q817"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "الكويت",
+				"areaKm2": 17333.1,
+				"labelRank": 160
+			}
+		},
+		{
+			"area_id": "country:LAO",
+			"level": "country",
+			"name": {
+				"default": "Laos, Demokratische Volksrepublik",
+				"de": "Laos, Demokratische Volksrepublik"
+			},
+			"codes": {
+				"iso2": "LA",
+				"iso3": "LAO",
+				"m49": "418",
+				"overture": "5f4743d2-31d1-4ce1-97fa-bd6ef9a0dfef",
+				"wikidata": "Q819"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ປະເທດລາວ",
+				"areaKm2": 229682.9,
+				"labelRank": 85
+			}
+		},
+		{
+			"area_id": "country:LBN",
+			"level": "country",
+			"name": {
+				"default": "Libanon",
+				"de": "Libanon"
+			},
+			"codes": {
+				"iso2": "LB",
+				"iso3": "LBN",
+				"m49": "422",
+				"overture": "7d5f5b35-9edd-46ed-a488-99c8b36fae1d",
+				"wikidata": "Q822"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "لبنان",
+				"areaKm2": 10172.3,
+				"labelRank": 170
+			}
+		},
+		{
+			"area_id": "country:LBR",
+			"level": "country",
+			"name": {
+				"default": "Liberia",
+				"de": "Liberia"
+			},
+			"codes": {
+				"iso2": "LR",
+				"iso3": "LBR",
+				"m49": "430",
+				"overture": "f9ffbc14-f2d7-466d-9e43-65ef326f8825",
+				"wikidata": "Q1014"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Liberia",
+				"areaKm2": 96057.5,
+				"labelRank": 110
+			}
+		},
+		{
+			"area_id": "country:LBY",
+			"level": "country",
+			"name": {
+				"default": "Libyen",
+				"de": "Libyen"
+			},
+			"codes": {
+				"iso2": "LY",
+				"iso3": "LBY",
+				"m49": "434",
+				"overture": "b5b341b0-6d4d-4537-9f18-c38915e55cd2",
+				"wikidata": "Q1016"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ⵍⵉⴱⵢⴰ ليبيا Libya",
+				"areaKm2": 1613102.8,
+				"labelRank": 19
+			}
+		},
+		{
+			"area_id": "country:LCA",
+			"level": "country",
+			"name": {
+				"default": "St. Lucia",
+				"de": "St. Lucia"
+			},
+			"codes": {
+				"iso2": "LC",
+				"iso3": "LCA",
+				"m49": "662",
+				"overture": "19d7f561-141d-4c6e-b145-3e0251334784",
+				"wikidata": "Q760"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Saint Lucia",
+				"areaKm2": 606.7,
+				"labelRank": 198
+			}
+		},
+		{
+			"area_id": "country:LIE",
+			"level": "country",
+			"name": {
+				"default": "Liechtenstein",
+				"de": "Liechtenstein"
+			},
+			"codes": {
+				"iso2": "LI",
+				"iso3": "LIE",
+				"m49": "438",
+				"overture": "a0214888-0987-4cad-94a9-a4833b1529e0",
+				"wikidata": "Q347"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Liechtenstein",
+				"areaKm2": 160.5,
+				"labelRank": 225
+			}
+		},
+		{
+			"area_id": "country:LKA",
+			"level": "country",
+			"name": {
+				"default": "Sri Lanka",
+				"de": "Sri Lanka"
+			},
+			"codes": {
+				"iso2": "LK",
+				"iso3": "LKA",
+				"m49": "144",
+				"overture": "c1dc5a8b-7b01-4f4a-9f8c-ee350141a620",
+				"wikidata": "Q854"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sri Lanka",
+				"areaKm2": 66238.1,
+				"labelRank": 124
+			}
+		},
+		{
+			"area_id": "country:LSO",
+			"level": "country",
+			"name": {
+				"default": "Lesotho",
+				"de": "Lesotho"
+			},
+			"codes": {
+				"iso2": "LS",
+				"iso3": "LSO",
+				"m49": "426",
+				"overture": "c330690e-de0e-47b7-a127-5cbedb66d465",
+				"wikidata": "Q1013"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Lesotho",
+				"areaKm2": 30561.4,
+				"labelRank": 143
+			}
+		},
+		{
+			"area_id": "country:LTU",
+			"level": "country",
+			"name": {
+				"default": "Litauen",
+				"de": "Litauen"
+			},
+			"codes": {
+				"iso2": "LT",
+				"iso3": "LTU",
+				"m49": "440",
+				"overture": "28f9d46b-3910-46ad-93ee-076b69c1d4b1",
+				"wikidata": "Q37"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Lietuva",
+				"areaKm2": 64910.5,
+				"labelRank": 125
+			}
+		},
+		{
+			"area_id": "country:LUX",
+			"level": "country",
+			"name": {
+				"default": "Luxemburg",
+				"de": "Luxemburg"
+			},
+			"codes": {
+				"iso2": "LU",
+				"iso3": "LUX",
+				"m49": "442",
+				"overture": "4e4c6e15-5f5d-40ca-93ad-6f0931ed0cd9",
+				"wikidata": "Q32"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Lëtzebuerg",
+				"areaKm2": 2600.0,
+				"labelRank": 181
+			}
+		},
+		{
+			"area_id": "country:LVA",
+			"level": "country",
+			"name": {
+				"default": "Lettland",
+				"de": "Lettland"
+			},
+			"codes": {
+				"iso2": "LV",
+				"iso3": "LVA",
+				"m49": "428",
+				"overture": "e737cba5-45cb-411d-bb26-390f949393f3",
+				"wikidata": "Q211"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Latvija",
+				"areaKm2": 64603.3,
+				"labelRank": 126
+			}
+		},
+		{
+			"area_id": "country:MAC",
+			"level": "country",
+			"name": {
+				"default": "Macao",
+				"de": "Macao"
+			},
+			"codes": {
+				"iso2": "MO",
+				"iso3": "MAC",
+				"m49": "446",
+				"overture": "2ce01323-d4db-49e9-a17d-a0a21ce1b4a1",
+				"wikidata": "Q14773"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Macao SAR",
+				"areaKm2": 116.4,
+				"labelRank": 230,
+				"overtureParentId": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be"
+			}
+		},
+		{
+			"area_id": "country:MAF",
+			"level": "country",
+			"name": {
+				"default": "Saint Martin (Französischer Teil)",
+				"de": "Saint Martin (Französischer Teil)"
+			},
+			"codes": {
+				"iso2": "MF",
+				"iso3": "MAF",
+				"m49": "663",
+				"overture": "52aaf555-6f01-4444-8f47-307e37ffc8a8",
+				"wikidata": "Q126125"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Saint-Martin",
+				"areaKm2": 50.2,
+				"labelRank": 238
+			}
+		},
+		{
+			"area_id": "country:MAR",
+			"level": "country",
+			"name": {
+				"default": "Marokko",
+				"de": "Marokko"
+			},
+			"codes": {
+				"iso2": "MA",
+				"iso3": "MAR",
+				"m49": "504",
+				"overture": "d5178a1a-316b-449c-8154-390a290451f5",
+				"wikidata": "Q1028"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+				"areaKm2": 683098.8,
+				"labelRank": 41
+			}
+		},
+		{
+			"area_id": "country:MCO",
+			"level": "country",
+			"name": {
+				"default": "Monaco",
+				"de": "Monaco"
+			},
+			"codes": {
+				"iso2": "MC",
+				"iso3": "MCO",
+				"m49": "492",
+				"overture": "8c379db3-e741-4766-95c9-ee2a7d92d984",
+				"wikidata": "Q235"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Monaco",
+				"areaKm2": 2.0,
+				"labelRank": 249
+			}
+		},
+		{
+			"area_id": "country:MDA",
+			"level": "country",
+			"name": {
+				"default": "Moldau, Republik",
+				"de": "Moldau, Republik"
+			},
+			"codes": {
+				"iso2": "MD",
+				"iso3": "MDA",
+				"m49": "498",
+				"overture": "ffd9f6f1-89ce-4deb-9641-bec038c54b06",
+				"wikidata": "Q217"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Moldova",
+				"areaKm2": 33860.5,
+				"labelRank": 141
+			}
+		},
+		{
+			"area_id": "country:MDG",
+			"level": "country",
+			"name": {
+				"default": "Madagaskar",
+				"de": "Madagaskar"
+			},
+			"codes": {
+				"iso2": "MG",
+				"iso3": "MDG",
+				"m49": "450",
+				"overture": "0fdb7417-2dc7-4819-9a10-ffd8926bcd99",
+				"wikidata": "Q1019"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Madagasikara / Madagascar",
+				"areaKm2": 591727.5,
+				"labelRank": 48
+			}
+		},
+		{
+			"area_id": "country:MDV",
+			"level": "country",
+			"name": {
+				"default": "Malediven",
+				"de": "Malediven"
+			},
+			"codes": {
+				"iso2": "MV",
+				"iso3": "MDV",
+				"m49": "462",
+				"overture": "d0317ac9-82c7-4e1a-a3fc-8b7562b1690d",
+				"wikidata": "Q826"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ދިވެހިރާއްޖެ",
+				"areaKm2": 186.3,
+				"labelRank": 222
+			}
+		},
+		{
+			"area_id": "country:MEX",
+			"level": "country",
+			"name": {
+				"default": "Mexiko",
+				"de": "Mexiko"
+			},
+			"codes": {
+				"iso2": "MX",
+				"iso3": "MEX",
+				"m49": "484",
+				"overture": "fc20aaf8-7a12-4cb2-9b0b-ebb1a4b652aa",
+				"wikidata": "Q96"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "México",
+				"areaKm2": 1952543.5,
+				"labelRank": 14
+			}
+		},
+		{
+			"area_id": "country:MHL",
+			"level": "country",
+			"name": {
+				"default": "Marshallinseln",
+				"de": "Marshallinseln"
+			},
+			"codes": {
+				"iso2": "MH",
+				"iso3": "MHL",
+				"m49": "584",
+				"overture": "23f6ca9f-614b-488f-b6dc-2dfe6dfdf26f",
+				"wikidata": "Q709"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Ṃajeḷ",
+				"areaKm2": 166.4,
+				"labelRank": 224
+			}
+		},
+		{
+			"area_id": "country:MKD",
+			"level": "country",
+			"name": {
+				"default": "Nordmazedonien",
+				"de": "Nordmazedonien"
+			},
+			"codes": {
+				"iso2": "MK",
+				"iso3": "MKD",
+				"m49": "807",
+				"overture": "6bd79663-1e03-468e-bf70-f9541e239419",
+				"wikidata": "Q221"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Северна Македонија",
+				"areaKm2": 25441.1,
+				"labelRank": 150
+			}
+		},
+		{
+			"area_id": "country:MLI",
+			"level": "country",
+			"name": {
+				"default": "Mali",
+				"de": "Mali"
+			},
+			"codes": {
+				"iso2": "ML",
+				"iso3": "MLI",
+				"m49": "466",
+				"overture": "4d81e101-5ed5-4e4d-b3a1-0878f70f254b",
+				"wikidata": "Q912"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Mali",
+				"areaKm2": 1252407.3,
+				"labelRank": 23
+			}
+		},
+		{
+			"area_id": "country:MLT",
+			"level": "country",
+			"name": {
+				"default": "Malta",
+				"de": "Malta"
+			},
+			"codes": {
+				"iso2": "MT",
+				"iso3": "MLT",
+				"m49": "470",
+				"overture": "e1974350-8bc7-4769-9bf6-4291b7b196b8",
+				"wikidata": "Q233"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Malta",
+				"areaKm2": 312.3,
+				"labelRank": 214
+			}
+		},
+		{
+			"area_id": "country:MMR",
+			"level": "country",
+			"name": {
+				"default": "Myanmar",
+				"de": "Myanmar"
+			},
+			"codes": {
+				"iso2": "MM",
+				"iso3": "MMR",
+				"m49": "104",
+				"overture": "e0edb43b-7021-4c72-926e-b5955658c75c",
+				"wikidata": "Q836"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "မြန်မာ",
+				"areaKm2": 668809.3,
+				"labelRank": 42
+			}
+		},
+		{
+			"area_id": "country:MNE",
+			"level": "country",
+			"name": {
+				"default": "Montenegro",
+				"de": "Montenegro"
+			},
+			"codes": {
+				"iso2": "ME",
+				"iso3": "MNE",
+				"m49": "499",
+				"overture": "14fdba51-5ae6-45cd-8983-6c780cddb3ea",
+				"wikidata": "Q236"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Crna Gora / Црна Гора",
+				"areaKm2": 13881.5,
+				"labelRank": 162
+			}
+		},
+		{
+			"area_id": "country:MNG",
+			"level": "country",
+			"name": {
+				"default": "Mongolei",
+				"de": "Mongolei"
+			},
+			"codes": {
+				"iso2": "MN",
+				"iso3": "MNG",
+				"m49": "496",
+				"overture": "f9f08704-08fa-463e-89b9-b634fbe8f55b",
+				"wikidata": "Q711"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ",
+				"areaKm2": 1565136.9,
+				"labelRank": 20
+			}
+		},
+		{
+			"area_id": "country:MNP",
+			"level": "country",
+			"name": {
+				"default": "Nördliche Marianen",
+				"de": "Nördliche Marianen"
+			},
+			"codes": {
+				"iso2": "MP",
+				"iso3": "MNP",
+				"m49": "580",
+				"overture": "831ec22f-5e34-490c-86c5-54af0d0474d4",
+				"wikidata": "Q16644"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Northern Mariana Islands",
+				"areaKm2": 467.6,
+				"labelRank": 201,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:MOZ",
+			"level": "country",
+			"name": {
+				"default": "Mosambik",
+				"de": "Mosambik"
+			},
+			"codes": {
+				"iso2": "MZ",
+				"iso3": "MOZ",
+				"m49": "508",
+				"overture": "0eaa295d-ea26-4860-8751-af41d3c75748",
+				"wikidata": "Q1029"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Moçambique",
+				"areaKm2": 786983.5,
+				"labelRank": 37
+			}
+		},
+		{
+			"area_id": "country:MRT",
+			"level": "country",
+			"name": {
+				"default": "Mauretanien",
+				"de": "Mauretanien"
+			},
+			"codes": {
+				"iso2": "MR",
+				"iso3": "MRT",
+				"m49": "478",
+				"overture": "2fd6dc3b-cdbb-4562-8115-1e87597a8b6c",
+				"wikidata": "Q1025"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Mauritanie موريتانيا",
+				"areaKm2": 1038339.2,
+				"labelRank": 30
+			}
+		},
+		{
+			"area_id": "country:MSR",
+			"level": "country",
+			"name": {
+				"default": "Montserrat",
+				"de": "Montserrat"
+			},
+			"codes": {
+				"iso2": "MS",
+				"iso3": "MSR",
+				"m49": "500",
+				"overture": "fe682130-2de3-402c-aa73-614eb55c9fbc",
+				"wikidata": "Q13353"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Montserrat",
+				"areaKm2": 105.8,
+				"labelRank": 231,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:MTQ",
+			"level": "country",
+			"name": {
+				"default": "Martinique",
+				"de": "Martinique"
+			},
+			"codes": {
+				"iso2": "MQ",
+				"iso3": "MTQ",
+				"m49": "474",
+				"overture": "30db0f36-df81-45dd-91f5-92d71dfb08f7",
+				"wikidata": "Q17054"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Martinique",
+				"areaKm2": 1098.2,
+				"labelRank": 189,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:MUS",
+			"level": "country",
+			"name": {
+				"default": "Mauritius",
+				"de": "Mauritius"
+			},
+			"codes": {
+				"iso2": "MU",
+				"iso3": "MUS",
+				"m49": "480",
+				"overture": "a55b8fbd-d2f1-4f4f-ae1d-018c41c0aacc",
+				"wikidata": "Q1027"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Mauritius / Maurice",
+				"areaKm2": 2002.4,
+				"labelRank": 183
+			}
+		},
+		{
+			"area_id": "country:MWI",
+			"level": "country",
+			"name": {
+				"default": "Malawi",
+				"de": "Malawi"
+			},
+			"codes": {
+				"iso2": "MW",
+				"iso3": "MWI",
+				"m49": "454",
+				"overture": "4411cff8-83a3-4def-bb27-1a8b88340ff0",
+				"wikidata": "Q1020"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Malawi",
+				"areaKm2": 118702.4,
+				"labelRank": 102
+			}
+		},
+		{
+			"area_id": "country:MYS",
+			"level": "country",
+			"name": {
+				"default": "Malaysia",
+				"de": "Malaysia"
+			},
+			"codes": {
+				"iso2": "MY",
+				"iso3": "MYS",
+				"m49": "458",
+				"overture": "14e4ae39-84ce-4838-a219-4c9fa381e1c3",
+				"wikidata": "Q833"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Malaysia",
+				"areaKm2": 329886.2,
+				"labelRank": 67
+			}
+		},
+		{
+			"area_id": "country:MYT",
+			"level": "country",
+			"name": {
+				"default": "Mayotte",
+				"de": "Mayotte"
+			},
+			"codes": {
+				"iso2": "YT",
+				"iso3": "MYT",
+				"m49": "175",
+				"overture": "c8a7df0c-a9c8-4685-a6ca-3c14e897a2c4",
+				"wikidata": "Q17063"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Mayotte",
+				"areaKm2": 375.1,
+				"labelRank": 210,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:NAM",
+			"level": "country",
+			"name": {
+				"default": "Namibia",
+				"de": "Namibia"
+			},
+			"codes": {
+				"iso2": "NA",
+				"iso3": "NAM",
+				"m49": "516",
+				"overture": "feef3e6a-c35d-4fd7-9b28-20d2dd1f77b0",
+				"wikidata": "Q1030"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Namibia",
+				"areaKm2": 823882.9,
+				"labelRank": 36
+			}
+		},
+		{
+			"area_id": "country:NCL",
+			"level": "country",
+			"name": {
+				"default": "Neukaledonien",
+				"de": "Neukaledonien"
+			},
+			"codes": {
+				"iso2": "NC",
+				"iso3": "NCL",
+				"m49": "540",
+				"overture": "03b42acc-982c-4ba3-8984-0a97358507be",
+				"wikidata": "Q33788"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Nouvelle-Calédonie",
+				"areaKm2": 18545.2,
+				"labelRank": 158,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:NER",
+			"level": "country",
+			"name": {
+				"default": "Niger",
+				"de": "Niger"
+			},
+			"codes": {
+				"iso2": "NE",
+				"iso3": "NER",
+				"m49": "562",
+				"overture": "65083e91-6fb6-4165-b000-350bb6fdf1c6",
+				"wikidata": "Q1032"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Niger",
+				"areaKm2": 1180814.7,
+				"labelRank": 26
+			}
+		},
+		{
+			"area_id": "country:NFK",
+			"level": "country",
+			"name": {
+				"default": "Norfolkinsel",
+				"de": "Norfolkinsel"
+			},
+			"codes": {
+				"iso2": "NF",
+				"iso3": "NFK",
+				"m49": "574",
+				"overture": "84cf04ac-cc84-499b-b61c-16035b2dbf3d",
+				"wikidata": "Q31057"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Norfolk Island",
+				"areaKm2": 37.0,
+				"labelRank": 241,
+				"overtureParentId": "0ca3bee0-1166-43e1-a82d-f49e41127170"
+			}
+		},
+		{
+			"area_id": "country:NGA",
+			"level": "country",
+			"name": {
+				"default": "Nigeria",
+				"de": "Nigeria"
+			},
+			"codes": {
+				"iso2": "NG",
+				"iso3": "NGA",
+				"m49": "566",
+				"overture": "3264d7ab-fdb5-4956-ad97-6307200c9e0a",
+				"wikidata": "Q1033"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Nigeria",
+				"areaKm2": 910428.1,
+				"labelRank": 34
+			}
+		},
+		{
+			"area_id": "country:NIC",
+			"level": "country",
+			"name": {
+				"default": "Nicaragua",
+				"de": "Nicaragua"
+			},
+			"codes": {
+				"iso2": "NI",
+				"iso3": "NIC",
+				"m49": "558",
+				"overture": "1b152fd1-e23c-497e-befe-b3c1e8644ed5",
+				"wikidata": "Q811"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Nicaragua",
+				"areaKm2": 129188.6,
+				"labelRank": 99
+			}
+		},
+		{
+			"area_id": "country:NIU",
+			"level": "country",
+			"name": {
+				"default": "Niue",
+				"de": "Niue"
+			},
+			"codes": {
+				"iso2": "NU",
+				"iso3": "NIU",
+				"m49": "570",
+				"overture": "8089cf4e-1bf8-43d5-95a8-bc01489fb8c7",
+				"wikidata": "Q34020"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Niuē",
+				"areaKm2": 257.3,
+				"labelRank": 218,
+				"overtureParentId": "89e73df8-d5ab-4156-9e83-140d1ee694c5"
+			}
+		},
+		{
+			"area_id": "country:NLD",
+			"level": "country",
+			"name": {
+				"default": "Niederlande",
+				"de": "Niederlande"
+			},
+			"codes": {
+				"iso2": "NL",
+				"iso3": "NLD",
+				"m49": "528",
+				"overture": "08dcf896-627e-46e8-9439-3d905390b7c3",
+				"wikidata": "Q29999"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Nederland",
+				"areaKm2": 37747.6,
+				"labelRank": 137
+			}
+		},
+		{
+			"area_id": "country:NOR",
+			"level": "country",
+			"name": {
+				"default": "Norwegen",
+				"de": "Norwegen"
+			},
+			"codes": {
+				"iso2": "NO",
+				"iso3": "NOR",
+				"m49": "578",
+				"overture": "7dc338b3-52c8-4707-8e36-17ae035a64dd",
+				"wikidata": "Q98059339"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Norge",
+				"areaKm2": 322613.3,
+				"labelRank": 69
+			}
+		},
+		{
+			"area_id": "country:NPL",
+			"level": "country",
+			"name": {
+				"default": "Nepal",
+				"de": "Nepal"
+			},
+			"codes": {
+				"iso2": "NP",
+				"iso3": "NPL",
+				"m49": "524",
+				"overture": "05661c9d-68f5-4a26-a653-05f6ef959b50",
+				"wikidata": "Q837"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "नेपाल",
+				"areaKm2": 147559.4,
+				"labelRank": 94
+			}
+		},
+		{
+			"area_id": "country:NRU",
+			"level": "country",
+			"name": {
+				"default": "Nauru",
+				"de": "Nauru"
+			},
+			"codes": {
+				"iso2": "NR",
+				"iso3": "NRU",
+				"m49": "520",
+				"overture": "bb70973d-8d10-4d27-8882-d8420cec669d",
+				"wikidata": "Q697"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Naoero",
+				"areaKm2": 20.4,
+				"labelRank": 244
+			}
+		},
+		{
+			"area_id": "country:NZL",
+			"level": "country",
+			"name": {
+				"default": "Neuseeland",
+				"de": "Neuseeland"
+			},
+			"codes": {
+				"iso2": "NZ",
+				"iso3": "NZL",
+				"m49": "554",
+				"overture": "89e73df8-d5ab-4156-9e83-140d1ee694c5",
+				"wikidata": "Q664"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "New Zealand",
+				"areaKm2": 268961.9,
+				"labelRank": 76
+			}
+		},
+		{
+			"area_id": "country:OMN",
+			"level": "country",
+			"name": {
+				"default": "Oman",
+				"de": "Oman"
+			},
+			"codes": {
+				"iso2": "OM",
+				"iso3": "OMN",
+				"m49": "512",
+				"overture": "9a6dd1e2-e8d2-47ce-bb8d-02735f0df319",
+				"wikidata": "Q842"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "عمان",
+				"areaKm2": 308415.5,
+				"labelRank": 72
+			}
+		},
+		{
+			"area_id": "country:PAK",
+			"level": "country",
+			"name": {
+				"default": "Pakistan",
+				"de": "Pakistan"
+			},
+			"codes": {
+				"iso2": "PK",
+				"iso3": "PAK",
+				"m49": "586",
+				"overture": "b952fd95-5a2e-45b9-b30c-9e83b2fd3025",
+				"wikidata": "Q843"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "پاکستان",
+				"areaKm2": 866815.6,
+				"labelRank": 35
+			}
+		},
+		{
+			"area_id": "country:PAN",
+			"level": "country",
+			"name": {
+				"default": "Panama",
+				"de": "Panama"
+			},
+			"codes": {
+				"iso2": "PA",
+				"iso3": "PAN",
+				"m49": "591",
+				"overture": "7c9cb2bf-59df-4dd5-ba47-808f2e980d64",
+				"wikidata": "Q804"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Panamá",
+				"areaKm2": 75153.7,
+				"labelRank": 119
+			}
+		},
+		{
+			"area_id": "country:PCN",
+			"level": "country",
+			"name": {
+				"default": "Pitcairn",
+				"de": "Pitcairn"
+			},
+			"codes": {
+				"iso2": "PN",
+				"iso3": "PCN",
+				"m49": "612",
+				"overture": "7786575c-6079-42f4-b8e7-21c310e95e5d",
+				"wikidata": "Q35672"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Pitcairn Islands",
+				"areaKm2": 47.8,
+				"labelRank": 239,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:PER",
+			"level": "country",
+			"name": {
+				"default": "Peru",
+				"de": "Peru"
+			},
+			"codes": {
+				"iso2": "PE",
+				"iso3": "PER",
+				"m49": "604",
+				"overture": "449b9525-0be3-4a9a-bf19-d65f07f7e81e",
+				"wikidata": "Q419"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Perú",
+				"areaKm2": 1292100.5,
+				"labelRank": 21
+			}
+		},
+		{
+			"area_id": "country:PHL",
+			"level": "country",
+			"name": {
+				"default": "Philippinen",
+				"de": "Philippinen"
+			},
+			"codes": {
+				"iso2": "PH",
+				"iso3": "PHL",
+				"m49": "608",
+				"overture": "25bf04ea-1031-4f29-b459-cfc57adfc814",
+				"wikidata": "Q928"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Philippines",
+				"areaKm2": 294559.4,
+				"labelRank": 74
+			}
+		},
+		{
+			"area_id": "country:PLW",
+			"level": "country",
+			"name": {
+				"default": "Palau",
+				"de": "Palau"
+			},
+			"codes": {
+				"iso2": "PW",
+				"iso3": "PLW",
+				"m49": "585",
+				"overture": "f6c79ce6-607e-4d7f-98aa-1cadbb5188aa",
+				"wikidata": "Q695"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Belau",
+				"areaKm2": 454.1,
+				"labelRank": 204
+			}
+		},
+		{
+			"area_id": "country:PNG",
+			"level": "country",
+			"name": {
+				"default": "Papua-Neuguinea",
+				"de": "Papua-Neuguinea"
+			},
+			"codes": {
+				"iso2": "PG",
+				"iso3": "PNG",
+				"m49": "598",
+				"overture": "bcb071fa-c8aa-4b60-a008-3d9ff4077b67",
+				"wikidata": "Q691"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Papua Niugini",
+				"areaKm2": 462297.4,
+				"labelRank": 56
+			}
+		},
+		{
+			"area_id": "country:POL",
+			"level": "country",
+			"name": {
+				"default": "Polen",
+				"de": "Polen"
+			},
+			"codes": {
+				"iso2": "PL",
+				"iso3": "POL",
+				"m49": "616",
+				"overture": "80d64bfe-3b7e-4d50-8fc6-79decdb8d101",
+				"wikidata": "Q36"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Polska",
+				"areaKm2": 311932.7,
+				"labelRank": 71
+			}
+		},
+		{
+			"area_id": "country:PRI",
+			"level": "country",
+			"name": {
+				"default": "Puerto Rico",
+				"de": "Puerto Rico"
+			},
+			"codes": {
+				"iso2": "PR",
+				"iso3": "PRI",
+				"m49": "630",
+				"overture": "00b50f0b-1f1c-4b4e-a3d6-b8df369a5b5e",
+				"wikidata": "Q1183"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Puerto Rico",
+				"areaKm2": 8951.3,
+				"labelRank": 172,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:PRK",
+			"level": "country",
+			"name": {
+				"default": "Korea, Demokratische Volksrepublik",
+				"de": "Korea, Demokratische Volksrepublik"
+			},
+			"codes": {
+				"iso2": "KP",
+				"iso3": "PRK",
+				"m49": "408",
+				"overture": "146be124-a2f6-4991-8368-9428379a4476",
+				"wikidata": "Q423"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "조선민주주의인민공화국",
+				"areaKm2": 122992.9,
+				"labelRank": 100
+			}
+		},
+		{
+			"area_id": "country:PRT",
+			"level": "country",
+			"name": {
+				"default": "Portugal",
+				"de": "Portugal"
+			},
+			"codes": {
+				"iso2": "PT",
+				"iso3": "PRT",
+				"m49": "620",
+				"overture": "ae51c810-75b9-4be9-87d2-65238a469505",
+				"wikidata": "Q45"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Portugal",
+				"areaKm2": 91918.3,
+				"labelRank": 112
+			}
+		},
+		{
+			"area_id": "country:PRY",
+			"level": "country",
+			"name": {
+				"default": "Paraguay",
+				"de": "Paraguay"
+			},
+			"codes": {
+				"iso2": "PY",
+				"iso3": "PRY",
+				"m49": "600",
+				"overture": "9f4e579f-a6d1-4f33-81dd-f50008b5263a",
+				"wikidata": "Q733"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Paraguay / Paraguái",
+				"areaKm2": 399575.4,
+				"labelRank": 61
+			}
+		},
+		{
+			"area_id": "country:PSE",
+			"level": "country",
+			"name": {
+				"default": "Palästina, Staat",
+				"de": "Palästina, Staat"
+			},
+			"codes": {
+				"iso2": "PS",
+				"iso3": "PSE",
+				"m49": "275",
+				"wikidata": "Q219060"
+			},
+			"metadata": {
+				"overtureSubtype": "composite",
+				"sourceName": "State of Palestine",
+				"areaKm2": 6173.8,
+				"labelRank": 174,
+				"composition": [
+					{
+						"index": 0,
+						"overtureId": "f7224d14-4120-4e12-8e48-0ba9dc181f39",
+						"subtype": "country",
+						"country": "XG",
+						"name": "قطاع غزة",
+						"wikidata": "Q39760"
+					},
+					{
+						"index": 1,
+						"overtureId": "9d886720-144d-4802-9ce3-5b7007f0c904",
+						"subtype": "country",
+						"country": "XW",
+						"name": "الضفة الغربية"
+					}
+				]
+			}
+		},
+		{
+			"area_id": "country:PYF",
+			"level": "country",
+			"name": {
+				"default": "Französisch-Polynesien",
+				"de": "Französisch-Polynesien"
+			},
+			"codes": {
+				"iso2": "PF",
+				"iso3": "PYF",
+				"m49": "258",
+				"overture": "2e2c31a0-14c0-4805-bca5-1092d8dfcd2d",
+				"wikidata": "Q30971"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Polynésie Française",
+				"areaKm2": 3598.9,
+				"labelRank": 179,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:QAT",
+			"level": "country",
+			"name": {
+				"default": "Katar",
+				"de": "Katar"
+			},
+			"codes": {
+				"iso2": "QA",
+				"iso3": "QAT",
+				"m49": "634",
+				"overture": "ac2141f0-368f-41a6-920d-4b893aebe5b0",
+				"wikidata": "Q846"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "قطر",
+				"areaKm2": 11597.5,
+				"labelRank": 166
+			}
+		},
+		{
+			"area_id": "country:REU",
+			"level": "country",
+			"name": {
+				"default": "Réunion",
+				"de": "Réunion"
+			},
+			"codes": {
+				"iso2": "RE",
+				"iso3": "REU",
+				"m49": "638",
+				"overture": "2fe18db3-7f0d-4fd0-9da1-69b3d4364426",
+				"wikidata": "Q17070"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "La Réunion",
+				"areaKm2": 2505.7,
+				"labelRank": 182,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:ROU",
+			"level": "country",
+			"name": {
+				"default": "Rumänien",
+				"de": "Rumänien"
+			},
+			"codes": {
+				"iso2": "RO",
+				"iso3": "ROU",
+				"m49": "642",
+				"overture": "aa5b01a9-4943-41ec-9d1a-3f6c6cd39594",
+				"wikidata": "Q218"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "România",
+				"areaKm2": 238379.7,
+				"labelRank": 84
+			}
+		},
+		{
+			"area_id": "country:RUS",
+			"level": "country",
+			"name": {
+				"default": "Russische Föderation",
+				"de": "Russische Föderation"
+			},
+			"codes": {
+				"iso2": "RU",
+				"iso3": "RUS",
+				"m49": "643",
+				"overture": "604e4d47-073c-46f8-86a5-2a8838509986",
+				"wikidata": "Q159"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Россия",
+				"areaKm2": 16940486.4,
+				"labelRank": 1
+			}
+		},
+		{
+			"area_id": "country:RWA",
+			"level": "country",
+			"name": {
+				"default": "Ruanda",
+				"de": "Ruanda"
+			},
+			"codes": {
+				"iso2": "RW",
+				"iso3": "RWA",
+				"m49": "646",
+				"overture": "1c86458e-29a3-447e-9072-9d626b6f5ff1",
+				"wikidata": "Q1037"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Rwanda",
+				"areaKm2": 25277.3,
+				"labelRank": 151
+			}
+		},
+		{
+			"area_id": "country:SAU",
+			"level": "country",
+			"name": {
+				"default": "Saudi-Arabien",
+				"de": "Saudi-Arabien"
+			},
+			"codes": {
+				"iso2": "SA",
+				"iso3": "SAU",
+				"m49": "682",
+				"overture": "7a7b4236-aa79-43a2-846d-0b8f1f4f6c28",
+				"wikidata": "Q851"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "السعودية",
+				"areaKm2": 1924933.7,
+				"labelRank": 15
+			}
+		},
+		{
+			"area_id": "country:SDN",
+			"level": "country",
+			"name": {
+				"default": "Sudan",
+				"de": "Sudan"
+			},
+			"codes": {
+				"iso2": "SD",
+				"iso3": "SDN",
+				"m49": "729",
+				"overture": "dcb936d9-7dd4-479e-a80c-aeeca9e565ca",
+				"wikidata": "Q1049"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "السودان",
+				"areaKm2": 1829265.1,
+				"labelRank": 17
+			}
+		},
+		{
+			"area_id": "country:SEN",
+			"level": "country",
+			"name": {
+				"default": "Senegal",
+				"de": "Senegal"
+			},
+			"codes": {
+				"iso2": "SN",
+				"iso3": "SEN",
+				"m49": "686",
+				"overture": "4c36594e-6bae-489f-9880-4509a5568342",
+				"wikidata": "Q1041"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sénégal",
+				"areaKm2": 196532.8,
+				"labelRank": 89
+			}
+		},
+		{
+			"area_id": "country:SGP",
+			"level": "country",
+			"name": {
+				"default": "Singapur",
+				"de": "Singapur"
+			},
+			"codes": {
+				"iso2": "SG",
+				"iso3": "SGP",
+				"m49": "702",
+				"overture": "a07c1a9f-48a2-4331-a662-29074182da31",
+				"wikidata": "Q334"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Singapore",
+				"areaKm2": 764.8,
+				"labelRank": 194
+			}
+		},
+		{
+			"area_id": "country:SGS",
+			"level": "country",
+			"name": {
+				"default": "South Georgia und die Südlichen Sandwichinseln",
+				"de": "South Georgia und die Südlichen Sandwichinseln"
+			},
+			"codes": {
+				"iso2": "GS",
+				"iso3": "SGS",
+				"m49": "239",
+				"overture": "10313f43-b48c-40e3-bfac-fad5bcce15a3",
+				"wikidata": "Q35086"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "South Georgia and the South Sandwich Islands",
+				"areaKm2": 3789.9,
+				"labelRank": 178,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:SHN",
+			"level": "country",
+			"name": {
+				"default": "St. Helena, Ascension und Tristan da Cunha",
+				"de": "St. Helena, Ascension und Tristan da Cunha"
+			},
+			"codes": {
+				"iso2": "SH",
+				"iso3": "SHN",
+				"m49": "654",
+				"overture": "be69aa4f-32eb-4da2-ad6c-732112f825f4",
+				"wikidata": "Q192184"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Saint Helena, Ascension and Tristan da Cunha",
+				"areaKm2": 393.1,
+				"labelRank": 209,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:SJM",
+			"level": "country",
+			"name": {
+				"default": "Svalbard und Jan Mayen",
+				"de": "Svalbard und Jan Mayen"
+			},
+			"codes": {
+				"iso2": "SJ",
+				"iso3": "SJM",
+				"m49": "744",
+				"wikidata": "Q842829"
+			},
+			"metadata": {
+				"overtureSubtype": "composite",
+				"sourceName": "Svalbard and Jan Mayen",
+				"areaKm2": 60960.8,
+				"labelRank": 127,
+				"composition": [
+					{
+						"index": 0,
+						"overtureId": "8d0fe594-e47a-47b8-a8ec-67a5c6b99cb2",
+						"subtype": "dependency",
+						"country": "SJ",
+						"name": "Svalbard",
+						"wikidata": "Q25231",
+						"parentId": "7dc338b3-52c8-4707-8e36-17ae035a64dd"
+					},
+					{
+						"index": 1,
+						"overtureId": "669d00d2-d6b6-4297-a62f-8270f9b3b074",
+						"subtype": "dependency",
+						"country": "XJ",
+						"name": "Jan Mayen",
+						"wikidata": "Q14056",
+						"parentId": "7dc338b3-52c8-4707-8e36-17ae035a64dd"
+					}
+				]
+			}
+		},
+		{
+			"area_id": "country:SLB",
+			"level": "country",
+			"name": {
+				"default": "Salomoninseln",
+				"de": "Salomoninseln"
+			},
+			"codes": {
+				"iso2": "SB",
+				"iso3": "SLB",
+				"m49": "090",
+				"overture": "289baef4-417b-4552-a259-02be8af6edbf",
+				"wikidata": "Q685"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Solomon Islands",
+				"areaKm2": 27958.5,
+				"labelRank": 146
+			}
+		},
+		{
+			"area_id": "country:SLE",
+			"level": "country",
+			"name": {
+				"default": "Sierra Leone",
+				"de": "Sierra Leone"
+			},
+			"codes": {
+				"iso2": "SL",
+				"iso3": "SLE",
+				"m49": "694",
+				"overture": "64efc183-ea96-44e3-8efe-2f929dd48046",
+				"wikidata": "Q1044"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sierra Leone",
+				"areaKm2": 72628.9,
+				"labelRank": 120
+			}
+		},
+		{
+			"area_id": "country:SLV",
+			"level": "country",
+			"name": {
+				"default": "El Salvador",
+				"de": "El Salvador"
+			},
+			"codes": {
+				"iso2": "SV",
+				"iso3": "SLV",
+				"m49": "222",
+				"overture": "adfa9189-2e5b-4d7e-9229-fda26e64f44c",
+				"wikidata": "Q792"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "El Salvador",
+				"areaKm2": 20719.6,
+				"labelRank": 155
+			}
+		},
+		{
+			"area_id": "country:SMR",
+			"level": "country",
+			"name": {
+				"default": "San Marino",
+				"de": "San Marino"
+			},
+			"codes": {
+				"iso2": "SM",
+				"iso3": "SMR",
+				"m49": "674",
+				"overture": "b25f1541-0e46-45fe-81a0-25432ef4a86a",
+				"wikidata": "Q238"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "San Marino",
+				"areaKm2": 61.3,
+				"labelRank": 234
+			}
+		},
+		{
+			"area_id": "country:SOM",
+			"level": "country",
+			"name": {
+				"default": "Somalia",
+				"de": "Somalia"
+			},
+			"codes": {
+				"iso2": "SO",
+				"iso3": "SOM",
+				"m49": "706",
+				"overture": "2d668bd6-75a8-4db0-be56-24568fb042a1",
+				"wikidata": "Q1045"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Soomaaliya الصومال",
+				"areaKm2": 635562.0,
+				"labelRank": 45
+			}
+		},
+		{
+			"area_id": "country:SPM",
+			"level": "country",
+			"name": {
+				"default": "St. Pierre und Miquelon",
+				"de": "St. Pierre und Miquelon"
+			},
+			"codes": {
+				"iso2": "PM",
+				"iso3": "SPM",
+				"m49": "666",
+				"overture": "fa36e93d-6e34-4369-bfe7-05b8425603a6",
+				"wikidata": "Q34617"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Saint-Pierre-et-Miquelon",
+				"areaKm2": 239.3,
+				"labelRank": 219,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:SRB",
+			"level": "country",
+			"name": {
+				"default": "Serbien",
+				"de": "Serbien"
+			},
+			"codes": {
+				"iso2": "RS",
+				"iso3": "SRB",
+				"m49": "688",
+				"overture": "9e3b1d8c-933c-4a13-b99e-a1bc166f35c1",
+				"wikidata": "Q403"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Србија",
+				"areaKm2": 77591.8,
+				"labelRank": 118
+			}
+		},
+		{
+			"area_id": "country:SSD",
+			"level": "country",
+			"name": {
+				"default": "Südsudan",
+				"de": "Südsudan"
+			},
+			"codes": {
+				"iso2": "SS",
+				"iso3": "SSD",
+				"m49": "728",
+				"overture": "c732fd4a-969e-4038-88f7-80afbb96cdab",
+				"wikidata": "Q958"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "South Sudan",
+				"areaKm2": 642815.1,
+				"labelRank": 43
+			}
+		},
+		{
+			"area_id": "country:STP",
+			"level": "country",
+			"name": {
+				"default": "São Tomé und Príncipe",
+				"de": "São Tomé und Príncipe"
+			},
+			"codes": {
+				"iso2": "ST",
+				"iso3": "STP",
+				"m49": "678",
+				"overture": "5bb3b799-21de-43ea-9e68-1adf85ddb9f8",
+				"wikidata": "Q1039"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "São Tomé e Príncipe",
+				"areaKm2": 1000.2,
+				"labelRank": 191
+			}
+		},
+		{
+			"area_id": "country:SUR",
+			"level": "country",
+			"name": {
+				"default": "Suriname",
+				"de": "Suriname"
+			},
+			"codes": {
+				"iso2": "SR",
+				"iso3": "SUR",
+				"m49": "740",
+				"overture": "f035c40b-0e23-445c-9abd-22219bbf1c53",
+				"wikidata": "Q730"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Suriname",
+				"areaKm2": 145519.1,
+				"labelRank": 95
+			}
+		},
+		{
+			"area_id": "country:SVK",
+			"level": "country",
+			"name": {
+				"default": "Slowakei",
+				"de": "Slowakei"
+			},
+			"codes": {
+				"iso2": "SK",
+				"iso3": "SVK",
+				"m49": "703",
+				"overture": "484850bb-5eaa-4b61-9e74-908f2a11628a",
+				"wikidata": "Q214"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Slovensko",
+				"areaKm2": 49026.6,
+				"labelRank": 132
+			}
+		},
+		{
+			"area_id": "country:SVN",
+			"level": "country",
+			"name": {
+				"default": "Slowenien",
+				"de": "Slowenien"
+			},
+			"codes": {
+				"iso2": "SI",
+				"iso3": "SVN",
+				"m49": "705",
+				"overture": "e9e6d91f-4d6f-4872-a15e-391a963c90e1",
+				"wikidata": "Q215"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Slovenija",
+				"areaKm2": 20273.7,
+				"labelRank": 156
+			}
+		},
+		{
+			"area_id": "country:SWE",
+			"level": "country",
+			"name": {
+				"default": "Schweden",
+				"de": "Schweden"
+			},
+			"codes": {
+				"iso2": "SE",
+				"iso3": "SWE",
+				"m49": "752",
+				"overture": "1187cf1f-7e17-4a4c-8eb7-c6d796f98fc1",
+				"wikidata": "Q34"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sverige",
+				"areaKm2": 449549.6,
+				"labelRank": 58
+			}
+		},
+		{
+			"area_id": "country:SWZ",
+			"level": "country",
+			"name": {
+				"default": "Eswatini",
+				"de": "Eswatini"
+			},
+			"codes": {
+				"iso2": "SZ",
+				"iso3": "SWZ",
+				"m49": "748",
+				"overture": "18f3b79e-a648-4fc2-bceb-9308b022e592",
+				"wikidata": "Q1050"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Eswatini",
+				"areaKm2": 17362.1,
+				"labelRank": 159
+			}
+		},
+		{
+			"area_id": "country:SXM",
+			"level": "country",
+			"name": {
+				"default": "Saint-Martin (Niederländischer Teil)",
+				"de": "Saint-Martin (Niederländischer Teil)"
+			},
+			"codes": {
+				"iso2": "SX",
+				"iso3": "SXM",
+				"m49": "534",
+				"overture": "14d255d0-f55d-458b-8f31-5f99a9ee4d5a",
+				"wikidata": "Q26273"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sint Maarten",
+				"areaKm2": 37.4,
+				"labelRank": 240
+			}
+		},
+		{
+			"area_id": "country:SYC",
+			"level": "country",
+			"name": {
+				"default": "Seychellen",
+				"de": "Seychellen"
+			},
+			"codes": {
+				"iso2": "SC",
+				"iso3": "SYC",
+				"m49": "690",
+				"overture": "bdd591d9-cce9-42b8-b9ea-abe97f0cc00d",
+				"wikidata": "Q1042"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sesel",
+				"areaKm2": 429.1,
+				"labelRank": 207
+			}
+		},
+		{
+			"area_id": "country:SYR",
+			"level": "country",
+			"name": {
+				"default": "Syrien, Arabische Republik",
+				"de": "Syrien, Arabische Republik"
+			},
+			"codes": {
+				"iso2": "SY",
+				"iso3": "SYR",
+				"m49": "760",
+				"overture": "96b69dac-6b0b-4df7-8595-da1cbca21ab9",
+				"wikidata": "Q858"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "سوريا",
+				"areaKm2": 186490.9,
+				"labelRank": 90
+			}
+		},
+		{
+			"area_id": "country:TCA",
+			"level": "country",
+			"name": {
+				"default": "Turks- und Caicosinseln",
+				"de": "Turks- und Caicosinseln"
+			},
+			"codes": {
+				"iso2": "TC",
+				"iso3": "TCA",
+				"m49": "796",
+				"overture": "6b050a63-82ab-40bc-85f6-dd3db7d01f2e",
+				"wikidata": "Q18221"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Turks and Caicos Islands",
+				"areaKm2": 925.7,
+				"labelRank": 192,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:TCD",
+			"level": "country",
+			"name": {
+				"default": "Tschad",
+				"de": "Tschad"
+			},
+			"codes": {
+				"iso2": "TD",
+				"iso3": "TCD",
+				"m49": "148",
+				"overture": "4b39fda1-0f7d-4548-b62c-71216ca16cdf",
+				"wikidata": "Q657"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Tchad تشاد",
+				"areaKm2": 1273006.7,
+				"labelRank": 22
+			}
+		},
+		{
+			"area_id": "country:TGO",
+			"level": "country",
+			"name": {
+				"default": "Togo",
+				"de": "Togo"
+			},
+			"codes": {
+				"iso2": "TG",
+				"iso3": "TGO",
+				"m49": "768",
+				"overture": "1d9869a5-eb06-46f4-a6cf-871b8d780065",
+				"wikidata": "Q945"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Togo",
+				"areaKm2": 56836.6,
+				"labelRank": 128
+			}
+		},
+		{
+			"area_id": "country:THA",
+			"level": "country",
+			"name": {
+				"default": "Thailand",
+				"de": "Thailand"
+			},
+			"codes": {
+				"iso2": "TH",
+				"iso3": "THA",
+				"m49": "764",
+				"overture": "dcbafa0d-6c38-47d0-8ffd-0eed94ba1061",
+				"wikidata": "Q869"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "ประเทศไทย",
+				"areaKm2": 515216.7,
+				"labelRank": 52
+			}
+		},
+		{
+			"area_id": "country:TJK",
+			"level": "country",
+			"name": {
+				"default": "Tadschikistan",
+				"de": "Tadschikistan"
+			},
+			"codes": {
+				"iso2": "TJ",
+				"iso3": "TJK",
+				"m49": "762",
+				"overture": "a0e7ce6b-38bd-4cab-a8fb-cc445c8acdd2",
+				"wikidata": "Q863"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Тоҷикистон",
+				"areaKm2": 141427.2,
+				"labelRank": 97
+			}
+		},
+		{
+			"area_id": "country:TKL",
+			"level": "country",
+			"name": {
+				"default": "Tokelau",
+				"de": "Tokelau"
+			},
+			"codes": {
+				"iso2": "TK",
+				"iso3": "TKL",
+				"m49": "772",
+				"overture": "0dffa4c6-333c-44e8-a3e0-0d84cebd79ee",
+				"wikidata": "Q36823"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Tokelau",
+				"areaKm2": 6.6,
+				"labelRank": 247,
+				"overtureParentId": "89e73df8-d5ab-4156-9e83-140d1ee694c5"
+			}
+		},
+		{
+			"area_id": "country:TKM",
+			"level": "country",
+			"name": {
+				"default": "Turkmenistan",
+				"de": "Turkmenistan"
+			},
+			"codes": {
+				"iso2": "TM",
+				"iso3": "TKM",
+				"m49": "795",
+				"overture": "f28876f3-ba32-49be-8b19-d4530e13646d",
+				"wikidata": "Q874"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Türkmenistan",
+				"areaKm2": 488231.4,
+				"labelRank": 54
+			}
+		},
+		{
+			"area_id": "country:TLS",
+			"level": "country",
+			"name": {
+				"default": "Timor-Leste",
+				"de": "Timor-Leste"
+			},
+			"codes": {
+				"iso2": "TL",
+				"iso3": "TLS",
+				"m49": "626",
+				"overture": "8325d071-354f-4d2e-b779-04c2f1c7b7cd",
+				"wikidata": "Q574"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Timor-Leste",
+				"areaKm2": 14896.6,
+				"labelRank": 161
+			}
+		},
+		{
+			"area_id": "country:TON",
+			"level": "country",
+			"name": {
+				"default": "Tonga",
+				"de": "Tonga"
+			},
+			"codes": {
+				"iso2": "TO",
+				"iso3": "TON",
+				"m49": "776",
+				"overture": "fef8748b-0c91-46ad-9f2d-976d8d2de3e9",
+				"wikidata": "Q678"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Tonga",
+				"areaKm2": 672.2,
+				"labelRank": 196
+			}
+		},
+		{
+			"area_id": "country:TTO",
+			"level": "country",
+			"name": {
+				"default": "Trinidad und Tobago",
+				"de": "Trinidad und Tobago"
+			},
+			"codes": {
+				"iso2": "TT",
+				"iso3": "TTO",
+				"m49": "780",
+				"overture": "5ac18bbb-9f14-4cf3-a507-f2fb610c8856",
+				"wikidata": "Q754"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Trinidad and Tobago",
+				"areaKm2": 5170.2,
+				"labelRank": 176
+			}
+		},
+		{
+			"area_id": "country:TUN",
+			"level": "country",
+			"name": {
+				"default": "Tunesien",
+				"de": "Tunesien"
+			},
+			"codes": {
+				"iso2": "TN",
+				"iso3": "TUN",
+				"m49": "788",
+				"overture": "006a49e8-ea13-49f7-af64-8ba7d7851649",
+				"wikidata": "Q948"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "تونس",
+				"areaKm2": 155298.2,
+				"labelRank": 93
+			}
+		},
+		{
+			"area_id": "country:TUR",
+			"level": "country",
+			"name": {
+				"default": "Türkei",
+				"de": "Türkei"
+			},
+			"codes": {
+				"iso2": "TR",
+				"iso3": "TUR",
+				"m49": "792",
+				"overture": "8c596c33-9947-4fee-94ce-ad12848d61e5",
+				"wikidata": "Q43"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Türkiye",
+				"areaKm2": 780314.1,
+				"labelRank": 38
+			}
+		},
+		{
+			"area_id": "country:TUV",
+			"level": "country",
+			"name": {
+				"default": "Tuvalu",
+				"de": "Tuvalu"
+			},
+			"codes": {
+				"iso2": "TV",
+				"iso3": "TUV",
+				"m49": "798",
+				"overture": "90a28439-aa87-4241-8bce-fe40a1680b52",
+				"wikidata": "Q672"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Tuvalu",
+				"areaKm2": 28.2,
+				"labelRank": 242
+			}
+		},
+		{
+			"area_id": "country:TWN",
+			"level": "country",
+			"name": {
+				"default": "Taiwan, Chinesische Provinz",
+				"de": "Taiwan, Chinesische Provinz"
+			},
+			"codes": {
+				"iso2": "TW",
+				"iso3": "TWN",
+				"m49": "158",
+				"overture": "b0a31070-27f2-4949-ae87-87e730237575",
+				"wikidata": "Q865"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "臺灣",
+				"areaKm2": 36493.9,
+				"labelRank": 139
+			}
+		},
+		{
+			"area_id": "country:TZA",
+			"level": "country",
+			"name": {
+				"default": "Tansania, Vereinigte Republik",
+				"de": "Tansania, Vereinigte Republik"
+			},
+			"codes": {
+				"iso2": "TZ",
+				"iso3": "TZA",
+				"m49": "834",
+				"overture": "864b6b53-f951-418d-8d89-7a3902c03f84",
+				"wikidata": "Q924"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Tanzania",
+				"areaKm2": 940620.2,
+				"labelRank": 32
+			}
+		},
+		{
+			"area_id": "country:UGA",
+			"level": "country",
+			"name": {
+				"default": "Uganda",
+				"de": "Uganda"
+			},
+			"codes": {
+				"iso2": "UG",
+				"iso3": "UGA",
+				"m49": "800",
+				"overture": "051da74f-6039-42fb-943f-3774707222d8",
+				"wikidata": "Q1036"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Uganda",
+				"areaKm2": 241455.0,
+				"labelRank": 82
+			}
+		},
+		{
+			"area_id": "country:UKR",
+			"level": "country",
+			"name": {
+				"default": "Ukraine",
+				"de": "Ukraine"
+			},
+			"codes": {
+				"iso2": "UA",
+				"iso3": "UKR",
+				"m49": "804",
+				"overture": "7f6380cd-2f97-4b3e-98a3-8392f9eb9f1a",
+				"wikidata": "Q212"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Україна",
+				"areaKm2": 599083.2,
+				"labelRank": 47
+			}
+		},
+		{
+			"area_id": "country:UMI",
+			"level": "country",
+			"name": {
+				"default": "United States Minor Outlying Islands",
+				"de": "United States Minor Outlying Islands"
+			},
+			"codes": {
+				"iso2": "UM",
+				"iso3": "UMI",
+				"m49": "581",
+				"overture": "cd3c4806-7c2f-47da-9dc1-07eefac42e31",
+				"wikidata": "Q16645"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "United States Minor Outlying Islands",
+				"areaKm2": 27.6,
+				"labelRank": 243,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:URY",
+			"level": "country",
+			"name": {
+				"default": "Uruguay",
+				"de": "Uruguay"
+			},
+			"codes": {
+				"iso2": "UY",
+				"iso3": "URY",
+				"m49": "858",
+				"overture": "8274404c-03ab-41c9-8886-a83fe3925f03",
+				"wikidata": "Q77"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Uruguay",
+				"areaKm2": 178231.4,
+				"labelRank": 92
+			}
+		},
+		{
+			"area_id": "country:USA",
+			"level": "country",
+			"name": {
+				"default": "Vereinigte Staaten",
+				"de": "Vereinigte Staaten"
+			},
+			"codes": {
+				"iso2": "US",
+				"iso3": "USA",
+				"m49": "840",
+				"overture": "f39eb4af-5206-481b-b19e-bd784ded3f05",
+				"wikidata": "Q30"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "United States",
+				"areaKm2": 9476963.2,
+				"labelRank": 4
+			}
+		},
+		{
+			"area_id": "country:UZB",
+			"level": "country",
+			"name": {
+				"default": "Usbekistan",
+				"de": "Usbekistan"
+			},
+			"codes": {
+				"iso2": "UZ",
+				"iso3": "UZB",
+				"m49": "860",
+				"overture": "490c04b8-594b-429b-ab90-e8be717a51af",
+				"wikidata": "Q265"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Oʻzbekiston",
+				"areaKm2": 447545.2,
+				"labelRank": 59
+			}
+		},
+		{
+			"area_id": "country:VAT",
+			"level": "country",
+			"name": {
+				"default": "Heiliger Stuhl (Staat Vatikanstadt)",
+				"de": "Heiliger Stuhl (Staat Vatikanstadt)"
+			},
+			"codes": {
+				"iso2": "VA",
+				"iso3": "VAT",
+				"m49": "336",
+				"overture": "50127dcb-ba6f-4a46-a158-674e2d77b719",
+				"wikidata": "Q237"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Civitas Vaticana - Città del Vaticano",
+				"areaKm2": 0.5,
+				"labelRank": 250
+			}
+		},
+		{
+			"area_id": "country:VCT",
+			"level": "country",
+			"name": {
+				"default": "St. Vincent und die Grenadinen",
+				"de": "St. Vincent und die Grenadinen"
+			},
+			"codes": {
+				"iso2": "VC",
+				"iso3": "VCT",
+				"m49": "670",
+				"overture": "97ef5926-572e-4116-985a-92b11e070b4b",
+				"wikidata": "Q757"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Saint Vincent and the Grenadines",
+				"areaKm2": 398.7,
+				"labelRank": 208
+			}
+		},
+		{
+			"area_id": "country:VEN",
+			"level": "country",
+			"name": {
+				"default": "Venezuela, Bolivarische Republik",
+				"de": "Venezuela, Bolivarische Republik"
+			},
+			"codes": {
+				"iso2": "VE",
+				"iso3": "VEN",
+				"m49": "862",
+				"overture": "3fdaa54c-3548-4c65-b99b-59214ebe4d22",
+				"wikidata": "Q717"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Venezuela",
+				"areaKm2": 913074.6,
+				"labelRank": 33
+			}
+		},
+		{
+			"area_id": "country:VGB",
+			"level": "country",
+			"name": {
+				"default": "Britische Jungferninseln",
+				"de": "Britische Jungferninseln"
+			},
+			"codes": {
+				"iso2": "VG",
+				"iso3": "VGB",
+				"m49": "092",
+				"overture": "36e75858-bdb4-49e4-8cf4-aa5b2b1dc167",
+				"wikidata": "Q25305"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "British Virgin Islands",
+				"areaKm2": 149.8,
+				"labelRank": 226,
+				"overtureParentId": "ce3429b1-d5c6-4763-91e7-0107e26d613e"
+			}
+		},
+		{
+			"area_id": "country:VIR",
+			"level": "country",
+			"name": {
+				"default": "Amerikanische Jungferninseln",
+				"de": "Amerikanische Jungferninseln"
+			},
+			"codes": {
+				"iso2": "VI",
+				"iso3": "VIR",
+				"m49": "850",
+				"overture": "10272a36-b9b6-4fba-abd9-59ebc17da0d8",
+				"wikidata": "Q11703"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "United States Virgin Islands",
+				"areaKm2": 351.7,
+				"labelRank": 213,
+				"overtureParentId": "f39eb4af-5206-481b-b19e-bd784ded3f05"
+			}
+		},
+		{
+			"area_id": "country:VNM",
+			"level": "country",
+			"name": {
+				"default": "Vietnam",
+				"de": "Vietnam"
+			},
+			"codes": {
+				"iso2": "VN",
+				"iso3": "VNM",
+				"m49": "704",
+				"overture": "4d3bdd09-c750-4cb5-8330-920f89eee5c9",
+				"wikidata": "Q881"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Việt Nam",
+				"areaKm2": 328823.4,
+				"labelRank": 68
+			}
+		},
+		{
+			"area_id": "country:VUT",
+			"level": "country",
+			"name": {
+				"default": "Vanuatu",
+				"de": "Vanuatu"
+			},
+			"codes": {
+				"iso2": "VU",
+				"iso3": "VUT",
+				"m49": "548",
+				"overture": "7df07e3e-b552-48b6-a465-25ec46430fcf",
+				"wikidata": "Q686"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Vanuatu",
+				"areaKm2": 12152.8,
+				"labelRank": 163
+			}
+		},
+		{
+			"area_id": "country:WLF",
+			"level": "country",
+			"name": {
+				"default": "Wallis und Futuna",
+				"de": "Wallis und Futuna"
+			},
+			"codes": {
+				"iso2": "WF",
+				"iso3": "WLF",
+				"m49": "876",
+				"overture": "a9c1665b-00c0-49bb-b9d2-07162c3a6b1f",
+				"wikidata": "Q35555"
+			},
+			"metadata": {
+				"overtureSubtype": "dependency",
+				"sourceName": "Wallis-et-Futuna",
+				"areaKm2": 145.1,
+				"labelRank": 227,
+				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
+			}
+		},
+		{
+			"area_id": "country:WSM",
+			"level": "country",
+			"name": {
+				"default": "Samoa",
+				"de": "Samoa"
+			},
+			"codes": {
+				"iso2": "WS",
+				"iso3": "WSM",
+				"m49": "882",
+				"overture": "a92c1621-fad0-4bdd-963b-9623f7514df2",
+				"wikidata": "Q683"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Sāmoa",
+				"areaKm2": 2835.7,
+				"labelRank": 180
+			}
+		},
+		{
+			"area_id": "country:XKX",
+			"level": "country",
+			"name": {
+				"default": "Kosovo",
+				"de": "Kosovo"
+			},
+			"codes": {
+				"iso2": "XK",
+				"iso3": "XKX",
+				"overture": "2d07ff45-87e6-4903-8b2d-fd2c8f703572",
+				"wikidata": "Q1246"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Kosova / Kosovo",
+				"areaKm2": 10906.8,
+				"labelRank": 169
+			}
+		},
+		{
+			"area_id": "country:YEM",
+			"level": "country",
+			"name": {
+				"default": "Jemen",
+				"de": "Jemen"
+			},
+			"codes": {
+				"iso2": "YE",
+				"iso3": "YEM",
+				"m49": "887",
+				"overture": "9465c3a0-69a9-41b5-bb58-bc8603e24973",
+				"wikidata": "Q805"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "اليمن",
+				"areaKm2": 453019.7,
+				"labelRank": 57
+			}
+		},
+		{
+			"area_id": "country:ZAF",
+			"level": "country",
+			"name": {
+				"default": "Südafrika",
+				"de": "Südafrika"
+			},
+			"codes": {
+				"iso2": "ZA",
+				"iso3": "ZAF",
+				"m49": "710",
+				"overture": "edc91c28-c63d-4912-92a0-6a3cd305d104",
+				"wikidata": "Q258"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "South Africa",
+				"areaKm2": 1220174.1,
+				"labelRank": 25
+			}
+		},
+		{
+			"area_id": "country:ZMB",
+			"level": "country",
+			"name": {
+				"default": "Sambia",
+				"de": "Sambia"
+			},
+			"codes": {
+				"iso2": "ZM",
+				"iso3": "ZMB",
+				"m49": "894",
+				"overture": "66b0a9dc-76ee-4654-8ee0-502196ee6f8b",
+				"wikidata": "Q953"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Zambia",
+				"areaKm2": 750755.8,
+				"labelRank": 40
+			}
+		},
+		{
+			"area_id": "country:ZWE",
+			"level": "country",
+			"name": {
+				"default": "Simbabwe",
+				"de": "Simbabwe"
+			},
+			"codes": {
+				"iso2": "ZW",
+				"iso3": "ZWE",
+				"m49": "716",
+				"overture": "93b2baa8-ba8b-41d3-96f0-6187bd24cbcc",
+				"wikidata": "Q954"
+			},
+			"metadata": {
+				"overtureSubtype": "country",
+				"sourceName": "Zimbabwe",
+				"areaKm2": 390677.9,
+				"labelRank": 62
+			}
+		}
+	]
+}

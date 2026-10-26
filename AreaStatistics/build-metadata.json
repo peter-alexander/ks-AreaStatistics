@@ -1,0 +1,178 @@
+{
+	"schema": "kartensammlung.area-statistics-build/v1",
+	"generatedAt": "2026-10-26T21:36:53.339854Z",
+	"overtureRelease": "2026-10-21.0",
+	"geography": {
+		"level": "country",
+		"areaId": "country:<ISO-3166-1 alpha-3>",
+		"sourceLayers": [
+			"country",
+			"country_label"
+		],
+		"directSourceSubtypes": [
+			"country",
+			"dependency"
+		],
+		"compositionTargets": [
+			"BQ",
+			"EH",
+			"PS",
+			"SJ"
+		],
+		"displayNameLanguage": "de",
+		"sourceNameProperty": "name_local",
+		"labelPriority": {
+			"property": "label_rank",
+			"areaProperty": "area_km2",
+			"method": "descending land area",
+			"areaProjection": "EPSG:6933"
+		},
+		"policy": "Complete ISO-3166-1 area-code set plus explicitly reviewed mappings. Direct Overture country/dependency representations are preferred; configured composite areas are built from reviewed Overture components."
+	},
+	"counts": {
+		"countries": 250,
+		"labels": 250,
+		"iso3166Countries": 249,
+		"reviewedAdditionalAreas": 1,
+		"directOvertureCountries": 199,
+		"directOvertureDependencies": 47,
+		"composedAreas": 4,
+		"compositionComponents": 8,
+		"excludedSyntheticCountries": 20,
+		"perspectiveFallbacks": 0
+	},
+	"excludedOvertureCountryEntities": [
+		{
+			"code": "XA",
+			"name": "Хабомаи",
+			"wikidata": "Q1050542",
+			"overtureId": "27b5ecfd-6867-4946-9b59-f10ba05694bd"
+		},
+		{
+			"code": "XB",
+			"name": "Extent of Japanese claim at Liancourt Rocks",
+			"wikidata": "Q20317",
+			"overtureId": "cd5b36c5-d7c6-4595-b009-c54c11fec925"
+		},
+		{
+			"code": "XC",
+			"name": "巴里加斯",
+			"wikidata": "Q96807758",
+			"overtureId": "5bc2315f-396d-42bd-b899-1f731b3c498e"
+		},
+		{
+			"code": "XD",
+			"name": "钓鱼岛及其附属岛屿/釣魚臺列嶼/尖閣諸島",
+			"wikidata": "Q29460",
+			"overtureId": "b1706842-2fd9-4c18-95c5-86f9cf35447c"
+		},
+		{
+			"code": "XG",
+			"name": "قطاع غزة",
+			"wikidata": "Q39760",
+			"overtureId": "f7224d14-4120-4e12-8e48-0ba9dc181f39"
+		},
+		{
+			"code": "XH",
+			"name": "נפת רמת הגולן",
+			"wikidata": "Q5423040",
+			"overtureId": "9b7d1a58-1050-4d34-91d4-496123b5d8f5"
+		},
+		{
+			"code": "XI",
+			"name": "Итуруп",
+			"wikidata": "Q215727",
+			"overtureId": "419b2f2b-651e-40bd-a7f8-776f10d4f37d"
+		},
+		{
+			"code": "XL",
+			"name": "均郎、乌热、然冲、香扎、拉不底地区",
+			"wikidata": null,
+			"overtureId": "b177c266-834b-48f9-a786-52fa46412405"
+		},
+		{
+			"code": "XM",
+			"name": "Abu Musa",
+			"wikidata": null,
+			"overtureId": "a43d592a-fad4-4a24-89f3-8ecbd0326a2d"
+		},
+		{
+			"code": "XN",
+			"name": "Tunb",
+			"wikidata": "Q1475754",
+			"overtureId": "aed548b9-2f89-4515-b023-4a50e0f3b6c0"
+		},
+		{
+			"code": "XO",
+			"name": "Шикотан",
+			"wikidata": "Q1043128",
+			"overtureId": "5c6058ea-b13a-4e15-98e0-ed1c28c98011"
+		},
+		{
+			"code": "XP",
+			"name": "Paracel Islands",
+			"wikidata": null,
+			"overtureId": "e758fbf1-25c0-4e5e-8b9d-cd468bf3b47e"
+		},
+		{
+			"code": "XQ",
+			"name": "Nilang-Jadhang disputed area",
+			"wikidata": null,
+			"overtureId": "f9116ff4-9091-4217-adea-f677f68e2fc0"
+		},
+		{
+			"code": "XR",
+			"name": "Spratly Islands",
+			"wikidata": null,
+			"overtureId": "ae3b7d6d-cc39-47e3-832d-02902e3c9a7b"
+		},
+		{
+			"code": "XT",
+			"name": "بئر طويل",
+			"wikidata": "Q620634",
+			"overtureId": "64017c11-c22b-453d-be62-9a47c46f685c"
+		},
+		{
+			"code": "XU",
+			"name": "Кунашир",
+			"wikidata": "Q847285",
+			"overtureId": "39d6f33f-0f6c-432e-9359-7030fd9b8313"
+		},
+		{
+			"code": "XW",
+			"name": "الضفة الغربية",
+			"wikidata": null,
+			"overtureId": "9d886720-144d-4802-9ce3-5b7007f0c904"
+		},
+		{
+			"code": "XX",
+			"name": "巨哇-曲惹地区",
+			"wikidata": null,
+			"overtureId": "df596c1f-b465-4efb-916f-93978d60dd05"
+		},
+		{
+			"code": "XY",
+			"name": "أبيى",
+			"wikidata": "Q336494",
+			"overtureId": "e6c26737-e4e1-468a-b152-ddacd1e920c7"
+		},
+		{
+			"code": "XZ",
+			"name": "No man's land",
+			"wikidata": "Q116158418",
+			"overtureId": "5f9327fb-5f13-4aab-9b89-e347a261a8af"
+		}
+	],
+	"source": {
+		"name": "Overture Maps divisions",
+		"license": "ODbL-1.0",
+		"attribution": "© OpenStreetMap contributors, Overture Maps Foundation"
+	},
+	"files": {
+		"pmtiles": {
+			"name": "world-admin.pmtiles",
+			"bytes": 18354629
+		},
+		"registry": "area-registry-countries.json"
+	}
+}
