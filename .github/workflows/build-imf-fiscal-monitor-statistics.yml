@@ -1,0 +1,110 @@
+name: Build IMF Fiscal Monitor statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 6 14 * *"
+  pull_request:
+    paths:
+      - "config/statistics-providers.json"
+      - "config/imf-fiscal-monitor-indicators.json"
+      - "scripts/build_imf_fiscal_monitor.py"
+      - "scripts/build_world_bank.py"
+      - "docs/imf-fiscal-monitor-source-policy.md"
+      - ".github/scripts/deploy-world-bank-statistics.sh"
+      - ".github/workflows/build-imf-fiscal-monitor-statistics.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "config/statistics-providers.json"
+      - "config/imf-fiscal-monitor-indicators.json"
+      - "scripts/build_imf_fiscal_monitor.py"
+      - "scripts/build_world_bank.py"
+      - "docs/imf-fiscal-monitor-source-policy.md"
+      - ".github/scripts/deploy-world-bank-statistics.sh"
+      - ".github/workflows/build-imf-fiscal-monitor-statistics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: area-statistics-imf-fiscal-monitor-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate scripts
+        run: |
+          python -m py_compile scripts/build_imf_fiscal_monitor.py scripts/build_world_bank.py
+          python -m json.tool config/statistics-providers.json >/dev/null
+          python -m json.tool config/imf-fiscal-monitor-indicators.json >/dev/null
+          git diff --check
+
+      - name: Build IMF Fiscal Monitor statistics
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p diagnostics
+          REGISTRY_URL="https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          python scripts/build_imf_fiscal_monitor.py --registry "$REGISTRY_URL" 2>&1 | tee diagnostics/imf-fiscal-monitor.log
+
+      - name: Show statistics summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path("dist/statistics/imf-fiscal-monitor/index.json").read_text(encoding="utf-8"))
+          print(f"snapshot={payload['activeSnapshot']}")
+          print(f"retrievedAt={payload['retrievedAt']}")
+          print(f"sourceRelease={payload['dataset']['sourceRelease']}")
+          print(f"lastModified={payload['dataset']['lastModified']}")
+          print(f"projectionStartYear={payload['dataset']['projectionStartYear']}")
+          print(f"indicators={len(payload['indicators'])}")
+          for indicator in payload["indicators"]:
+          	coverage = indicator["coverage"]
+          	print(
+          		f"{indicator['id']}: defaultYear={indicator['defaultYear']} "
+          		f"areas={coverage['areasInDefaultYear']}/{coverage['registryAreas']} "
+          		f"years={indicator['availableYears'][0]}-{indicator['availableYears'][-1]}"
+          	)
+          PY
+          du -h dist/statistics/imf-fiscal-monitor/index.json
+          du -ch dist/statistics/imf-fiscal-monitor/releases/*/*.json | tail -n 1
+
+      - name: Upload statistics artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: imf-fiscal-monitor-statistics-${{ github.sha }}
+          path: dist/statistics/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish to GitHub Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          bash .github/scripts/publish-pages.sh provider imf-fiscal-monitor
+
+      - name: Upload diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: imf-fiscal-monitor-statistics-diagnostics-${{ github.sha }}
+          path: diagnostics/
+          if-no-files-found: error
+          retention-days: 30
