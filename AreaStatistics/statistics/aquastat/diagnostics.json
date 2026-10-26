@@ -1,0 +1,312 @@
+{
+	"schema": "kartensammlung.aquastat-build-diagnostics/v1",
+	"retrievedAt": "2026-10-26T21:41:20.351621Z",
+	"activeSnapshot": "48299fa9d891cc9e",
+	"registry": {
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250,
+		"m49AreaCount": 249,
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406429539-1"
+	},
+	"indicators": {
+		"water.water-stress-percent": {
+			"sourceVariable": 4550,
+			"sourceName": "SDG 6.4.2. Water Stress",
+			"sourceRows": 4672,
+			"sourceBytes": 1425534,
+			"mappedRows": 4168,
+			"mappedAreas": 179,
+			"firstYear": 2000,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 179,
+			"defaultCoverage": 179,
+			"missingMappedRows": 0,
+			"flags": {
+				"E": 3905,
+				"I": 263
+			},
+			"flagDescriptions": {
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.water-use-efficiency-usd-per-m3": {
+			"sourceVariable": 4551,
+			"sourceName": "SDG 6.4.1. Water Use Efficiency",
+			"sourceRows": 4633,
+			"sourceBytes": 1487194,
+			"mappedRows": 3682,
+			"mappedAreas": 170,
+			"firstYear": 2000,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 170,
+			"defaultCoverage": 170,
+			"missingMappedRows": 447,
+			"flags": {
+				"E": 3681,
+				"I": 1
+			},
+			"flagDescriptions": {
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.renewable-resources-per-capita": {
+			"sourceVariable": 4190,
+			"sourceName": "Total renewable water resources per capita",
+			"sourceRows": 12534,
+			"sourceBytes": 4493841,
+			"mappedRows": 11530,
+			"mappedAreas": 197,
+			"firstYear": 1961,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 197,
+			"defaultCoverage": 197,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 247,
+				"E": 11213,
+				"I": 70
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.external-dependency-percent": {
+			"sourceVariable": 4192,
+			"sourceName": "Dependency ratio",
+			"sourceRows": 11321,
+			"sourceBytes": 3605184,
+			"mappedRows": 11321,
+			"mappedAreas": 193,
+			"firstYear": 1961,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 193,
+			"defaultCoverage": 193,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 1088,
+				"E": 9278,
+				"I": 955
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.withdrawal-per-capita": {
+			"sourceVariable": 4257,
+			"sourceName": "Total water withdrawal per capita",
+			"sourceRows": 7744,
+			"sourceBytes": 2552615,
+			"mappedRows": 6452,
+			"mappedAreas": 180,
+			"firstYear": 1962,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 180,
+			"defaultCoverage": 180,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 2,
+				"E": 6438,
+				"I": 12
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.agricultural-withdrawal-share": {
+			"sourceVariable": 4254,
+			"sourceName": "Agricultural water withdrawal as % of total water withdrawal",
+			"sourceRows": 7067,
+			"sourceBytes": 2358505,
+			"mappedRows": 6009,
+			"mappedAreas": 180,
+			"firstYear": 1965,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 180,
+			"defaultCoverage": 180,
+			"missingMappedRows": 0,
+			"flags": {
+				"E": 4924,
+				"I": 1085
+			},
+			"flagDescriptions": {
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.cultivated-area-equipped-irrigation-percent": {
+			"sourceVariable": 4331,
+			"sourceName": "% of the cultivated area equipped for irrigation",
+			"sourceRows": 7198,
+			"sourceBytes": 2631800,
+			"mappedRows": 5906,
+			"mappedAreas": 180,
+			"firstYear": 1961,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 180,
+			"defaultCoverage": 180,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 2,
+				"E": 5578,
+				"I": 326
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.dam-capacity-per-capita": {
+			"sourceVariable": 4471,
+			"sourceName": "Dam capacity per capita",
+			"sourceRows": 8945,
+			"sourceBytes": 3070846,
+			"mappedRows": 8945,
+			"mappedAreas": 164,
+			"firstYear": 1961,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 164,
+			"defaultCoverage": 164,
+			"missingMappedRows": 0,
+			"flags": {
+				"E": 8741,
+				"I": 204
+			},
+			"flagDescriptions": {
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.equipped-irrigation-area-actually-irrigated-percent": {
+			"sourceVariable": 4328,
+			"sourceName": "% of the area equipped for irrigation actually irrigated",
+			"sourceRows": 5240,
+			"sourceBytes": 1918066,
+			"mappedRows": 4141,
+			"mappedAreas": 156,
+			"firstYear": 1962,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 156,
+			"defaultCoverage": 156,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 42,
+				"E": 3216,
+				"I": 883
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.desalinated-water-produced": {
+			"sourceVariable": 4264,
+			"sourceName": "Desalinated water produced",
+			"sourceRows": 3530,
+			"sourceBytes": 1007577,
+			"mappedRows": 2756,
+			"mappedAreas": 100,
+			"firstYear": 1980,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 100,
+			"defaultCoverage": 100,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 434,
+				"E": 193,
+				"I": 1903,
+				"X": 226
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)",
+				"X": "External value (reported by FAOSTAT or another international agency)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.municipal-wastewater-produced": {
+			"sourceVariable": 4269,
+			"sourceName": "Produced municipal wastewater",
+			"sourceRows": 3768,
+			"sourceBytes": 1053409,
+			"mappedRows": 2996,
+			"mappedAreas": 130,
+			"firstYear": 1963,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 130,
+			"defaultCoverage": 130,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 860,
+				"E": 5,
+				"I": 1883,
+				"X": 248
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)",
+				"X": "External value (reported by FAOSTAT or another international agency)"
+			},
+			"ignoredSourceAreas": {}
+		},
+		"water.municipal-wastewater-treated": {
+			"sourceVariable": 4270,
+			"sourceName": "Treated municipal wastewater",
+			"sourceRows": 3753,
+			"sourceBytes": 1049923,
+			"mappedRows": 2923,
+			"mappedAreas": 125,
+			"firstYear": 1963,
+			"latestYear": 2023,
+			"defaultYear": 2023,
+			"latestCoverage": 125,
+			"defaultCoverage": 125,
+			"missingMappedRows": 0,
+			"flags": {
+				"A": 835,
+				"E": 3,
+				"I": 1765,
+				"X": 320
+			},
+			"flagDescriptions": {
+				"A": "Official value: Value provided as official when the source agency assigns sufficient confidence that it is not expected to be dramatically revised",
+				"E": "Estimate either calculated as sum or identify (yield) from official values or from an AQUASTAT estimation",
+				"I": "Imputed (carry forward, vertical imputation, linear interpolation)",
+				"X": "External value (reported by FAOSTAT or another international agency)"
+			},
+			"ignoredSourceAreas": {}
+		}
+	}
+}
