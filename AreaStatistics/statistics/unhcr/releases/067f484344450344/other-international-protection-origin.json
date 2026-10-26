@@ -1,0 +1,91 @@
+{
+	"schema": "kartensammlung.statistics-indicator/v1",
+	"indicator": {
+		"id": "displacement.other-international-protection-origin",
+		"title": "Andere Menschen mit internationalem Schutzbedarf – Herkunftsland",
+		"description": "Von UNHCR als andere Menschen mit internationalem Schutzbedarf (Other People in Need of International Protection, OIP) geführte Personen am Jahresende, zugeordnet nach Herkunftsland.",
+		"areaLevel": "country",
+		"frequency": "annual",
+		"unit": {
+			"id": "people",
+			"label": "Personen",
+			"symbol": "Personen"
+		},
+		"classification": {
+			"type": "fixed",
+			"scale": "logarithmic",
+			"breaks": [
+				100,
+				1000,
+				10000,
+				100000,
+				1000000,
+				5000000
+			]
+		}
+	},
+	"source": {
+		"providerId": "unhcr",
+		"providerName": "UNHCR",
+		"dataset": "Refugee Population Statistics Database",
+		"release": "2025 annual statistics",
+		"releaseDate": "2026-06-11",
+		"indicator": "oip",
+		"dimension": "origin",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "UNHCR, Refugee Population Statistics Database",
+		"url": "https://www.unhcr.org/refugee-statistics/",
+		"methodologyUrl": "https://www.unhcr.org/refugee-statistics/methodology",
+		"apiDocumentationUrl": "https://api.unhcr.org/docs/refugee-statistics.html",
+		"apiUrl": "https://api.unhcr.org/population/v1/population/?yearFrom=2018&yearTo=2025&coo_all=true&cf_type=ISO"
+	},
+	"availableYears": [
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025
+	],
+	"defaultYear": 2025,
+	"coverage": {
+		"registryAreas": 250,
+		"areasWithAnyValue": 2,
+		"areasWithAnyPositiveValue": 2,
+		"latestYear": 2025,
+		"areasInLatestYear": 2,
+		"positiveAreasInLatestYear": 2,
+		"latestYearSum": 7073664,
+		"observations": 9
+	},
+	"values": {
+		"2018": {
+			"country:VEN": 2592947
+		},
+		"2019": {
+			"country:VEN": 3582202
+		},
+		"2020": {
+			"country:VEN": 3862102
+		},
+		"2021": {
+			"country:VEN": 4406432
+		},
+		"2022": {
+			"country:VEN": 5217456
+		},
+		"2023": {
+			"country:VEN": 5755363
+		},
+		"2024": {
+			"country:VEN": 5875359
+		},
+		"2025": {
+			"country:AFG": 1030958,
+			"country:VEN": 6042706
+		}
+	}
+}

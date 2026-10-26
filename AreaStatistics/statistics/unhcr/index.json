@@ -1,0 +1,818 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "unhcr",
+		"name": "UNHCR",
+		"dataset": "Refugee Population Statistics Database",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "UNHCR, Refugee Population Statistics Database"
+	},
+	"retrievedAt": "2026-10-26T21:43:37.004877Z",
+	"activeSnapshot": "067f484344450344",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406621603-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"url": "https://www.unhcr.org/refugee-statistics/",
+		"methodologyUrl": "https://www.unhcr.org/refugee-statistics/methodology",
+		"apiDocumentationUrl": "https://api.unhcr.org/docs/refugee-statistics.html",
+		"apiBase": "https://api.unhcr.org/population/v1",
+		"release": "2025 annual statistics",
+		"releaseDate": "2026-06-11",
+		"latestYear": 2025,
+		"excludedNonCountryCodes": [
+			"UNK",
+			"TIB",
+			"XXA"
+		],
+		"fetch": {
+			"hostRows": 7802,
+			"hostPages": 8,
+			"originRows": 7673,
+			"originPages": 8
+		},
+		"indicators": {
+			"displacement.refugees-host": {
+				"sourceRows": 7802,
+				"retainedObservations": 7732,
+				"areasWithAnyNumericValue": 195,
+				"areasWithAnyPositiveValue": 186,
+				"firstPositiveYear": 1951,
+				"latestYear": 2025,
+				"latestNumericAreas": 177,
+				"latestPositiveAreas": 167,
+				"latestSum": 28461306,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 70,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 9487155,
+					"XXA": 0
+				}
+			},
+			"displacement.refugees-origin": {
+				"sourceRows": 7673,
+				"retainedObservations": 7490,
+				"areasWithAnyNumericValue": 214,
+				"areasWithAnyPositiveValue": 206,
+				"firstPositiveYear": 1960,
+				"latestYear": 2025,
+				"latestNumericAreas": 206,
+				"latestPositiveAreas": 195,
+				"latestSum": 28287205,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 62,
+					"UNK": 66,
+					"XXA": 46
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 1457730,
+					"UNK": 78397304,
+					"XXA": 1236192
+				}
+			},
+			"displacement.asylum-seekers-host": {
+				"sourceRows": 7802,
+				"retainedObservations": 4312,
+				"areasWithAnyNumericValue": 192,
+				"areasWithAnyPositiveValue": 182,
+				"firstPositiveYear": 2000,
+				"latestYear": 2025,
+				"latestNumericAreas": 177,
+				"latestPositiveAreas": 157,
+				"latestSum": 8998097,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 21,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 0,
+					"XXA": 0
+				}
+			},
+			"displacement.asylum-seekers-origin": {
+				"sourceRows": 7673,
+				"retainedObservations": 4976,
+				"areasWithAnyNumericValue": 214,
+				"areasWithAnyPositiveValue": 214,
+				"firstPositiveYear": 2000,
+				"latestYear": 2025,
+				"latestNumericAreas": 206,
+				"latestPositiveAreas": 204,
+				"latestSum": 7421389,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 26,
+					"UNK": 26,
+					"XXA": 26
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 55,
+					"UNK": 7093899,
+					"XXA": 135071
+				}
+			},
+			"displacement.other-international-protection-host": {
+				"sourceRows": 7802,
+				"retainedObservations": 155,
+				"areasWithAnyNumericValue": 31,
+				"areasWithAnyPositiveValue": 31,
+				"firstPositiveYear": 2018,
+				"latestYear": 2025,
+				"latestNumericAreas": 23,
+				"latestPositiveAreas": 23,
+				"latestSum": 7177473,
+				"missingCodeRows": 0,
+				"missingValueRows": 1270,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 0,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 0,
+					"XXA": 0
+				}
+			},
+			"displacement.other-international-protection-origin": {
+				"sourceRows": 7673,
+				"retainedObservations": 9,
+				"areasWithAnyNumericValue": 2,
+				"areasWithAnyPositiveValue": 2,
+				"firstPositiveYear": 2018,
+				"latestYear": 2025,
+				"latestNumericAreas": 2,
+				"latestPositiveAreas": 2,
+				"latestSum": 7073664,
+				"missingCodeRows": 0,
+				"missingValueRows": 1621,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 1,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 103809,
+					"XXA": 0
+				}
+			},
+			"displacement.idps-unhcr-assisted": {
+				"sourceRows": 7802,
+				"retainedObservations": 5332,
+				"areasWithAnyNumericValue": 193,
+				"areasWithAnyPositiveValue": 63,
+				"firstPositiveYear": 1993,
+				"latestYear": 2025,
+				"latestNumericAreas": 177,
+				"latestPositiveAreas": 38,
+				"latestSum": 64239352,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 28,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 0,
+					"XXA": 0
+				}
+			},
+			"displacement.stateless-host": {
+				"sourceRows": 7802,
+				"retainedObservations": 3712,
+				"areasWithAnyNumericValue": 192,
+				"areasWithAnyPositiveValue": 106,
+				"firstPositiveYear": 2004,
+				"latestYear": 2025,
+				"latestNumericAreas": 177,
+				"latestPositiveAreas": 94,
+				"latestSum": 4477220,
+				"missingCodeRows": 0,
+				"missingValueRows": 0,
+				"excludedNonCountryObservations": {
+					"TIB": 0,
+					"UNK": 17,
+					"XXA": 0
+				},
+				"excludedNonCountryTotals": {
+					"TIB": 0,
+					"UNK": 0,
+					"XXA": 0
+				}
+			}
+		}
+	},
+	"indicators": [
+		{
+			"id": "displacement.refugees-host",
+			"title": "Flüchtlinge nach Aufnahmeland",
+			"description": "Flüchtlinge unter dem Mandat des UNHCR am Jahresende, zugeordnet nach Asyl- beziehungsweise Aufnahmeland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "refugees",
+			"sourceDimension": "host",
+			"path": "releases/067f484344450344/refugees-host.json",
+			"availableYears": [
+				1951,
+				1952,
+				1953,
+				1954,
+				1955,
+				1956,
+				1957,
+				1958,
+				1959,
+				1960,
+				1961,
+				1962,
+				1963,
+				1964,
+				1965,
+				1966,
+				1967,
+				1968,
+				1969,
+				1970,
+				1971,
+				1972,
+				1973,
+				1974,
+				1975,
+				1976,
+				1977,
+				1978,
+				1979,
+				1980,
+				1981,
+				1982,
+				1983,
+				1984,
+				1985,
+				1986,
+				1987,
+				1988,
+				1989,
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 195,
+				"areasWithAnyPositiveValue": 186,
+				"latestYear": 2025,
+				"areasInLatestYear": 177,
+				"positiveAreasInLatestYear": 167,
+				"latestYearSum": 28461306,
+				"observations": 7732
+			}
+		},
+		{
+			"id": "displacement.refugees-origin",
+			"title": "Flüchtlinge nach Herkunftsland",
+			"description": "Flüchtlinge unter dem Mandat des UNHCR am Jahresende, zugeordnet nach Herkunftsland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "refugees",
+			"sourceDimension": "origin",
+			"path": "releases/067f484344450344/refugees-origin.json",
+			"availableYears": [
+				1960,
+				1961,
+				1962,
+				1963,
+				1964,
+				1965,
+				1966,
+				1967,
+				1968,
+				1969,
+				1970,
+				1971,
+				1972,
+				1973,
+				1974,
+				1975,
+				1976,
+				1977,
+				1978,
+				1979,
+				1980,
+				1981,
+				1982,
+				1983,
+				1984,
+				1985,
+				1986,
+				1987,
+				1988,
+				1989,
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 214,
+				"areasWithAnyPositiveValue": 206,
+				"latestYear": 2025,
+				"areasInLatestYear": 206,
+				"positiveAreasInLatestYear": 195,
+				"latestYearSum": 28287205,
+				"observations": 7490
+			}
+		},
+		{
+			"id": "displacement.asylum-seekers-host",
+			"title": "Asylsuchende nach Aufnahmeland",
+			"description": "Personen mit einem am Jahresende noch nicht entschiedenen Antrag auf internationalen Schutz, zugeordnet nach Asyl- beziehungsweise Aufnahmeland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "asylum_seekers",
+			"sourceDimension": "host",
+			"path": "releases/067f484344450344/asylum-seekers-host.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 192,
+				"areasWithAnyPositiveValue": 182,
+				"latestYear": 2025,
+				"areasInLatestYear": 177,
+				"positiveAreasInLatestYear": 157,
+				"latestYearSum": 8998097,
+				"observations": 4312
+			}
+		},
+		{
+			"id": "displacement.asylum-seekers-origin",
+			"title": "Asylsuchende nach Herkunftsland",
+			"description": "Personen mit einem am Jahresende noch nicht entschiedenen Antrag auf internationalen Schutz, zugeordnet nach Herkunftsland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "asylum_seekers",
+			"sourceDimension": "origin",
+			"path": "releases/067f484344450344/asylum-seekers-origin.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 214,
+				"areasWithAnyPositiveValue": 214,
+				"latestYear": 2025,
+				"areasInLatestYear": 206,
+				"positiveAreasInLatestYear": 204,
+				"latestYearSum": 7421389,
+				"observations": 4976
+			}
+		},
+		{
+			"id": "displacement.other-international-protection-host",
+			"title": "Andere Menschen mit internationalem Schutzbedarf – Aufnahmeland",
+			"description": "Von UNHCR als andere Menschen mit internationalem Schutzbedarf (Other People in Need of International Protection, OIP) geführte Personen am Jahresende, zugeordnet nach Aufnahmeland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "oip",
+			"sourceDimension": "host",
+			"path": "releases/067f484344450344/other-international-protection-host.json",
+			"availableYears": [
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 31,
+				"areasWithAnyPositiveValue": 31,
+				"latestYear": 2025,
+				"areasInLatestYear": 23,
+				"positiveAreasInLatestYear": 23,
+				"latestYearSum": 7177473,
+				"observations": 155
+			}
+		},
+		{
+			"id": "displacement.other-international-protection-origin",
+			"title": "Andere Menschen mit internationalem Schutzbedarf – Herkunftsland",
+			"description": "Von UNHCR als andere Menschen mit internationalem Schutzbedarf (Other People in Need of International Protection, OIP) geführte Personen am Jahresende, zugeordnet nach Herkunftsland.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "oip",
+			"sourceDimension": "origin",
+			"path": "releases/067f484344450344/other-international-protection-origin.json",
+			"availableYears": [
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 2,
+				"areasWithAnyPositiveValue": 2,
+				"latestYear": 2025,
+				"areasInLatestYear": 2,
+				"positiveAreasInLatestYear": 2,
+				"latestYearSum": 7073664,
+				"observations": 9
+			}
+		},
+		{
+			"id": "displacement.idps-unhcr-assisted",
+			"title": "Binnenvertriebene unter UNHCR-Schutz/-Hilfe",
+			"description": "Binnenvertriebene am Jahresende, denen UNHCR Schutz und/oder Hilfe leistet. Diese Reihe ist ausdrücklich keine vollständige weltweite IDP-Gesamtzahl.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "idps",
+			"sourceDimension": "host",
+			"path": "releases/067f484344450344/idps-unhcr-assisted.json",
+			"availableYears": [
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 193,
+				"areasWithAnyPositiveValue": 63,
+				"latestYear": 2025,
+				"areasInLatestYear": 177,
+				"positiveAreasInLatestYear": 38,
+				"latestYearSum": 64239352,
+				"observations": 5332
+			}
+		},
+		{
+			"id": "displacement.stateless-host",
+			"title": "Staatenlose nach Aufenthaltsland",
+			"description": "Von UNHCR erfasste staatenlose Personen am Jahresende nach Aufenthaltsland. Die gemeldeten Bestände unterschätzen die tatsächliche weltweite Zahl staatenloser Menschen.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "people",
+				"label": "Personen",
+				"symbol": "Personen"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					1000,
+					10000,
+					100000,
+					1000000,
+					5000000
+				]
+			},
+			"sourceIndicator": "stateless",
+			"sourceDimension": "host",
+			"path": "releases/067f484344450344/stateless-host.json",
+			"availableYears": [
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024,
+				2025
+			],
+			"defaultYear": 2025,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 192,
+				"areasWithAnyPositiveValue": 106,
+				"latestYear": 2025,
+				"areasInLatestYear": 177,
+				"positiveAreasInLatestYear": 94,
+				"latestYearSum": 4477220,
+				"observations": 3712
+			}
+		}
+	],
+	"notes": [
+		"UNHCR categories are published separately; refugees, asylum-seekers and other people in need of international protection are not merged into one artificial time series.",
+		"The IDP indicator covers only internally displaced people to whom UNHCR provides protection and/or assistance; it is not a global IDP total.",
+		"UNHCR may round small population counts for confidentiality. Published source values are retained as provided.",
+		"UNK, TIB and XXA are non-country source codes and are excluded from the country layer; they are never reassigned to a country.",
+		"No fallback, interpolation or extrapolation is used."
+	]
+}
