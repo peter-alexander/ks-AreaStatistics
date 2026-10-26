@@ -1,0 +1,242 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "jrc-lulucf",
+		"name": "European Commission Joint Research Centre (JRC)",
+		"dataset": "LULUCF Data Hub – NGHGI 2025 release (Version 3.1.1)",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "European Commission, Joint Research Centre (JRC)"
+	},
+	"retrievedAt": "2026-10-26T21:42:12.316049Z",
+	"activeSnapshot": "d09294d90c628080",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406545161-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"url": "https://zenodo.org/records/18352395",
+		"downloadUrl": "https://zenodo.org/records/18352395/files/timeseries_NGHGI_v3.1.csv?download=1",
+		"doi": "10.5281/zenodo.18352395",
+		"doiUrl": "https://doi.org/10.5281/zenodo.18352395",
+		"zenodoRecordId": "18352395",
+		"releaseVersion": "3.1.1",
+		"sourceVersion": "V3.1 (NGHGI 2025)",
+		"sourceFile": "timeseries_NGHGI_v3.1.csv",
+		"licenseId": "cc-by-4.0",
+		"checksum": "md5:702b46bfe67cca47264fdf272d312005",
+		"bytes": 1180037,
+		"publicationDate": "2026-01-23",
+		"sourceStartYear": 2000,
+		"sourceLatestYear": 2023,
+		"sourceVersions": [
+			"V3.1 (NGHGI 2025)"
+		],
+		"sourceSubmissions": [
+			"2023 (pre-Paris)",
+			"CRT_2024",
+			"CRT_2025"
+		],
+		"sourceCategories": [
+			"DEFORESTATION",
+			"FOREST",
+			"HWP",
+			"LULUCF",
+			"ORG_SOILS",
+			"OTHER"
+		],
+		"sourceSubmissionRows": {
+			"2023 (pre-Paris)": 8209,
+			"CRT_2024": 4346,
+			"CRT_2025": 6192
+		}
+	},
+	"indicators": [
+		{
+			"id": "climate.co2-lulucf-net-flux-mtco2e",
+			"title": "CO₂-Nettofluss aus LULUCF",
+			"description": "CO₂-Nettofluss aus Landnutzung, Landnutzungsänderungen und Forstwirtschaft (LULUCF) gemäß JRC LULUCF Data Hub und nationalen Treibhausgasinventaren. Negative Werte bedeuten Nettoentnahme/Senke, positive Werte Nettoemissionen.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "mt-co2e",
+				"label": "Mt CO₂e",
+				"symbol": "Mt CO₂e"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					-100,
+					-20,
+					-5,
+					0,
+					20,
+					100
+				]
+			},
+			"sourceIndicator": "LULUCF",
+			"path": "releases/d09294d90c628080/climate-co2-lulucf-net-flux-mtco2e.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2023,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "climate.co2-lulucf-deforestation-mtco2e",
+			"title": "CO₂-Nettofluss aus Entwaldung",
+			"description": "CO₂-Flüsse aus der Umwandlung von Waldland in andere Landnutzungen (Deforestation) gemäß JRC LULUCF Data Hub. Dies ist eine Emissions-/Flussgröße und keine Angabe der jährlich entwaldeten Fläche.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "mt-co2e",
+				"label": "Mt CO₂e",
+				"symbol": "Mt CO₂e"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.1,
+					1,
+					5,
+					20,
+					100,
+					500
+				]
+			},
+			"sourceIndicator": "DEFORESTATION",
+			"path": "releases/d09294d90c628080/climate-co2-lulucf-deforestation-mtco2e.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 169,
+				"latestYear": 2023,
+				"areasInLatestYear": 169,
+				"areasInDefaultYear": 169
+			}
+		},
+		{
+			"id": "climate.co2-lulucf-forest-land-mtco2e",
+			"title": "CO₂-Nettofluss aus Waldland",
+			"description": "CO₂-Flüsse der JRC-Klasse Forest innerhalb des LULUCF-Sektors; organische Böden und geerntete Holzprodukte (HWP) sind als eigene Klassen getrennt. Negative Werte bedeuten eine Netto-Kohlenstoffsenke, positive Werte Nettoemissionen.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "mt-co2e",
+				"label": "Mt CO₂e",
+				"symbol": "Mt CO₂e"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					-100,
+					-20,
+					-5,
+					0,
+					5,
+					20
+				]
+			},
+			"sourceIndicator": "FOREST",
+			"path": "releases/d09294d90c628080/climate-co2-lulucf-forest-land-mtco2e.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 182,
+				"latestYear": 2023,
+				"areasInLatestYear": 182,
+				"areasInDefaultYear": 182
+			}
+		}
+	],
+	"notes": [
+		"Direct annual CO₂ fluxes from the European Commission JRC LULUCF Data Hub NGHGI database.",
+		"Version 3.1.1 is the current 2025 NGHGI release; the NGHGI CSV itself is unchanged from version 3.1.",
+		"NGHGI values are sourced from national greenhouse-gas inventories submitted to the UNFCCC and harmonized into JRC LULUCF classes.",
+		"Source values are Mt CO₂ yr⁻¹. For CO₂ only, these values are numerically identical to the retained Mt CO₂e target unit.",
+		"No World Bank WDI fallback is mixed into this provider."
+	]
+}
