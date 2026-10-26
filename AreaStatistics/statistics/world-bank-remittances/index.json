@@ -1,0 +1,188 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "world-bank-remittances",
+		"name": "World Bank / KNOMAD",
+		"dataset": "KNOMAD – Remittance Flows",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "World Bank / KNOMAD"
+	},
+	"retrievedAt": "2026-10-26T21:43:30.752581Z",
+	"activeSnapshot": "d3c275dacfb7916e",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406720064-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"datasetId": "0066146",
+		"title": "KNOMAD",
+		"url": "https://datacatalog.worldbank.org/search/dataset/0066146/knomad",
+		"license": "Creative Commons Attribution 4.0",
+		"securityClassification": "Public",
+		"resources": [
+			{
+				"resourceId": "DR0095569",
+				"title": "Inward Remittance Flows, 2000-2024",
+				"fileName": "Inward_remittance_flows_(September_2025).xlsx",
+				"lastUpdatedAt": "2025-09-08T00:00:00+00:00",
+				"bytes": 78003,
+				"sha256": "d7963387e786e54d4a5a4566294855e0563e3f09cc75b98c2e470599d4a75ddb",
+				"sourceStartYear": 2000,
+				"sourceLatestYear": 2024,
+				"mappedSourceRows": 213,
+				"ignoredSourceNames": [
+					"Channel Islands"
+				]
+			},
+			{
+				"resourceId": "DR0095570",
+				"title": "Outward Remittance Flows, 2000-2024",
+				"fileName": "Outward_remittance_flows_(September_2025).xlsx",
+				"lastUpdatedAt": "2025-09-08T00:00:00+00:00",
+				"bytes": 77782,
+				"sha256": "50e5ea5ca1be529914eae315ad361721f4a2c5ec2347cc17691b4273f958e28e",
+				"sourceStartYear": 2000,
+				"sourceLatestYear": 2024,
+				"mappedSourceRows": 213,
+				"ignoredSourceNames": [
+					"Channel Islands"
+				]
+			}
+		]
+	},
+	"indicators": [
+		{
+			"id": "migration.remittance-inflows-current-usd-million",
+			"title": "Eingehende Rücküberweisungen",
+			"description": "Rücküberweisungen, die in die berichtende Volkswirtschaft eingehen, in Millionen laufenden US-Dollar.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "million-current-usd",
+				"label": "Mio. US-Dollar (laufend)",
+				"symbol": "Mio. $"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					10,
+					100,
+					500,
+					2000,
+					10000,
+					50000
+				]
+			},
+			"sourceIndicator": "DR0095569",
+			"path": "releases/d3c275dacfb7916e/migration-remittance-inflows-current-usd-million.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"mappedSourceRows": 213,
+				"areasWithAnyValue": 200,
+				"latestYear": 2024,
+				"areasInLatestYear": 200,
+				"areasInDefaultYear": 200
+			}
+		},
+		{
+			"id": "migration.remittance-outflows-current-usd-million",
+			"title": "Ausgehende Rücküberweisungen",
+			"description": "Rücküberweisungen, die aus der berichtenden Volkswirtschaft ins Ausland fließen, in Millionen laufenden US-Dollar.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "million-current-usd",
+				"label": "Mio. US-Dollar (laufend)",
+				"symbol": "Mio. $"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					10,
+					100,
+					500,
+					2000,
+					10000,
+					50000
+				]
+			},
+			"sourceIndicator": "DR0095570",
+			"path": "releases/d3c275dacfb7916e/migration-remittance-outflows-current-usd-million.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"mappedSourceRows": 213,
+				"areasWithAnyValue": 201,
+				"latestYear": 2024,
+				"areasInLatestYear": 200,
+				"areasInDefaultYear": 200
+			}
+		}
+	],
+	"notes": [
+		"Annual inward and outward remittance flows are taken directly from the World Bank KNOMAD resources and reported in current nominal US dollars (millions).",
+		"Zero values are retained as reported; missing cells remain missing. No interpolation, extrapolation or cross-source fallback is applied.",
+		"Source country names are resolved through the World Bank country directory plus an explicit, validated alias table; fuzzy matching is not used.",
+		"The source workbook notes are preserved in each indicator payload, including release-specific methodology and estimate notes."
+	]
+}
