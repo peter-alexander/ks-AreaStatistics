@@ -1,0 +1,497 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "oecd-revenue-statistics",
+		"name": "OECD",
+		"dataset": "Global Revenue Statistics",
+		"license": "OECD Terms and Conditions",
+		"licenseUrl": "https://www.oecd.org/en/about/terms-conditions.html",
+		"attribution": "OECD"
+	},
+	"retrievedAt": "2026-10-26T21:42:29.892007Z",
+	"activeSnapshot": "9db63f43db46391e",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406577979-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"url": "https://www.oecd.org/en/data/indicators/tax-revenue.html",
+		"apiUrl": "https://sdmx.oecd.org/public/rest/data/OECD.CTP.TPS,DSD_REV_COMP_GLOBAL@DF_RSGLOBAL,2.1/..S13._T+T_1100+T_1200+T_2000+T_4000+T_5111..PT_B1GQ.A?startPeriod=1990&dimensionAtObservation=AllDimensions",
+		"dataflow": "OECD.CTP.TPS:DSD_REV_COMP_GLOBAL@DF_RSGLOBAL(2.1)",
+		"sourceRows": 23132,
+		"retainedRows": 22404,
+		"ignoredAreaCodes": [
+			"A9",
+			"F",
+			"OECD_REP",
+			"SO"
+		],
+		"observationStatuses": [
+			"A"
+		],
+		"indicatorRows": {
+			"fiscal.corporate-income-taxes-percent-gdp": {
+				"sourceRows": 3879,
+				"retainedRows": 3733
+			},
+			"fiscal.personal-income-taxes-percent-gdp": {
+				"sourceRows": 3853,
+				"retainedRows": 3707
+			},
+			"fiscal.property-taxes-percent-gdp": {
+				"sourceRows": 3891,
+				"retainedRows": 3783
+			},
+			"fiscal.social-security-contributions-percent-gdp": {
+				"sourceRows": 3554,
+				"retainedRows": 3446
+			},
+			"fiscal.tax-and-social-contributions-percent-gdp": {
+				"sourceRows": 4016,
+				"retainedRows": 3906
+			},
+			"fiscal.vat-percent-gdp": {
+				"sourceRows": 3939,
+				"retainedRows": 3829
+			}
+		},
+		"lastModified": "2024-07-15"
+	},
+	"indicators": [
+		{
+			"id": "fiscal.tax-and-social-contributions-percent-gdp",
+			"title": "Steuer- und Abgabenquote",
+			"description": "Steuern und verpflichtende Sozialversicherungsbeiträge an den Gesamtstaat in Prozent des BIP. Die OECD-Reihe umfasst alle staatlichen Ebenen und behandelt verpflichtende Sozialversicherungsbeiträge als Steuern.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					10,
+					15,
+					20,
+					25,
+					30,
+					40
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.TOTALTAX.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-tax-and-social-contributions-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 142,
+				"latestYear": 2024,
+				"areasInLatestYear": 128,
+				"areasInDefaultYear": 128,
+				"observations": 3906
+			}
+		},
+		{
+			"id": "fiscal.personal-income-taxes-percent-gdp",
+			"title": "Einkommensteuern von Privatpersonen",
+			"description": "Steuern auf Einkommen, Gewinne und Veräußerungsgewinne von Privatpersonen in Prozent des BIP nach OECD Global Revenue Statistics.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.5,
+					1,
+					2,
+					4,
+					8,
+					12
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.1100.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-personal-income-taxes-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 136,
+				"latestYear": 2024,
+				"areasInLatestYear": 124,
+				"areasInDefaultYear": 124,
+				"observations": 3707
+			}
+		},
+		{
+			"id": "fiscal.corporate-income-taxes-percent-gdp",
+			"title": "Unternehmenssteuern",
+			"description": "Steuern auf Einkommen, Gewinne und Veräußerungsgewinne von Unternehmen in Prozent des BIP nach OECD Global Revenue Statistics. Seltene negative Werte aus der Quelle bleiben als solche erhalten.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0,
+					1,
+					2,
+					3,
+					5,
+					7
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.1200.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-corporate-income-taxes-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 137,
+				"latestYear": 2024,
+				"areasInLatestYear": 124,
+				"areasInDefaultYear": 124,
+				"observations": 3733
+			}
+		},
+		{
+			"id": "fiscal.social-security-contributions-percent-gdp",
+			"title": "Sozialversicherungsbeiträge",
+			"description": "Verpflichtende Sozialversicherungsbeiträge an den Gesamtstaat in Prozent des BIP nach OECD Global Revenue Statistics. Echte Nullwerte bleiben erhalten und werden nicht als fehlende Daten behandelt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.5,
+					2,
+					4,
+					7,
+					10,
+					14
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.2000.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-social-security-contributions-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 127,
+				"latestYear": 2024,
+				"areasInLatestYear": 112,
+				"areasInDefaultYear": 112,
+				"observations": 3446
+			}
+		},
+		{
+			"id": "fiscal.property-taxes-percent-gdp",
+			"title": "Steuern auf Vermögen und Eigentum",
+			"description": "OECD-Steuern auf Vermögen und Eigentum in Prozent des BIP. Die breite OECD-Kategorie umfasst unter anderem wiederkehrende Immobiliensteuern, Erbschafts- und Schenkungssteuern sowie weitere Steuern auf Vermögen oder Eigentumsübertragungen.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					0.1,
+					0.25,
+					0.5,
+					1,
+					2,
+					3
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.4000.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-property-taxes-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 139,
+				"latestYear": 2024,
+				"areasInLatestYear": 128,
+				"areasInDefaultYear": 128,
+				"observations": 3783
+			}
+		},
+		{
+			"id": "fiscal.vat-percent-gdp",
+			"title": "Mehrwertsteuer-Einnahmen",
+			"description": "Einnahmen aus Mehrwertsteuer (VAT) in Prozent des BIP nach OECD Global Revenue Statistics. Länder ohne Mehrwertsteuer können einen echten Wert von 0 aufweisen; dieser bleibt erhalten.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					1,
+					3,
+					5,
+					7,
+					9,
+					11
+				]
+			},
+			"sourceIndicator": "TAX_REV.S13.5111.PT_B1GQ.A",
+			"path": "releases/9db63f43db46391e/fiscal-vat-percent-gdp.json",
+			"availableYears": [
+				1990,
+				1991,
+				1992,
+				1993,
+				1994,
+				1995,
+				1996,
+				1997,
+				1998,
+				1999,
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 140,
+				"latestYear": 2024,
+				"areasInLatestYear": 126,
+				"areasInDefaultYear": 126,
+				"observations": 3829
+			}
+		}
+	],
+	"notes": [
+		"Direct OECD Global Revenue Statistics for the general government sector (S13), measured as percent of GDP.",
+		"The provider includes the total tax-and-contribution burden plus selected harmonized tax-structure categories: personal income, corporate income, social security contributions, property and VAT.",
+		"Real zero values are retained as observations and are never converted to missing values.",
+		"The OECD tax concept includes compulsory social security contributions paid to general government and covers all levels of government.",
+		"No World Bank WDI or other provider is used as a fallback because narrower central-government tax series are not conceptually equivalent."
+	]
+}
