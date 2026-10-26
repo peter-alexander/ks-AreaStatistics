@@ -19,7 +19,7 @@ DEFAULT_CONFIG = ROOT / "config" / "oecd-pisa-indicators.json"
 DEFAULT_ADDITIONAL_CONFIG = ROOT / "config" / "oecd-pisa-additional-indicators.json"
 DEFAULT_PROVIDERS = ROOT / "config" / "statistics-providers.json"
 DEFAULT_OUTPUT_DIR = ROOT / "dist" / "statistics"
-DEFAULT_REGISTRY = "https://tiles.radlobby.at/AreaStatistics/area-registry-countries.json"
+DEFAULT_REGISTRY = "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json"
 
 
 def parse_args() -> argparse.Namespace:
