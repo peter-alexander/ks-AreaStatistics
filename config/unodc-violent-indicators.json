@@ -6,7 +6,7 @@
 	],
 	"sourcePage": "https://data.unodc.org/datareport/violent-offences",
 	"metadataUrl": "https://data.unodc.org/sites/dataportal.unodc.org/files/2025-11/metadata_violent_and_sexual_crime.pdf",
-	"populationIndexUrl": "https://tiles.radlobby.at/AreaStatistics/statistics/un-wpp/index.json",
+	"populationIndexUrl": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/statistics/un-wpp/index.json",
 	"broadCoverageFraction": 0.4,
 	"maxDefaultYearAge": 10,
 	"countryAliases": {
