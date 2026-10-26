@@ -1,0 +1,211 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "who-ghed",
+		"name": "WHO GHED",
+		"dataset": "Global Health Expenditure Database",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+		"attribution": "World Health Organization (WHO), Global Health Expenditure Database (GHED)"
+	},
+	"retrievedAt": "2026-10-26T21:43:19.923404Z",
+	"activeSnapshot": "13bf44dede477b15",
+	"areaRegistry": {
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250,
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406658401-1"
+	},
+	"indicators": [
+		{
+			"id": "health-expenditure.current-percent-gdp",
+			"title": "Gesundheitsausgaben in % des BIP",
+			"description": "Laufende Gesundheitsausgaben (Current Health Expenditure, CHE) in Prozent des Bruttoinlandsprodukts nach der WHO Global Health Expenditure Database.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent-of-gdp",
+				"label": "Prozent des BIP",
+				"symbol": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					3,
+					5,
+					7,
+					10,
+					15,
+					20
+				]
+			},
+			"sourceIndicator": "che_gdp",
+			"path": "releases/13bf44dede477b15/health-expenditure-current-percent-gdp.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 195,
+				"latestYear": 2024,
+				"areasInLatestYear": 22,
+				"areasInDefaultYear": 194,
+				"observations": 4610
+			}
+		},
+		{
+			"id": "health-expenditure.current-per-capita-usd",
+			"title": "Gesundheitsausgaben pro Kopf",
+			"description": "Laufende Gesundheitsausgaben (CHE) pro Einwohner zu aktuellen US-Dollar nach der WHO Global Health Expenditure Database.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "usd-current-per-person",
+				"label": "US-Dollar pro Einwohner",
+				"symbol": "$"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					50,
+					100,
+					500,
+					1000,
+					5000,
+					10000
+				]
+			},
+			"sourceIndicator": "che_pc_usd",
+			"path": "releases/13bf44dede477b15/health-expenditure-current-per-capita-usd.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 195,
+				"latestYear": 2024,
+				"areasInLatestYear": 22,
+				"areasInDefaultYear": 193,
+				"observations": 4607
+			}
+		},
+		{
+			"id": "health-expenditure.current-per-capita-ppp",
+			"title": "Gesundheitsausgaben pro Kopf (KKP)",
+			"description": "Laufende Gesundheitsausgaben (CHE) pro Einwohner in aktuellen internationalen Dollar zu Kaufkraftparitäten (KKP) nach der WHO Global Health Expenditure Database.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "current-international-dollar-per-person",
+				"label": "internationale Dollar pro Einwohner (KKP)",
+				"symbol": "Int-$"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "logarithmic",
+				"breaks": [
+					100,
+					500,
+					1000,
+					2500,
+					5000,
+					10000
+				]
+			},
+			"sourceIndicator": "che_ppp_pc",
+			"path": "releases/13bf44dede477b15/health-expenditure-current-per-capita-ppp.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2023,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 195,
+				"latestYear": 2024,
+				"areasInLatestYear": 22,
+				"areasInDefaultYear": 194,
+				"observations": 4609
+			}
+		}
+	],
+	"notes": [
+		"WHO Global Health Expenditure Database (GHED) is the canonical source for these health-financing indicators.",
+		"The workbook's preliminary 2024 observations are retained but do not become the default year unless broad country coverage is reached.",
+		"WHO GHED is the original source of the corresponding World Bank WDI health-expenditure series."
+	]
+}
