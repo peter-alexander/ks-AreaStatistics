@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "imf-fiscal-monitor-indicators.json"
 DEFAULT_PROVIDERS = ROOT / "config" / "statistics-providers.json"
 DEFAULT_OUTPUT_DIR = ROOT / "dist" / "statistics"
-DEFAULT_REGISTRY = "https://tiles.radlobby.at/AreaStatistics/area-registry-countries.json"
+DEFAULT_REGISTRY = "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json"
 
 ISO3_ALIASES = {
 	"UVK": "XKX",

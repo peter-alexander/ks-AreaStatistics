@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "ilostat-indicators.json"
 DEFAULT_PROVIDERS = ROOT / "config" / "statistics-providers.json"
 DEFAULT_OUTPUT_DIR = ROOT / "dist" / "statistics"
-DEFAULT_REGISTRY = "https://tiles.radlobby.at/AreaStatistics/area-registry-countries.json"
+DEFAULT_REGISTRY = "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json"
 
 EDITION_RE = re.compile(
 	r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+(\d{4})\b",
