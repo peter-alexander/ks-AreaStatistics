@@ -1,0 +1,517 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "who-ghe",
+		"name": "WHO Global Health Estimates",
+		"dataset": "Global Health Estimates 2021",
+		"license": "CC BY-NC-SA 3.0 IGO",
+		"licenseUrl": "https://www.who.int/about/policies/publishing/copyright",
+		"attribution": "World Health Organization"
+	},
+	"retrievedAt": "2026-10-26T21:43:02.059675Z",
+	"activeSnapshot": "6a946f0049dc2ec2",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406655359-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"release": "Global Health Estimates 2021",
+		"releaseDate": "2024-06",
+		"measure": "Age-standardized death rate per 100,000 population",
+		"sex": "Persons",
+		"availableYears": [
+			2000,
+			2010,
+			2015,
+			2019,
+			2020,
+			2021
+		]
+	},
+	"indicators": [
+		{
+			"id": "mortality-ghe.all-causes-asdr-per-100000",
+			"title": "Gesamtsterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate aller Todesursachen je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					400,
+					600,
+					800,
+					1000,
+					1400,
+					1800
+				]
+			},
+			"sourceIndicator": "GHE code 0",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-all-causes-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.tuberculosis-asdr-per-100000",
+			"title": "Tuberkulose-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Tuberkulose je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					1,
+					5,
+					10,
+					25,
+					50,
+					100
+				]
+			},
+			"sourceIndicator": "GHE code 30",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-tuberculosis-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.lower-respiratory-infections-asdr-per-100000",
+			"title": "Sterblichkeit durch Infektionen der unteren Atemwege",
+			"description": "Altersstandardisierte Sterberate durch Infektionen der unteren Atemwege je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					2,
+					5,
+					10,
+					25,
+					50,
+					100
+				]
+			},
+			"sourceIndicator": "GHE code 390",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-lower-respiratory-infections-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.covid19-asdr-per-100000",
+			"title": "COVID-19-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch COVID-19 je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates. Vorpandemische Nullwerte des WHO-Arbeitsblatts werden nicht als Zeitreihe veröffentlicht.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					20,
+					50,
+					100,
+					200,
+					300,
+					400
+				]
+			},
+			"sourceIndicator": "GHE code 395",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-covid19-asdr-per-100000.json",
+			"availableYears": [
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.lung-cancer-asdr-per-100000",
+			"title": "Lungenkrebs-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Krebs der Luftröhre, Bronchien und Lunge je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					5,
+					10,
+					20,
+					30,
+					40,
+					50
+				]
+			},
+			"sourceIndicator": "GHE code 680",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-lung-cancer-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.diabetes-asdr-per-100000",
+			"title": "Diabetes-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Diabetes mellitus je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					5,
+					10,
+					20,
+					40,
+					80,
+					150
+				]
+			},
+			"sourceIndicator": "GHE code 800",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-diabetes-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.alzheimer-dementias-asdr-per-100000",
+			"title": "Alzheimer-/Demenz-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Alzheimer-Krankheit und andere Demenzen je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					2,
+					5,
+					10,
+					20,
+					30,
+					50
+				]
+			},
+			"sourceIndicator": "GHE code 950",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-alzheimer-dementias-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.ischaemic-heart-disease-asdr-per-100000",
+			"title": "Sterblichkeit durch ischämische Herzkrankheit",
+			"description": "Altersstandardisierte Sterberate durch ischämische Herzkrankheit je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					50,
+					100,
+					150,
+					200,
+					300,
+					400
+				]
+			},
+			"sourceIndicator": "GHE code 1130",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-ischaemic-heart-disease-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.stroke-asdr-per-100000",
+			"title": "Schlaganfall-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Schlaganfall je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					30,
+					60,
+					90,
+					120,
+					180,
+					240
+				]
+			},
+			"sourceIndicator": "GHE code 1140",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-stroke-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.copd-asdr-per-100000",
+			"title": "COPD-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch chronisch obstruktive Lungenerkrankung (COPD) je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					5,
+					10,
+					20,
+					40,
+					70,
+					100
+				]
+			},
+			"sourceIndicator": "GHE code 1180",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-copd-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.kidney-diseases-asdr-per-100000",
+			"title": "Nierenerkrankungs-Sterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Nierenerkrankungen je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					5,
+					10,
+					20,
+					30,
+					50,
+					70
+				]
+			},
+			"sourceIndicator": "GHE code 1270",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-kidney-diseases-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		},
+		{
+			"id": "mortality-ghe.road-injury-asdr-per-100000",
+			"title": "Straßenverkehrssterblichkeit (altersstandardisiert)",
+			"description": "Altersstandardisierte Sterberate durch Straßenverkehrsverletzungen je 100.000 Einwohner, beide Geschlechter, nach den WHO Global Health Estimates.",
+			"areaLevel": "country",
+			"frequency": "selected-years",
+			"unit": {
+				"id": "age-standardized-deaths-per-100000",
+				"label": "je 100.000 Einwohner"
+			},
+			"classification": {
+				"type": "fixed",
+				"breaks": [
+					3,
+					5,
+					10,
+					15,
+					25,
+					40
+				]
+			},
+			"sourceIndicator": "GHE code 1530",
+			"path": "releases/6a946f0049dc2ec2/mortality-ghe-road-injury-asdr-per-100000.json",
+			"availableYears": [
+				2000,
+				2010,
+				2015,
+				2019,
+				2020,
+				2021
+			],
+			"defaultYear": 2021,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 185,
+				"latestYear": 2021,
+				"areasInLatestYear": 185,
+				"areasInDefaultYear": 185
+			}
+		}
+	],
+	"notes": [
+		"Die Werte sind modellierte WHO Global Health Estimates und nicht rohe registrierte Todesfallzahlen.",
+		"Dargestellt werden altersstandardisierte Sterberaten je 100.000 Einwohner für beide Geschlechter zusammen.",
+		"Die WHO weist darauf hin, dass die GHE-2021-Reihe wegen methodischer Änderungen nicht mit früheren GHE-Veröffentlichungen verglichen werden soll.",
+		"Für COVID-19 werden nur 2020 und 2021 veröffentlicht; vorpandemische Nullwerte im Arbeitsbuch werden bewusst ausgelassen."
+	]
+}
