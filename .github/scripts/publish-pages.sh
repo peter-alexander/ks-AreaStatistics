@@ -76,6 +76,10 @@ publish_once() {
 
 for attempt in 1 2 3 4 5; do
 	if publish_once "$attempt"; then
+		if [ "${GITHUB_ACTIONS:-}" = "true" ]; then
+			: "${GH_TOKEN:?GH_TOKEN required for Pages deployment dispatch}"
+			gh workflow run publish-site.yml --ref main
+		fi
 		exit 0
 	fi
 	echo "Concurrent publishing update; retry $attempt" >&2
