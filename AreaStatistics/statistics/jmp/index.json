@@ -1,0 +1,1413 @@
+{
+	"schema": "kartensammlung.statistics-provider-index/v1",
+	"provider": {
+		"id": "jmp",
+		"name": "WHO/UNICEF JMP",
+		"dataset": "WASH Households – WHO/UNICEF Joint Monitoring Programme",
+		"license": "CC BY 3.0 IGO",
+		"licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+		"attribution": "WHO/UNICEF Joint Monitoring Programme (JMP)"
+	},
+	"retrievedAt": "2026-10-26T21:42:21.339531Z",
+	"activeSnapshot": "70b41f93dacbdecb",
+	"areaRegistry": {
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406541414-1",
+		"schema": "kartensammlung.area-registry/v1",
+		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"areaCount": 250
+	},
+	"dataset": {
+		"agency": "UNICEF",
+		"id": "WASH_HOUSEHOLDS",
+		"version": "1.0",
+		"apiUrl": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,WASH_HOUSEHOLDS,1.0/all?format=sdmx-json",
+		"residence": "Total",
+		"wealthQuintile": "Total"
+	},
+	"indicators": [
+		{
+			"id": "wash.water.at-least-basic-percent",
+			"title": "Trinkwasser: mindestens Basisversorgung (%)",
+			"description": "Anteil der Bevölkerung mit mindestens grundlegender Trinkwasserversorgung; umfasst grundlegende und sicher bewirtschaftete Dienste.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					50,
+					70,
+					85,
+					90,
+					95,
+					99
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-ALB",
+			"path": "releases/70b41f93dacbdecb/wash-water-at-least-basic-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 216,
+				"areasInDefaultYear": 216
+			}
+		},
+		{
+			"id": "wash.water.safely-managed-percent",
+			"title": "Trinkwasser: sicher bewirtschaftet (%)",
+			"description": "Anteil der Bevölkerung mit sicher bewirtschafteter Trinkwasserversorgung nach JMP-Definition.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					20,
+					40,
+					60,
+					75,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-SM",
+			"path": "releases/70b41f93dacbdecb/wash-water-safely-managed-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 163,
+				"latestYear": 2024,
+				"areasInLatestYear": 159,
+				"areasInDefaultYear": 159
+			}
+		},
+		{
+			"id": "wash.water.basic-percent",
+			"title": "Trinkwasser: Basisversorgung (%)",
+			"description": "Anteil der Bevölkerung mit grundlegender Trinkwasserversorgung als eigene Stufe der JMP-Serviceleiter.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					10,
+					25,
+					50,
+					70,
+					85,
+					95
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-B",
+			"path": "releases/70b41f93dacbdecb/wash-water-basic-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 163,
+				"latestYear": 2024,
+				"areasInLatestYear": 159,
+				"areasInDefaultYear": 159
+			}
+		},
+		{
+			"id": "wash.water.limited-percent",
+			"title": "Trinkwasser: eingeschränkte Versorgung (%)",
+			"description": "Anteil der Bevölkerung mit eingeschränkter Trinkwasserversorgung nach JMP-Serviceleiter.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-L",
+			"path": "releases/70b41f93dacbdecb/wash-water-limited-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 216,
+				"areasInDefaultYear": 216
+			}
+		},
+		{
+			"id": "wash.water.unimproved-percent",
+			"title": "Trinkwasser: nicht verbesserte Quellen (%)",
+			"description": "Anteil der Bevölkerung, der nicht verbesserte Trinkwasserquellen nutzt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-UI",
+			"path": "releases/70b41f93dacbdecb/wash-water-unimproved-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 216,
+				"areasInDefaultYear": 216
+			}
+		},
+		{
+			"id": "wash.water.surface-water-percent",
+			"title": "Trinkwasser: Oberflächenwasser (%)",
+			"description": "Anteil der Bevölkerung, der Oberflächenwasser als Trinkwasserquelle nutzt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					2,
+					5,
+					10,
+					20,
+					40
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-SW",
+			"path": "releases/70b41f93dacbdecb/wash-water-surface-water-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 208,
+				"areasInDefaultYear": 208
+			}
+		},
+		{
+			"id": "wash.water.on-premises-percent",
+			"title": "Trinkwasser: verbesserte Quelle am Wohnort (%)",
+			"description": "Anteil der Bevölkerung, der verbesserte Trinkwasserquellen nutzt, die sich am Wohnort beziehungsweise auf dem Grundstück befinden.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					20,
+					40,
+					60,
+					75,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-PRE",
+			"path": "releases/70b41f93dacbdecb/wash-water-on-premises-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 228,
+				"latestYear": 2024,
+				"areasInLatestYear": 213,
+				"areasInDefaultYear": 213
+			}
+		},
+		{
+			"id": "wash.water.available-when-needed-percent",
+			"title": "Trinkwasser: bei Bedarf verfügbar (%)",
+			"description": "Anteil der Bevölkerung, der verbesserte Trinkwasserquellen nutzt, deren Wasser bei Bedarf verfügbar ist.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					20,
+					40,
+					60,
+					75,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-AVA",
+			"path": "releases/70b41f93dacbdecb/wash-water-available-when-needed-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 150,
+				"latestYear": 2024,
+				"areasInLatestYear": 144,
+				"areasInDefaultYear": 144
+			}
+		},
+		{
+			"id": "wash.water.free-from-contamination-percent",
+			"title": "Trinkwasser: frei von fäkaler und relevanter chemischer Kontamination (%)",
+			"description": "Anteil der Bevölkerung, der verbesserte Trinkwasserquellen nutzt, die frei von fäkaler und vorrangig relevanter chemischer Kontamination sind.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					20,
+					40,
+					60,
+					75,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "WS_PPL_W-QUA",
+			"path": "releases/70b41f93dacbdecb/wash-water-free-from-contamination-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 163,
+				"latestYear": 2024,
+				"areasInLatestYear": 159,
+				"areasInDefaultYear": 159
+			}
+		},
+		{
+			"id": "wash.sanitation.at-least-basic-percent",
+			"title": "Sanitärversorgung: mindestens Basisversorgung (%)",
+			"description": "Anteil der Bevölkerung mit mindestens grundlegender Sanitärversorgung; umfasst grundlegende und sicher bewirtschaftete Dienste.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					40,
+					60,
+					75,
+					85,
+					95,
+					99
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-ALB",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-at-least-basic-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 209,
+				"areasInDefaultYear": 209
+			}
+		},
+		{
+			"id": "wash.sanitation.safely-managed-percent",
+			"title": "Sanitärversorgung: sicher bewirtschaftet (%)",
+			"description": "Anteil der Bevölkerung mit sicher bewirtschafteter Sanitärversorgung nach JMP-Definition.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					10,
+					25,
+					50,
+					70,
+					85,
+					95
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-SM",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-safely-managed-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 149,
+				"latestYear": 2024,
+				"areasInLatestYear": 144,
+				"areasInDefaultYear": 144
+			}
+		},
+		{
+			"id": "wash.sanitation.basic-percent",
+			"title": "Sanitärversorgung: Basisversorgung (%)",
+			"description": "Anteil der Bevölkerung mit grundlegender Sanitärversorgung als eigene Stufe der JMP-Serviceleiter.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					10,
+					25,
+					50,
+					70,
+					85,
+					95
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-B",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-basic-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 149,
+				"latestYear": 2024,
+				"areasInLatestYear": 144,
+				"areasInDefaultYear": 144
+			}
+		},
+		{
+			"id": "wash.sanitation.limited-percent",
+			"title": "Sanitärversorgung: eingeschränkt (%)",
+			"description": "Anteil der Bevölkerung mit eingeschränkter Sanitärversorgung nach JMP-Serviceleiter.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-L",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-limited-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 209,
+				"areasInDefaultYear": 209
+			}
+		},
+		{
+			"id": "wash.sanitation.unimproved-percent",
+			"title": "Sanitärversorgung: nicht verbesserte Anlagen (%)",
+			"description": "Anteil der Bevölkerung, der nicht verbesserte Sanitäranlagen nutzt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-UI",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-unimproved-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 209,
+				"areasInDefaultYear": 209
+			}
+		},
+		{
+			"id": "wash.sanitation.open-defecation-percent",
+			"title": "Sanitärversorgung: offene Defäkation (%)",
+			"description": "Anteil der Bevölkerung, der offene Defäkation praktiziert.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					2,
+					5,
+					10,
+					20,
+					40
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-OD",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-open-defecation-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 231,
+				"latestYear": 2024,
+				"areasInLatestYear": 200,
+				"areasInDefaultYear": 200
+			}
+		},
+		{
+			"id": "wash.sanitation.sewer-network-percent",
+			"title": "Sanitärversorgung: Anschluss an Kanalnetz (%)",
+			"description": "Anteil der Bevölkerung, der Sanitäranlagen mit Anschluss an ein Kanalnetz nutzt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					10,
+					25,
+					50,
+					70,
+					85,
+					95
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-SEW",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-sewer-network-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 222,
+				"latestYear": 2024,
+				"areasInLatestYear": 201,
+				"areasInDefaultYear": 201
+			}
+		},
+		{
+			"id": "wash.sanitation.sewer-treated-secondary-percent",
+			"title": "Sanitärversorgung: Kanalnetz mit mindestens sekundärer Abwasserbehandlung (%)",
+			"description": "Anteil der Bevölkerung, der an Kanalnetze angeschlossene Sanitäranlagen nutzt, deren Abwasser mindestens sekundär behandelt wird.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					10,
+					25,
+					50,
+					70,
+					85,
+					95
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-WWT",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-sewer-treated-secondary-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 166,
+				"latestYear": 2024,
+				"areasInLatestYear": 159,
+				"areasInDefaultYear": 159
+			}
+		},
+		{
+			"id": "wash.sanitation.septic-tank-percent",
+			"title": "Sanitärversorgung: Septiktank (%)",
+			"description": "Anteil der Bevölkerung, der Sanitäranlagen mit Anschluss an Septiktanks nutzt.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					5,
+					10,
+					20,
+					30,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-SEP",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-septic-tank-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 211,
+				"latestYear": 2024,
+				"areasInLatestYear": 189,
+				"areasInDefaultYear": 189
+			}
+		},
+		{
+			"id": "wash.sanitation.onsite-waste-treated-offsite-percent",
+			"title": "Sanitärversorgung: Fäkalien aus Vor-Ort-Systemen extern behandelt (%)",
+			"description": "Anteil der Bevölkerung, der Vor-Ort-Sanitäranlagen nutzt, deren Fäkalien außerhalb des Grundstücks behandelt werden.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-FST",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-onsite-waste-treated-offsite-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 151,
+				"latestYear": 2024,
+				"areasInLatestYear": 146,
+				"areasInDefaultYear": 146
+			}
+		},
+		{
+			"id": "wash.sanitation.onsite-waste-disposed-insitu-percent",
+			"title": "Sanitärversorgung: Fäkalien aus Vor-Ort-Systemen vor Ort entsorgt (%)",
+			"description": "Anteil der Bevölkerung, der Vor-Ort-Sanitäranlagen nutzt, deren Fäkalien am Standort sicher beziehungsweise dauerhaft verbleiben oder entsorgt werden.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_S-DIS",
+			"path": "releases/70b41f93dacbdecb/wash-sanitation-onsite-waste-disposed-insitu-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 155,
+				"latestYear": 2024,
+				"areasInLatestYear": 148,
+				"areasInDefaultYear": 148
+			}
+		},
+		{
+			"id": "wash.hygiene.basic-percent",
+			"title": "Hygiene: Handwaschmöglichkeit mit Wasser und Seife (%)",
+			"description": "Anteil der Bevölkerung mit einer Handwaschmöglichkeit mit Wasser und Seife zu Hause; grundlegender Hygienedienst nach JMP.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					20,
+					40,
+					60,
+					75,
+					90,
+					98
+				]
+			},
+			"sourceIndicator": "WS_PPL_H-B",
+			"path": "releases/70b41f93dacbdecb/wash-hygiene-basic-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 121,
+				"latestYear": 2024,
+				"areasInLatestYear": 91,
+				"areasInDefaultYear": 91
+			}
+		},
+		{
+			"id": "wash.hygiene.limited-percent",
+			"title": "Hygiene: eingeschränkte Handwaschmöglichkeit (%)",
+			"description": "Anteil der Bevölkerung mit einer eingeschränkten Handwaschmöglichkeit zu Hause.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_H-L",
+			"path": "releases/70b41f93dacbdecb/wash-hygiene-limited-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 116,
+				"latestYear": 2024,
+				"areasInLatestYear": 82,
+				"areasInDefaultYear": 82
+			}
+		},
+		{
+			"id": "wash.hygiene.no-facility-percent",
+			"title": "Hygiene: keine Handwaschmöglichkeit (%)",
+			"description": "Anteil der Bevölkerung ohne Handwaschmöglichkeit zu Hause.",
+			"areaLevel": "country",
+			"frequency": "annual",
+			"unit": {
+				"id": "percent",
+				"label": "%"
+			},
+			"classification": {
+				"type": "fixed",
+				"scale": "linear",
+				"breaks": [
+					1,
+					5,
+					10,
+					20,
+					40,
+					60
+				]
+			},
+			"sourceIndicator": "WS_PPL_H-N",
+			"path": "releases/70b41f93dacbdecb/wash-hygiene-no-facility-percent.json",
+			"availableYears": [
+				2000,
+				2001,
+				2002,
+				2003,
+				2004,
+				2005,
+				2006,
+				2007,
+				2008,
+				2009,
+				2010,
+				2011,
+				2012,
+				2013,
+				2014,
+				2015,
+				2016,
+				2017,
+				2018,
+				2019,
+				2020,
+				2021,
+				2022,
+				2023,
+				2024
+			],
+			"defaultYear": 2024,
+			"coverage": {
+				"registryAreas": 250,
+				"areasWithAnyValue": 126,
+				"latestYear": 2024,
+				"areasInLatestYear": 93,
+				"areasInDefaultYear": 93
+			}
+		}
+	],
+	"notes": [
+		"Household WASH estimates from the WHO/UNICEF Joint Monitoring Programme (JMP).",
+		"This provider currently publishes national total-population estimates; urban/rural series are intentionally excluded from this first block."
+	]
+}
