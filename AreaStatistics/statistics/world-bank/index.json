@@ -8,10 +8,10 @@
 		"licenseUrl": "https://datacatalog.worldbank.org/public-licenses",
 		"attribution": "World Bank"
 	},
-	"retrievedAt": "2026-10-26T21:43:29.228493Z",
+	"retrievedAt": "2026-10-27T09:49:26.580078Z",
 	"activeSnapshot": "690e99121813f54c",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406724160-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40483700015-1",
 		"schema": "kartensammlung.area-registry/v1",
 		"generatedAt": "2026-10-26T21:36:53.339854Z",
 		"areaCount": 250
