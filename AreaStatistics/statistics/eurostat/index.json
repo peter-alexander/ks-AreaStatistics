@@ -8,12 +8,12 @@
 		"licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice",
 		"attribution": "Eurostat"
 	},
-	"retrievedAt": "2026-10-26T21:41:24.684778Z",
-	"activeSnapshot": "0327f0dc081b16cf",
+	"retrievedAt": "2026-10-28T10:50:44.177402Z",
+	"activeSnapshot": "da455f99671b963d",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406440292-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40675299333-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"indicators": [
@@ -29,7 +29,7 @@
 				"symbol": "%"
 			},
 			"sourceDataset": "earn_gr_gpgr2",
-			"path": "releases/0327f0dc081b16cf/gender-pay-gap-unadjusted-percent.json",
+			"path": "releases/da455f99671b963d/gender-pay-gap-unadjusted-percent.json",
 			"availableYears": [
 				2007,
 				2008,
@@ -72,7 +72,7 @@
 				"symbol": "€"
 			},
 			"sourceDataset": "earn_mw_cur",
-			"path": "releases/0327f0dc081b16cf/minimum-wage-eur-per-month.json",
+			"path": "releases/da455f99671b963d/minimum-wage-eur-per-month.json",
 			"availableYears": [
 				1999,
 				2000,
@@ -136,7 +136,7 @@
 				"symbol": "PPS"
 			},
 			"sourceDataset": "earn_mw_cur",
-			"path": "releases/0327f0dc081b16cf/minimum-wage-pps-per-month.json",
+			"path": "releases/da455f99671b963d/minimum-wage-pps-per-month.json",
 			"availableYears": [
 				1999,
 				2000,
@@ -200,7 +200,7 @@
 				"symbol": "%"
 			},
 			"sourceDataset": "une_rt_a",
-			"path": "releases/0327f0dc081b16cf/unemployment-total-percent.json",
+			"path": "releases/da455f99671b963d/unemployment-total-percent.json",
 			"availableYears": [
 				2003,
 				2004,
@@ -259,7 +259,7 @@
 				"symbol": "%"
 			},
 			"sourceDataset": "une_rt_a",
-			"path": "releases/0327f0dc081b16cf/unemployment-youth-percent.json",
+			"path": "releases/da455f99671b963d/unemployment-youth-percent.json",
 			"availableYears": [
 				2003,
 				2004,
@@ -290,9 +290,9 @@
 				"registryAreas": 250,
 				"areasWithAnyValue": 35,
 				"latestYear": 2025,
-				"areasInLatestYear": 33,
+				"areasInLatestYear": 34,
 				"broadCoverageThreshold": 25,
-				"areasInDefaultYear": 33
+				"areasInDefaultYear": 34
 			},
 			"classification": {
 				"type": "fixed",
@@ -318,7 +318,7 @@
 				"symbol": "%"
 			},
 			"sourceDataset": "lfsi_emp_a",
-			"path": "releases/0327f0dc081b16cf/employment-age-20-64-percent.json",
+			"path": "releases/da455f99671b963d/employment-age-20-64-percent.json",
 			"availableYears": [
 				2003,
 				2004,
@@ -377,7 +377,7 @@
 				"symbol": "Jahre"
 			},
 			"sourceDataset": "demo_mlexpec",
-			"path": "releases/0327f0dc081b16cf/life-expectancy-at-birth-years.json",
+			"path": "releases/da455f99671b963d/life-expectancy-at-birth-years.json",
 			"availableYears": [
 				1960,
 				1961,
@@ -477,7 +477,7 @@
 				"label": "Kinder je Frau"
 			},
 			"sourceDataset": "demo_find",
-			"path": "releases/0327f0dc081b16cf/fertility-total-children-per-woman.json",
+			"path": "releases/da455f99671b963d/fertility-total-children-per-woman.json",
 			"availableYears": [
 				1960,
 				1961,
@@ -577,7 +577,7 @@
 				"label": "Gini-Koeffizient (0–100)"
 			},
 			"sourceDataset": "ilc_di12",
-			"path": "releases/0327f0dc081b16cf/income-inequality-gini.json",
+			"path": "releases/da455f99671b963d/income-inequality-gini.json",
 			"availableYears": [
 				2014,
 				2015,

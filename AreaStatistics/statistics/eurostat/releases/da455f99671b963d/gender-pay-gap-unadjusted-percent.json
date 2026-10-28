@@ -17,7 +17,7 @@
 		"providerName": "Eurostat",
 		"dataset": "Gender pay gap in unadjusted form by NACE Rev. 2 activity - structure of earnings survey methodology",
 		"datasetId": "earn_gr_gpgr2",
-		"updated": "2026-02-26T23:00:00+0100",
+		"updated": "2026-10-27T23:00:00+0100",
 		"filters": {
 			"freq": "A",
 			"unit": "PC",

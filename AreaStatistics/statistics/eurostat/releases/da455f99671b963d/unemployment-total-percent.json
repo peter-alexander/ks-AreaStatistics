@@ -28,7 +28,7 @@
 		"providerName": "Eurostat",
 		"dataset": "Unemployment by sex and age - annual data",
 		"datasetId": "une_rt_a",
-		"updated": "2026-09-10T23:00:00+0200",
+		"updated": "2026-10-26T23:00:00+0100",
 		"filters": {
 			"freq": "A",
 			"unit": "PC_ACT",
