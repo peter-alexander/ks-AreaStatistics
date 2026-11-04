@@ -8,10 +8,10 @@
 		"licenseUrl": "https://ec.europa.eu/eurostat/help/copyright-notice",
 		"attribution": "Eurostat"
 	},
-	"retrievedAt": "2026-10-28T10:50:44.177402Z",
+	"retrievedAt": "2026-11-04T12:35:00.059850Z",
 	"activeSnapshot": "da455f99671b963d",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40675299333-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=41830502749-1",
 		"schema": "kartensammlung.area-registry/v1",
 		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
