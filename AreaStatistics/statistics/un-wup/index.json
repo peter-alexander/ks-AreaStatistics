@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
 		"attribution": "United Nations, Department of Economic and Social Affairs, Population Division"
 	},
-	"retrievedAt": "2026-10-26T21:42:39.610356Z",
+	"retrievedAt": "2026-11-04T12:33:58.347727Z",
 	"activeSnapshot": "2de0ced41a5ffa5c",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406612079-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=41830355041-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
