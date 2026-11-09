@@ -1,0 +1,852 @@
+{
+	"schema": "kartensammlung.statistics-indicator/v1",
+	"indicator": {
+		"id": "violence.ipv-previous-12-months-percent",
+		"title": "Intimpartnergewalt – letzte 12 Monate",
+		"description": "WHO-Schätzung des Anteils jemals verpartnerter Frauen, die in den vorangegangenen 12 Monaten körperliche und/oder sexuelle Gewalt durch einen aktuellen oder früheren Intimpartner erfahren haben. Modellierte, international harmonisierte Prävalenzschätzung; kein Register- oder Polizeidatensatz.",
+		"areaLevel": "country",
+		"frequency": "reference-year",
+		"unit": {
+			"id": "percent",
+			"label": "%",
+			"symbol": "%"
+		},
+		"classification": {
+			"type": "fixed",
+			"breaks": [
+				5,
+				10,
+				15,
+				20,
+				25,
+				30
+			]
+		},
+		"confidenceIntervals": {
+			"available": true,
+			"lowerField": "RATE_PER_100_NL",
+			"upperField": "RATE_PER_100_NU"
+		}
+	},
+	"source": {
+		"providerId": "who",
+		"providerName": "WHO",
+		"dataset": "WHO World Health Data Hub / Global Health Observatory",
+		"indicator": "SDGIPV12M",
+		"indicatorName": "Intimate partner violence prevalence among ever partnered women in the previous 12 months (%)",
+		"provenance": "WHO official estimate",
+		"license": "CC BY 4.0",
+		"licenseUrl": "https://data.who.int/about/data/terms-and-conditions",
+		"attribution": "World Health Organization (WHO)",
+		"url": "https://data.who.int/indicators/i/BEDE3DB/F8524F2",
+		"downloadUrl": "https://srhdpeuwpubsa.blob.core.windows.net/whdh/DATADOT/INDICATOR/F8524F2_ALL_LATEST.csv",
+		"valueField": "RATE_PER_100_N",
+		"sourceFormat": "data-hub-csv",
+		"indicatorUuid": "F8524F2",
+		"referenceYear": 2018
+	},
+	"availableYears": [
+		2018
+	],
+	"defaultYear": 2018,
+	"coverage": {
+		"registryAreas": 249,
+		"areasWithAnyValue": 156,
+		"latestYear": 2018,
+		"areasInLatestYear": 156,
+		"areasInDefaultYear": 156,
+		"directObservations": 156,
+		"fallbackObservations": 0,
+		"fallbackAreas": 0
+	},
+	"values": {
+		"2018": {
+			"country:AFG": 35,
+			"country:AGO": 25,
+			"country:ALB": 6,
+			"country:ARG": 5,
+			"country:ARM": 5,
+			"country:AUS": 3,
+			"country:AUT": 4,
+			"country:AZE": 5,
+			"country:BDI": 22,
+			"country:BEL": 5,
+			"country:BEN": 15,
+			"country:BFA": 11,
+			"country:BGD": 23,
+			"country:BGR": 6,
+			"country:BIH": 3,
+			"country:BLR": 6,
+			"country:BLZ": 8,
+			"country:BOL": 18,
+			"country:BRA": 6,
+			"country:BTN": 9,
+			"country:BWA": 17,
+			"country:CAF": 21,
+			"country:CAN": 3,
+			"country:CHE": 2,
+			"country:CHL": 6,
+			"country:CHN": 8,
+			"country:CIV": 16,
+			"country:CMR": 22,
+			"country:COD": 36,
+			"country:COK": 14,
+			"country:COL": 12,
+			"country:COM": 8,
+			"country:CPV": 11,
+			"country:CRI": 7,
+			"country:CUB": 5,
+			"country:CYP": 3,
+			"country:CZE": 4,
+			"country:DEU": 5,
+			"country:DNK": 3,
+			"country:DOM": 10,
+			"country:ECU": 8,
+			"country:EGY": 15,
+			"country:ESP": 3,
+			"country:EST": 4,
+			"country:ETH": 27,
+			"country:FIN": 8,
+			"country:FJI": 23,
+			"country:FRA": 5,
+			"country:FSM": 21,
+			"country:GAB": 22,
+			"country:GBR": 4,
+			"country:GEO": 3,
+			"country:GHA": 10,
+			"country:GIN": 21,
+			"country:GMB": 10,
+			"country:GNQ": 29,
+			"country:GRC": 5,
+			"country:GRD": 8,
+			"country:GTM": 7,
+			"country:GUY": 10,
+			"country:HND": 7,
+			"country:HRV": 4,
+			"country:HTI": 12,
+			"country:HUN": 6,
+			"country:IDN": 9,
+			"country:IND": 18,
+			"country:IRL": 3,
+			"country:IRN": 18,
+			"country:ISL": 3,
+			"country:ISR": 6,
+			"country:ITA": 4,
+			"country:JAM": 7,
+			"country:JOR": 13,
+			"country:JPN": 4,
+			"country:KAZ": 6,
+			"country:KEN": 23,
+			"country:KGZ": 13,
+			"country:KHM": 9,
+			"country:KIR": 25,
+			"country:KOR": 8,
+			"country:LAO": 8,
+			"country:LBR": 27,
+			"country:LKA": 4,
+			"country:LSO": 16,
+			"country:LTU": 5,
+			"country:LUX": 4,
+			"country:LVA": 6,
+			"country:MAR": 10,
+			"country:MDA": 9,
+			"country:MDV": 6,
+			"country:MEX": 10,
+			"country:MHL": 19,
+			"country:MKD": 4,
+			"country:MLI": 18,
+			"country:MLT": 4,
+			"country:MMR": 11,
+			"country:MNE": 4,
+			"country:MNG": 12,
+			"country:MOZ": 16,
+			"country:MWI": 17,
+			"country:NAM": 16,
+			"country:NER": 13,
+			"country:NGA": 13,
+			"country:NIC": 6,
+			"country:NLD": 5,
+			"country:NOR": 4,
+			"country:NPL": 11,
+			"country:NRU": 20,
+			"country:NZL": 4,
+			"country:PAK": 16,
+			"country:PAN": 8,
+			"country:PER": 11,
+			"country:PHL": 6,
+			"country:PLW": 14,
+			"country:PNG": 31,
+			"country:POL": 3,
+			"country:PRT": 4,
+			"country:PRY": 6,
+			"country:ROU": 7,
+			"country:RWA": 23,
+			"country:SDN": 17,
+			"country:SEN": 12,
+			"country:SGP": 2,
+			"country:SLB": 28,
+			"country:SLE": 20,
+			"country:SLV": 6,
+			"country:SRB": 4,
+			"country:SSD": 27,
+			"country:STP": 18,
+			"country:SUR": 8,
+			"country:SVK": 6,
+			"country:SVN": 3,
+			"country:SWE": 6,
+			"country:SWZ": 18,
+			"country:TCD": 16,
+			"country:TGO": 13,
+			"country:THA": 9,
+			"country:TJK": 14,
+			"country:TLS": 28,
+			"country:TON": 17,
+			"country:TTO": 7,
+			"country:TUN": 10,
+			"country:TUR": 12,
+			"country:TUV": 20,
+			"country:TZA": 24,
+			"country:UGA": 26,
+			"country:UKR": 9,
+			"country:URY": 4,
+			"country:USA": 6,
+			"country:VEN": 8,
+			"country:VNM": 10,
+			"country:VUT": 29,
+			"country:WSM": 18,
+			"country:ZAF": 13,
+			"country:ZMB": 28,
+			"country:ZWE": 18
+		}
+	},
+	"confidenceIntervals": {
+		"values": {
+			"2018": {
+				"country:AFG": {
+					"lower": 22,
+					"upper": 50
+				},
+				"country:AGO": {
+					"lower": 14,
+					"upper": 39
+				},
+				"country:ALB": {
+					"lower": 4,
+					"upper": 9
+				},
+				"country:ARG": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:ARM": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:AUS": {
+					"lower": 2,
+					"upper": 5
+				},
+				"country:AUT": {
+					"lower": 2,
+					"upper": 7
+				},
+				"country:AZE": {
+					"lower": 3,
+					"upper": 9
+				},
+				"country:BDI": {
+					"lower": 13,
+					"upper": 35
+				},
+				"country:BEL": {
+					"lower": 3,
+					"upper": 9
+				},
+				"country:BEN": {
+					"lower": 8,
+					"upper": 24
+				},
+				"country:BFA": {
+					"lower": 6,
+					"upper": 20
+				},
+				"country:BGD": {
+					"lower": 15,
+					"upper": 34
+				},
+				"country:BGR": {
+					"lower": 3,
+					"upper": 12
+				},
+				"country:BIH": {
+					"lower": 2,
+					"upper": 6
+				},
+				"country:BLR": {
+					"lower": 3,
+					"upper": 12
+				},
+				"country:BLZ": {
+					"lower": 3,
+					"upper": 17
+				},
+				"country:BOL": {
+					"lower": 11,
+					"upper": 28
+				},
+				"country:BRA": {
+					"lower": 4,
+					"upper": 10
+				},
+				"country:BTN": {
+					"lower": 5,
+					"upper": 14
+				},
+				"country:BWA": {
+					"lower": 10,
+					"upper": 28
+				},
+				"country:CAF": {
+					"lower": 12,
+					"upper": 35
+				},
+				"country:CAN": {
+					"lower": 2,
+					"upper": 4
+				},
+				"country:CHE": {
+					"lower": 1,
+					"upper": 4
+				},
+				"country:CHL": {
+					"lower": 3,
+					"upper": 10
+				},
+				"country:CHN": {
+					"lower": 3,
+					"upper": 18
+				},
+				"country:CIV": {
+					"lower": 9,
+					"upper": 28
+				},
+				"country:CMR": {
+					"lower": 15,
+					"upper": 32
+				},
+				"country:COD": {
+					"lower": 23,
+					"upper": 50
+				},
+				"country:COK": {
+					"lower": 7,
+					"upper": 25
+				},
+				"country:COL": {
+					"lower": 6,
+					"upper": 21
+				},
+				"country:COM": {
+					"lower": 4,
+					"upper": 16
+				},
+				"country:CPV": {
+					"lower": 6,
+					"upper": 18
+				},
+				"country:CRI": {
+					"lower": 4,
+					"upper": 14
+				},
+				"country:CUB": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:CYP": {
+					"lower": 1,
+					"upper": 6
+				},
+				"country:CZE": {
+					"lower": 2,
+					"upper": 7
+				},
+				"country:DEU": {
+					"lower": 3,
+					"upper": 8
+				},
+				"country:DNK": {
+					"lower": 2,
+					"upper": 5
+				},
+				"country:DOM": {
+					"lower": 6,
+					"upper": 15
+				},
+				"country:ECU": {
+					"lower": 5,
+					"upper": 14
+				},
+				"country:EGY": {
+					"lower": 10,
+					"upper": 23
+				},
+				"country:ESP": {
+					"lower": 2,
+					"upper": 5
+				},
+				"country:EST": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:ETH": {
+					"lower": 17,
+					"upper": 38
+				},
+				"country:FIN": {
+					"lower": 6,
+					"upper": 11
+				},
+				"country:FJI": {
+					"lower": 13,
+					"upper": 39
+				},
+				"country:FRA": {
+					"lower": 2,
+					"upper": 10
+				},
+				"country:FSM": {
+					"lower": 12,
+					"upper": 36
+				},
+				"country:GAB": {
+					"lower": 12,
+					"upper": 36
+				},
+				"country:GBR": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:GEO": {
+					"lower": 1,
+					"upper": 6
+				},
+				"country:GHA": {
+					"lower": 6,
+					"upper": 17
+				},
+				"country:GIN": {
+					"lower": 12,
+					"upper": 33
+				},
+				"country:GMB": {
+					"lower": 5,
+					"upper": 18
+				},
+				"country:GNQ": {
+					"lower": 16,
+					"upper": 46
+				},
+				"country:GRC": {
+					"lower": 3,
+					"upper": 10
+				},
+				"country:GRD": {
+					"lower": 4,
+					"upper": 15
+				},
+				"country:GTM": {
+					"lower": 4,
+					"upper": 12
+				},
+				"country:GUY": {
+					"lower": 6,
+					"upper": 19
+				},
+				"country:HND": {
+					"lower": 4,
+					"upper": 12
+				},
+				"country:HRV": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:HTI": {
+					"lower": 8,
+					"upper": 18
+				},
+				"country:HUN": {
+					"lower": 3,
+					"upper": 11
+				},
+				"country:IDN": {
+					"lower": 4,
+					"upper": 20
+				},
+				"country:IND": {
+					"lower": 11,
+					"upper": 28
+				},
+				"country:IRL": {
+					"lower": 2,
+					"upper": 6
+				},
+				"country:IRN": {
+					"lower": 7,
+					"upper": 36
+				},
+				"country:ISL": {
+					"lower": 2,
+					"upper": 4
+				},
+				"country:ISR": {
+					"lower": 3,
+					"upper": 10
+				},
+				"country:ITA": {
+					"lower": 2,
+					"upper": 6
+				},
+				"country:JAM": {
+					"lower": 4,
+					"upper": 12
+				},
+				"country:JOR": {
+					"lower": 9,
+					"upper": 20
+				},
+				"country:JPN": {
+					"lower": 1,
+					"upper": 10
+				},
+				"country:KAZ": {
+					"lower": 3,
+					"upper": 11
+				},
+				"country:KEN": {
+					"lower": 15,
+					"upper": 33
+				},
+				"country:KGZ": {
+					"lower": 7,
+					"upper": 24
+				},
+				"country:KHM": {
+					"lower": 6,
+					"upper": 14
+				},
+				"country:KIR": {
+					"lower": 14,
+					"upper": 42
+				},
+				"country:KOR": {
+					"lower": 5,
+					"upper": 14
+				},
+				"country:LAO": {
+					"lower": 4,
+					"upper": 15
+				},
+				"country:LBR": {
+					"lower": 17,
+					"upper": 40
+				},
+				"country:LKA": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:LSO": {
+					"lower": 8,
+					"upper": 30
+				},
+				"country:LTU": {
+					"lower": 2,
+					"upper": 11
+				},
+				"country:LUX": {
+					"lower": 2,
+					"upper": 7
+				},
+				"country:LVA": {
+					"lower": 3,
+					"upper": 12
+				},
+				"country:MAR": {
+					"lower": 6,
+					"upper": 18
+				},
+				"country:MDA": {
+					"lower": 5,
+					"upper": 15
+				},
+				"country:MDV": {
+					"lower": 4,
+					"upper": 11
+				},
+				"country:MEX": {
+					"lower": 6,
+					"upper": 15
+				},
+				"country:MHL": {
+					"lower": 11,
+					"upper": 32
+				},
+				"country:MKD": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:MLI": {
+					"lower": 12,
+					"upper": 26
+				},
+				"country:MLT": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:MMR": {
+					"lower": 6,
+					"upper": 19
+				},
+				"country:MNE": {
+					"lower": 2,
+					"upper": 8
+				},
+				"country:MNG": {
+					"lower": 6,
+					"upper": 20
+				},
+				"country:MOZ": {
+					"lower": 11,
+					"upper": 24
+				},
+				"country:MWI": {
+					"lower": 11,
+					"upper": 24
+				},
+				"country:NAM": {
+					"lower": 10,
+					"upper": 25
+				},
+				"country:NER": {
+					"lower": 8,
+					"upper": 21
+				},
+				"country:NGA": {
+					"lower": 9,
+					"upper": 20
+				},
+				"country:NIC": {
+					"lower": 4,
+					"upper": 11
+				},
+				"country:NLD": {
+					"lower": 3,
+					"upper": 10
+				},
+				"country:NOR": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:NPL": {
+					"lower": 7,
+					"upper": 19
+				},
+				"country:NRU": {
+					"lower": 10,
+					"upper": 35
+				},
+				"country:NZL": {
+					"lower": 2,
+					"upper": 11
+				},
+				"country:PAK": {
+					"lower": 10,
+					"upper": 25
+				},
+				"country:PAN": {
+					"lower": 4,
+					"upper": 13
+				},
+				"country:PER": {
+					"lower": 8,
+					"upper": 15
+				},
+				"country:PHL": {
+					"lower": 4,
+					"upper": 9
+				},
+				"country:PLW": {
+					"lower": 7,
+					"upper": 26
+				},
+				"country:PNG": {
+					"lower": 19,
+					"upper": 45
+				},
+				"country:POL": {
+					"lower": 2,
+					"upper": 6
+				},
+				"country:PRT": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:PRY": {
+					"lower": 3,
+					"upper": 10
+				},
+				"country:ROU": {
+					"lower": 4,
+					"upper": 12
+				},
+				"country:RWA": {
+					"lower": 16,
+					"upper": 33
+				},
+				"country:SDN": {
+					"lower": 9,
+					"upper": 30
+				},
+				"country:SEN": {
+					"lower": 7,
+					"upper": 21
+				},
+				"country:SGP": {
+					"lower": 1,
+					"upper": 6
+				},
+				"country:SLB": {
+					"lower": 15,
+					"upper": 46
+				},
+				"country:SLE": {
+					"lower": 11,
+					"upper": 32
+				},
+				"country:SLV": {
+					"lower": 4,
+					"upper": 9
+				},
+				"country:SRB": {
+					"lower": 2,
+					"upper": 7
+				},
+				"country:SSD": {
+					"lower": 13,
+					"upper": 48
+				},
+				"country:STP": {
+					"lower": 10,
+					"upper": 31
+				},
+				"country:SUR": {
+					"lower": 4,
+					"upper": 14
+				},
+				"country:SVK": {
+					"lower": 3,
+					"upper": 12
+				},
+				"country:SVN": {
+					"lower": 2,
+					"upper": 7
+				},
+				"country:SWE": {
+					"lower": 3,
+					"upper": 11
+				},
+				"country:SWZ": {
+					"lower": 10,
+					"upper": 30
+				},
+				"country:TCD": {
+					"lower": 9,
+					"upper": 27
+				},
+				"country:TGO": {
+					"lower": 7,
+					"upper": 22
+				},
+				"country:THA": {
+					"lower": 4,
+					"upper": 20
+				},
+				"country:TJK": {
+					"lower": 9,
+					"upper": 22
+				},
+				"country:TLS": {
+					"lower": 19,
+					"upper": 40
+				},
+				"country:TON": {
+					"lower": 9,
+					"upper": 31
+				},
+				"country:TTO": {
+					"lower": 4,
+					"upper": 14
+				},
+				"country:TUN": {
+					"lower": 5,
+					"upper": 19
+				},
+				"country:TUR": {
+					"lower": 8,
+					"upper": 19
+				},
+				"country:TUV": {
+					"lower": 10,
+					"upper": 35
+				},
+				"country:TZA": {
+					"lower": 16,
+					"upper": 35
+				},
+				"country:UGA": {
+					"lower": 18,
+					"upper": 36
+				},
+				"country:UKR": {
+					"lower": 5,
+					"upper": 13
+				},
+				"country:URY": {
+					"lower": 2,
+					"upper": 9
+				},
+				"country:USA": {
+					"lower": 4,
+					"upper": 9
+				},
+				"country:VEN": {
+					"lower": 4,
+					"upper": 16
+				},
+				"country:VNM": {
+					"lower": 5,
+					"upper": 17
+				},
+				"country:VUT": {
+					"lower": 16,
+					"upper": 48
+				},
+				"country:WSM": {
+					"lower": 9,
+					"upper": 32
+				},
+				"country:ZAF": {
+					"lower": 7,
+					"upper": 23
+				},
+				"country:ZMB": {
+					"lower": 19,
+					"upper": 39
+				},
+				"country:ZWE": {
+					"lower": 12,
+					"upper": 26
+				}
+			}
+		}
+	}
+}
