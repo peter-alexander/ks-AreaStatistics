@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
 		"attribution": "WHO/UNICEF Joint Monitoring Programme (JMP)"
 	},
-	"retrievedAt": "2026-10-26T21:42:21.339531Z",
+	"retrievedAt": "2026-11-10T13:47:22.812334Z",
 	"activeSnapshot": "70b41f93dacbdecb",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406541414-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=42827705204-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
