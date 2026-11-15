@@ -8,12 +8,12 @@
 		"licenseUrl": "https://www.who.int/about/policies/publishing/copyright",
 		"attribution": "World Health Organization"
 	},
-	"retrievedAt": "2026-10-26T21:43:02.059675Z",
+	"retrievedAt": "2026-11-15T12:51:03.801204Z",
 	"activeSnapshot": "6a946f0049dc2ec2",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406655359-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43715919138-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
