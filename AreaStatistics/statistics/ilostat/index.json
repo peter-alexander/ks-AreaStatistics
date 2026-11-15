@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
 		"attribution": "International Labour Organization (ILO), ILOSTAT"
 	},
-	"retrievedAt": "2026-10-26T21:42:04.964009Z",
+	"retrievedAt": "2026-11-15T14:20:58.536469Z",
 	"activeSnapshot": "c7f16c6e1cc06d4a",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406473847-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43723818824-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
