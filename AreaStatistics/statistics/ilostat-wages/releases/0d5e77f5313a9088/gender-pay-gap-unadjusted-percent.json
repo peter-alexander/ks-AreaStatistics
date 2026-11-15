@@ -2069,7 +2069,7 @@
 			"country:LTU": 12.5,
 			"country:LUX": 38.32,
 			"country:MDA": 6.302,
-			"country:MDG": -9.465,
+			"country:MDG": 45.875,
 			"country:MDV": 14.026,
 			"country:MEX": -1.67,
 			"country:MHL": -13.072,
@@ -2193,7 +2193,7 @@
 			"country:LTU": 12.5,
 			"country:LUX": 38.32,
 			"country:MDA": 4.185,
-			"country:MDG": -9.465,
+			"country:MDG": 45.875,
 			"country:MDV": 14.026,
 			"country:MEX": 0.842,
 			"country:MHL": -13.072,
@@ -2319,7 +2319,7 @@
 			"country:LTU": 12.5,
 			"country:LUX": 38.32,
 			"country:MDA": 2.873,
-			"country:MDG": -9.465,
+			"country:MDG": 45.875,
 			"country:MDV": 14.026,
 			"country:MEX": 0.008,
 			"country:MHL": -13.072,
@@ -2414,7 +2414,7 @@
 			"country:ETH": 21.074,
 			"country:FIN": 16.81,
 			"country:FJI": 1.534,
-			"country:FRA": 5.357,
+			"country:FRA": 10.385,
 			"country:GBR": 13.403,
 			"country:GHA": 19.268,
 			"country:GMB": -0.495,
@@ -2445,7 +2445,7 @@
 			"country:LTU": 12.5,
 			"country:LUX": 38.32,
 			"country:MDA": 8.578,
-			"country:MDG": -9.465,
+			"country:MDG": 45.875,
 			"country:MDV": 14.026,
 			"country:MEX": 0.062,
 			"country:MHL": -13.072,
@@ -2540,7 +2540,7 @@
 			"country:ETH": 21.074,
 			"country:FIN": 16.81,
 			"country:FJI": 1.534,
-			"country:FRA": 5.357,
+			"country:FRA": 10.385,
 			"country:GBR": 13.403,
 			"country:GHA": 19.268,
 			"country:GMB": -0.495,
@@ -2571,7 +2571,7 @@
 			"country:LTU": 12.5,
 			"country:LUX": 38.32,
 			"country:MDA": 8.578,
-			"country:MDG": -9.465,
+			"country:MDG": 45.875,
 			"country:MDV": 14.026,
 			"country:MEX": 0.062,
 			"country:MHL": -13.072,
@@ -19377,13 +19377,14 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2022; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:MDG": {
-				"sourceYear": 2015,
-				"dataAgeYears": 7,
-				"carriedForward": true,
-				"sourceCode": "BA:7423",
-				"indicatorNoteCodes": "T30:28",
+				"sourceYear": 2022,
+				"dataAgeYears": 0,
+				"carriedForward": false,
+				"sourceCode": "BX:220",
+				"observationStatus": "B",
+				"indicatorNoteCodes": "T30:28_I11:264",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2015; letzter bis einschließlich 2022 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2022; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:MDV": {
 				"sourceYear": 2019,
@@ -20485,13 +20486,14 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2023; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:MDG": {
-				"sourceYear": 2015,
-				"dataAgeYears": 8,
+				"sourceYear": 2022,
+				"dataAgeYears": 1,
 				"carriedForward": true,
-				"sourceCode": "BA:7423",
-				"indicatorNoteCodes": "T30:28",
+				"sourceCode": "BX:220",
+				"observationStatus": "B",
+				"indicatorNoteCodes": "T30:28_I11:264",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2015; letzter bis einschließlich 2023 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2022; letzter bis einschließlich 2023 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:MDV": {
 				"sourceYear": 2019,
@@ -21611,13 +21613,14 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2024; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:MDG": {
-				"sourceYear": 2015,
-				"dataAgeYears": 9,
+				"sourceYear": 2022,
+				"dataAgeYears": 2,
 				"carriedForward": true,
-				"sourceCode": "BA:7423",
-				"indicatorNoteCodes": "T30:28",
+				"sourceCode": "BX:220",
+				"observationStatus": "B",
+				"indicatorNoteCodes": "T30:28_I11:264",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2015; letzter bis einschließlich 2024 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2022; letzter bis einschließlich 2024 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:MDV": {
 				"sourceYear": 2019,
@@ -22457,13 +22460,13 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2024; letzter bis einschließlich 2025 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:FRA": {
-				"sourceYear": 2024,
-				"dataAgeYears": 1,
-				"carriedForward": true,
+				"sourceYear": 2025,
+				"dataAgeYears": 0,
+				"carriedForward": false,
 				"sourceCode": "BA:148",
 				"indicatorNoteCodes": "T30:175",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2024; letzter bis einschließlich 2025 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2025; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:GBR": {
 				"sourceYear": 2025,
@@ -22737,13 +22740,14 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2025; veröffentlichter Originalwert, nicht interpoliert."
 			},
 			"country:MDG": {
-				"sourceYear": 2015,
-				"dataAgeYears": 10,
+				"sourceYear": 2022,
+				"dataAgeYears": 3,
 				"carriedForward": true,
-				"sourceCode": "BA:7423",
-				"indicatorNoteCodes": "T30:28",
+				"sourceCode": "BX:220",
+				"observationStatus": "B",
+				"indicatorNoteCodes": "T30:28_I11:264",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2015; letzter bis einschließlich 2025 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2022; letzter bis einschließlich 2025 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:MDV": {
 				"sourceYear": 2019,
@@ -23582,13 +23586,13 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2024; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:FRA": {
-				"sourceYear": 2024,
-				"dataAgeYears": 2,
+				"sourceYear": 2025,
+				"dataAgeYears": 1,
 				"carriedForward": true,
 				"sourceCode": "BA:148",
 				"indicatorNoteCodes": "T30:175",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2024; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2025; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:GBR": {
 				"sourceYear": 2025,
@@ -23862,13 +23866,14 @@
 				"sourceNote": "ILOSTAT-Datenjahr 2025; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:MDG": {
-				"sourceYear": 2015,
-				"dataAgeYears": 11,
+				"sourceYear": 2022,
+				"dataAgeYears": 4,
 				"carriedForward": true,
-				"sourceCode": "BA:7423",
-				"indicatorNoteCodes": "T30:28",
+				"sourceCode": "BX:220",
+				"observationStatus": "B",
+				"indicatorNoteCodes": "T30:28_I11:264",
 				"sourceNoteCodes": "R1:3513",
-				"sourceNote": "ILOSTAT-Datenjahr 2015; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
+				"sourceNote": "ILOSTAT-Datenjahr 2022; letzter bis einschließlich 2026 verfügbarer veröffentlichter Wert, unverändert fortgeführt und nicht interpoliert."
 			},
 			"country:MDV": {
 				"sourceYear": 2019,

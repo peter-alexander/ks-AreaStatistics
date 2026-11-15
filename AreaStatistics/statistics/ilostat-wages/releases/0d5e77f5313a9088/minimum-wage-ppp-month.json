@@ -3810,14 +3810,14 @@
 		},
 		"2026": {
 			"country:ALB": 981.311,
-			"country:CZE": 1364.623,
+			"country:CZE": 1363.282,
 			"country:HUN": 1584.477,
 			"country:MDA": 702.486,
 			"country:MKD": 1632.113,
 			"country:POL": 2185.908,
-			"country:ROU": 1822.215,
-			"country:TUR": 1842.029,
-			"country:UKR": 703.492,
+			"country:ROU": 1818.201,
+			"country:TUR": 1824.114,
+			"country:UKR": 700.461,
 			"country:USA": 1257
 		}
 	}
