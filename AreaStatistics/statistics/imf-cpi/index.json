@@ -8,12 +8,12 @@
 		"licenseUrl": "https://www.imf.org/en/about/copyright-and-terms",
 		"attribution": "International Monetary Fund (IMF), Consumer Price Index (CPI)"
 	},
-	"retrievedAt": "2026-10-26T21:41:52.561191Z",
-	"activeSnapshot": "e414c10ee5d03893",
+	"retrievedAt": "2026-11-16T16:21:19.621142Z",
+	"activeSnapshot": "361bb6268dad9bdd",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406502484-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43906528733-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
@@ -24,8 +24,8 @@
 		"sourceStartYear": 1915,
 		"sourceLatestYear": 2025,
 		"retainedStartYear": 1960,
-		"sourceRows": 5547,
-		"retainedRows": 5368,
+		"sourceRows": 5558,
+		"retainedRows": 5379,
 		"countryAliases": {
 			"KOS": "XKX",
 			"WBG": "PSE"
@@ -55,7 +55,7 @@
 				]
 			},
 			"sourceIndicator": "CPI._T.YOY_PCH_PA_PT.A",
-			"path": "releases/e414c10ee5d03893/inflation-cpi-annual-percent.json",
+			"path": "releases/361bb6268dad9bdd/inflation-cpi-annual-percent.json",
 			"availableYears": [
 				1960,
 				1961,
@@ -129,8 +129,8 @@
 				"registryAreas": 250,
 				"areasWithAnyValue": 199,
 				"latestYear": 2025,
-				"areasInLatestYear": 175,
-				"areasInDefaultYear": 175
+				"areasInLatestYear": 176,
+				"areasInDefaultYear": 176
 			}
 		}
 	],
