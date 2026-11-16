@@ -8,12 +8,12 @@
 		"licenseUrl": "https://www.oecd.org/en/about/terms-conditions.html",
 		"attribution": "OECD"
 	},
-	"retrievedAt": "2026-10-26T21:42:29.892007Z",
+	"retrievedAt": "2026-11-16T16:10:48.613059Z",
 	"activeSnapshot": "9db63f43db46391e",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406577979-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43904565787-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
