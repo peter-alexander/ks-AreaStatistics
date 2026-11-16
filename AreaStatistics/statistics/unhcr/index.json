@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
 		"attribution": "UNHCR, Refugee Population Statistics Database"
 	},
-	"retrievedAt": "2026-10-26T21:43:37.004877Z",
+	"retrievedAt": "2026-11-16T16:28:21.116330Z",
 	"activeSnapshot": "067f484344450344",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406621603-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43907670328-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
