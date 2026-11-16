@@ -210,12 +210,12 @@
 			}
 		}
 	},
-	"retrievedAt": "2026-10-26T21:43:20.445759Z",
+	"retrievedAt": "2026-11-16T16:59:14.355864Z",
 	"activeSnapshot": "08d12cdfe888094d",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406694378-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=43913447020-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"indicators": [
