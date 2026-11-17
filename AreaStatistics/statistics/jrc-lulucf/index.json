@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
 		"attribution": "European Commission, Joint Research Centre (JRC)"
 	},
-	"retrievedAt": "2026-10-26T21:42:12.316049Z",
+	"retrievedAt": "2026-11-17T16:20:59.290778Z",
 	"activeSnapshot": "d09294d90c628080",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406545161-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44124699595-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
