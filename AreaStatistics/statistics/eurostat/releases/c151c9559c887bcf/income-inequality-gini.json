@@ -27,7 +27,7 @@
 		"providerName": "Eurostat",
 		"dataset": "Gini coefficient of equivalised disposable income by age",
 		"datasetId": "ilc_di12",
-		"updated": "2026-11-06T11:00:00+0100",
+		"updated": "2026-11-12T23:00:00+0100",
 		"filters": {
 			"freq": "A",
 			"age": "TOTAL",
