@@ -8,12 +8,12 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
 		"attribution": "World Bank / KNOMAD"
 	},
-	"retrievedAt": "2026-10-26T21:43:30.752581Z",
+	"retrievedAt": "2026-11-18T15:57:08.587773Z",
 	"activeSnapshot": "d3c275dacfb7916e",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406720064-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44341450518-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
