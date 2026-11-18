@@ -8,13 +8,13 @@
 		"licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
 		"attribution": "World Health Organization (WHO), Global Health Expenditure Database (GHED)"
 	},
-	"retrievedAt": "2026-10-26T21:43:19.923404Z",
+	"retrievedAt": "2026-11-18T15:59:19.642333Z",
 	"activeSnapshot": "13bf44dede477b15",
 	"areaRegistry": {
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250,
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406658401-1"
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44341850971-1"
 	},
 	"indicators": [
 		{
