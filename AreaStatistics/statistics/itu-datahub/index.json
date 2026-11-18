@@ -8,12 +8,12 @@
 		"licenseUrl": "https://datacatalog.worldbank.org/search/dataset/0067055/itu-data-hub",
 		"attribution": "International Telecommunication Union (ITU)"
 	},
-	"retrievedAt": "2026-10-26T21:42:09.994128Z",
+	"retrievedAt": "2026-11-18T15:54:37.820011Z",
 	"activeSnapshot": "9199e5062e6a75bf",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406537837-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44341019613-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250
 	},
 	"dataset": {
