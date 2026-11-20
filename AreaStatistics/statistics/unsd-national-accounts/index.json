@@ -8,12 +8,12 @@
 		"licenseUrl": "https://data.un.org/Host.aspx?Content=UNdataUse",
 		"attribution": "United Nations Statistics Division (UNSD), National Accounts Main Aggregates"
 	},
-	"retrievedAt": "2026-10-26T21:43:02.188803Z",
+	"retrievedAt": "2026-11-20T16:06:14.279487Z",
 	"activeSnapshot": "6be9cc436e0b5b1f",
 	"areaRegistry": {
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406652167-1",
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44769926106-1",
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250,
 		"m49AreaCount": 249
 	},
