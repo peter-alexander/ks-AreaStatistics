@@ -1,13 +1,13 @@
 {
 	"schema": "kartensammlung.aquastat-build-diagnostics/v1",
-	"retrievedAt": "2026-10-26T21:41:20.351621Z",
+	"retrievedAt": "2026-11-21T14:39:26.099171Z",
 	"activeSnapshot": "48299fa9d891cc9e",
 	"registry": {
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250,
 		"m49AreaCount": 249,
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406429539-1"
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=44915045403-1"
 	},
 	"indicators": {
 		"water.water-stress-percent": {
