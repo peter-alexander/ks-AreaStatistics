@@ -8,13 +8,13 @@
 		"licenseUrl": "https://www.oecd.org/en/about/terms-conditions.html",
 		"attribution": "OECD/IEA; Copernicus Climate Change Service ERA5; Global Human Settlement Layer (GHSL)"
 	},
-	"retrievedAt": "2026-10-26T21:42:18.904048Z",
+	"retrievedAt": "2026-11-26T19:05:38.652850Z",
 	"activeSnapshot": "3681e6e128d40c8d",
 	"areaRegistry": {
 		"schema": "kartensammlung.area-registry/v1",
-		"generatedAt": "2026-10-26T21:36:53.339854Z",
+		"generatedAt": "2026-10-28T09:43:06.413646Z",
 		"areaCount": 250,
-		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=40406548860-1"
+		"url": "https://peter-alexander.github.io/ks-AreaStatistics/AreaStatistics/area-registry-countries.json?build=45880968933-1"
 	},
 	"dataset": {
 		"url": "https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.ENV.EPI&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_ECH%40EXT_TEMP_H&df%5Bvs%5D=2.0",
