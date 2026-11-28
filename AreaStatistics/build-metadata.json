@@ -1,7 +1,7 @@
 {
 	"schema": "kartensammlung.area-statistics-build/v1",
-	"generatedAt": "2026-10-28T09:43:06.413646Z",
-	"overtureRelease": "2026-10-21.0",
+	"generatedAt": "2026-11-28T11:49:18.846721Z",
+	"overtureRelease": "2026-11-18.0",
 	"geography": {
 		"level": "country",
 		"areaId": "country:<ISO-3166-1 alpha-3>",
@@ -171,7 +171,7 @@
 	"files": {
 		"pmtiles": {
 			"name": "world-admin.pmtiles",
-			"bytes": 18354629
+			"bytes": 18351425
 		},
 		"registry": "area-registry-countries.json"
 	}

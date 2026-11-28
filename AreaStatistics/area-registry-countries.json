@@ -1,9 +1,9 @@
 {
 	"schema": "kartensammlung.area-registry/v1",
-	"generatedAt": "2026-10-28T09:43:06.413646Z",
+	"generatedAt": "2026-11-28T11:49:18.846721Z",
 	"source": {
 		"name": "Overture Maps divisions",
-		"release": "2026-10-21.0",
+		"release": "2026-11-18.0",
 		"license": "ODbL-1.0",
 		"attribution": "© OpenStreetMap contributors, Overture Maps Foundation"
 	},
@@ -196,7 +196,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Argentina",
-				"areaKm2": 2780160.0,
+				"areaKm2": 2780162.3,
 				"labelRank": 9
 			}
 		},
@@ -217,7 +217,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Հայաստան",
-				"areaKm2": 29715.5,
+				"areaKm2": 29715.9,
 				"labelRank": 144
 			}
 		},
@@ -260,7 +260,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Antarctica",
-				"areaKm2": 12991182.2,
+				"areaKm2": 12991176.0,
 				"labelRank": 2
 			}
 		},
@@ -324,7 +324,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Australia",
-				"areaKm2": 7687117.1,
+				"areaKm2": 7687118.9,
 				"labelRank": 7
 			}
 		},
@@ -366,7 +366,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Azərbaycan",
-				"areaKm2": 85964.8,
+				"areaKm2": 85964.4,
 				"labelRank": 114
 			}
 		},
@@ -541,7 +541,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "България",
-				"areaKm2": 111019.1,
+				"areaKm2": 111019.4,
 				"labelRank": 105
 			}
 		},
@@ -583,7 +583,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "The Bahamas",
-				"areaKm2": 12054.1,
+				"areaKm2": 12056.2,
 				"labelRank": 164
 			}
 		},
@@ -711,7 +711,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Bolivia",
-				"areaKm2": 1083676.1,
+				"areaKm2": 1083676.3,
 				"labelRank": 29
 			}
 		},
@@ -732,7 +732,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Brasil",
-				"areaKm2": 8507716.8,
+				"areaKm2": 8507719.0,
 				"labelRank": 6
 			}
 		},
@@ -880,7 +880,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Canada",
-				"areaKm2": 9966798.9,
+				"areaKm2": 9966825.4,
 				"labelRank": 3
 			}
 		},
@@ -922,7 +922,7 @@
 			},
 			"metadata": {
 				"overtureSubtype": "country",
-				"sourceName": "Schweiz/Suisse/Svizzera/Svizra",
+				"sourceName": "Schweiz / Suisse / Svizzera / Svizra",
 				"areaKm2": 41287.4,
 				"labelRank": 136
 			}
@@ -944,7 +944,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Chile",
-				"areaKm2": 752953.2,
+				"areaKm2": 752951.4,
 				"labelRank": 39
 			}
 		},
@@ -965,7 +965,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "中国",
-				"areaKm2": 9390760.6,
+				"areaKm2": 9390755.5,
 				"labelRank": 5
 			}
 		},
@@ -1070,7 +1070,7 @@
 			"metadata": {
 				"overtureSubtype": "dependency",
 				"sourceName": "Kūki ʻĀirani",
-				"areaKm2": 221.0,
+				"areaKm2": 220.9,
 				"labelRank": 220,
 				"overtureParentId": "89e73df8-d5ab-4156-9e83-140d1ee694c5"
 			}
@@ -1092,7 +1092,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Colombia",
-				"areaKm2": 1138358.9,
+				"areaKm2": 1138358.6,
 				"labelRank": 27
 			}
 		},
@@ -1113,7 +1113,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Comores Komori جزر القمر",
-				"areaKm2": 1651.3,
+				"areaKm2": 1651.5,
 				"labelRank": 184
 			}
 		},
@@ -1389,7 +1389,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "República Dominicana",
-				"areaKm2": 48206.3,
+				"areaKm2": 48205.4,
 				"labelRank": 133
 			}
 		},
@@ -1452,7 +1452,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "مصر",
-				"areaKm2": 1000484.9,
+				"areaKm2": 1000486.8,
 				"labelRank": 31
 			}
 		},
@@ -1546,7 +1546,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Eesti",
-				"areaKm2": 45393.4,
+				"areaKm2": 45392.1,
 				"labelRank": 134
 			}
 		},
@@ -1567,7 +1567,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Ethiopia",
-				"areaKm2": 1127026.7,
+				"areaKm2": 1126955.3,
 				"labelRank": 28
 			}
 		},
@@ -1609,7 +1609,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Viti",
-				"areaKm2": 18699.2,
+				"areaKm2": 18705.2,
 				"labelRank": 157
 			}
 		},
@@ -1695,7 +1695,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Micronesia",
-				"areaKm2": 670.6,
+				"areaKm2": 669.8,
 				"labelRank": 197
 			}
 		},
@@ -1950,7 +1950,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Ελλάς",
-				"areaKm2": 132313.3,
+				"areaKm2": 132310.1,
 				"labelRank": 98
 			}
 		},
@@ -1992,7 +1992,7 @@
 			"metadata": {
 				"overtureSubtype": "dependency",
 				"sourceName": "Kalaallit Nunaat",
-				"areaKm2": 2161738.4,
+				"areaKm2": 2161733.5,
 				"labelRank": 13,
 				"overtureParentId": "443c66c5-ab9d-4b7a-9223-e5b0811a21b1"
 			}
@@ -2034,7 +2034,7 @@
 			},
 			"metadata": {
 				"overtureSubtype": "dependency",
-				"sourceName": "Guyane",
+				"sourceName": "Guyane française",
 				"areaKm2": 83597.4,
 				"labelRank": 116,
 				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
@@ -2165,7 +2165,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Hrvatska",
-				"areaKm2": 56416.4,
+				"areaKm2": 56416.5,
 				"labelRank": 129
 			}
 		},
@@ -2207,7 +2207,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Magyarország",
-				"areaKm2": 93011.9,
+				"areaKm2": 93011.8,
 				"labelRank": 111
 			}
 		},
@@ -2228,7 +2228,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Indonesia",
-				"areaKm2": 1889205.2,
+				"areaKm2": 1889194.4,
 				"labelRank": 16
 			}
 		},
@@ -2271,7 +2271,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "India",
-				"areaKm2": 3149959.7,
+				"areaKm2": 3149966.5,
 				"labelRank": 8
 			}
 		},
@@ -2419,7 +2419,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Italia",
-				"areaKm2": 301679.8,
+				"areaKm2": 301679.7,
 				"labelRank": 73
 			}
 		},
@@ -2567,7 +2567,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Кыргызстан",
-				"areaKm2": 198501.1,
+				"areaKm2": 198500.9,
 				"labelRank": 88
 			}
 		},
@@ -2609,7 +2609,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Kiribati",
-				"areaKm2": 1090.3,
+				"areaKm2": 1089.7,
 				"labelRank": 190
 			}
 		},
@@ -2693,7 +2693,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "ປະເທດລາວ",
-				"areaKm2": 229682.9,
+				"areaKm2": 229683.0,
 				"labelRank": 85
 			}
 		},
@@ -3072,7 +3072,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "México",
-				"areaKm2": 1952543.5,
+				"areaKm2": 1952544.5,
 				"labelRank": 14
 			}
 		},
@@ -3177,7 +3177,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "မြန်မာ",
-				"areaKm2": 668809.3,
+				"areaKm2": 668809.7,
 				"labelRank": 42
 			}
 		},
@@ -3454,7 +3454,7 @@
 			"metadata": {
 				"overtureSubtype": "dependency",
 				"sourceName": "Nouvelle-Calédonie",
-				"areaKm2": 18545.2,
+				"areaKm2": 18544.3,
 				"labelRank": 158,
 				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
 			}
@@ -3604,7 +3604,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Norge",
-				"areaKm2": 322613.3,
+				"areaKm2": 322614.8,
 				"labelRank": 69
 			}
 		},
@@ -3625,7 +3625,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "नेपाल",
-				"areaKm2": 147559.4,
+				"areaKm2": 147557.1,
 				"labelRank": 94
 			}
 		},
@@ -3709,7 +3709,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "پاکستان",
-				"areaKm2": 866815.6,
+				"areaKm2": 866815.5,
 				"labelRank": 35
 			}
 		},
@@ -3794,7 +3794,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Philippines",
-				"areaKm2": 294559.4,
+				"areaKm2": 294563.1,
 				"labelRank": 74
 			}
 		},
@@ -3815,7 +3815,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Belau",
-				"areaKm2": 454.1,
+				"areaKm2": 453.9,
 				"labelRank": 204
 			}
 		},
@@ -3836,7 +3836,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Papua Niugini",
-				"areaKm2": 462297.4,
+				"areaKm2": 462294.5,
 				"labelRank": 56
 			}
 		},
@@ -3921,7 +3921,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Portugal",
-				"areaKm2": 91918.3,
+				"areaKm2": 91913.6,
 				"labelRank": 112
 			}
 		},
@@ -3942,7 +3942,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Paraguay / Paraguái",
-				"areaKm2": 399575.4,
+				"areaKm2": 399576.7,
 				"labelRank": 61
 			}
 		},
@@ -4000,7 +4000,7 @@
 			"metadata": {
 				"overtureSubtype": "dependency",
 				"sourceName": "Polynésie Française",
-				"areaKm2": 3598.9,
+				"areaKm2": 3602.3,
 				"labelRank": 179,
 				"overtureParentId": "6fc195b5-361b-487d-99a9-debff18b67c7"
 			}
@@ -4086,7 +4086,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Россия",
-				"areaKm2": 16940486.4,
+				"areaKm2": 16940513.4,
 				"labelRank": 1
 			}
 		},
@@ -4149,7 +4149,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "السودان",
-				"areaKm2": 1829265.1,
+				"areaKm2": 1829336.4,
 				"labelRank": 17
 			}
 		},
@@ -4255,7 +4255,7 @@
 			"metadata": {
 				"overtureSubtype": "composite",
 				"sourceName": "Svalbard and Jan Mayen",
-				"areaKm2": 60960.8,
+				"areaKm2": 60956.9,
 				"labelRank": 127,
 				"composition": [
 					{
@@ -4296,7 +4296,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Solomon Islands",
-				"areaKm2": 27958.5,
+				"areaKm2": 27961.7,
 				"labelRank": 146
 			}
 		},
@@ -4549,7 +4549,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Sverige",
-				"areaKm2": 449549.6,
+				"areaKm2": 449548.6,
 				"labelRank": 58
 			}
 		},
@@ -4612,7 +4612,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Sesel",
-				"areaKm2": 429.1,
+				"areaKm2": 429.0,
 				"labelRank": 207
 			}
 		},
@@ -4718,7 +4718,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "ประเทศไทย",
-				"areaKm2": 515216.7,
+				"areaKm2": 515216.8,
 				"labelRank": 52
 			}
 		},
@@ -4760,7 +4760,7 @@
 			"metadata": {
 				"overtureSubtype": "dependency",
 				"sourceName": "Tokelau",
-				"areaKm2": 6.6,
+				"areaKm2": 7.0,
 				"labelRank": 247,
 				"overtureParentId": "89e73df8-d5ab-4156-9e83-140d1ee694c5"
 			}
@@ -4782,7 +4782,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Türkmenistan",
-				"areaKm2": 488231.4,
+				"areaKm2": 488234.8,
 				"labelRank": 54
 			}
 		},
@@ -4908,7 +4908,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Tuvalu",
-				"areaKm2": 28.2,
+				"areaKm2": 28.1,
 				"labelRank": 242
 			}
 		},
@@ -4950,7 +4950,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Tanzania",
-				"areaKm2": 940620.2,
+				"areaKm2": 940620.3,
 				"labelRank": 32
 			}
 		},
@@ -4992,7 +4992,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Україна",
-				"areaKm2": 599083.2,
+				"areaKm2": 599083.1,
 				"labelRank": 47
 			}
 		},
@@ -5056,7 +5056,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "United States",
-				"areaKm2": 9476963.2,
+				"areaKm2": 9476948.8,
 				"labelRank": 4
 			}
 		},
@@ -5077,7 +5077,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Oʻzbekiston",
-				"areaKm2": 447545.2,
+				"areaKm2": 447545.4,
 				"labelRank": 59
 			}
 		},
@@ -5205,7 +5205,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Việt Nam",
-				"areaKm2": 328823.4,
+				"areaKm2": 328817.8,
 				"labelRank": 68
 			}
 		},
@@ -5226,7 +5226,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Vanuatu",
-				"areaKm2": 12152.8,
+				"areaKm2": 12152.2,
 				"labelRank": 163
 			}
 		},
@@ -5310,7 +5310,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "اليمن",
-				"areaKm2": 453019.7,
+				"areaKm2": 453014.2,
 				"labelRank": 57
 			}
 		},
@@ -5373,7 +5373,7 @@
 			"metadata": {
 				"overtureSubtype": "country",
 				"sourceName": "Zimbabwe",
-				"areaKm2": 390677.9,
+				"areaKm2": 390678.0,
 				"labelRank": 62
 			}
 		}
